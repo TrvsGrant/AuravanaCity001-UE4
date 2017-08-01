@@ -1,0 +1,29 @@
+This is a repository for The Auravana Project (at http://www.auravana.com).
+
+The Auravana Project is a non-commercial, open source, and free shared project. 
+The content available here is licensed under a CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/).
+
+Content that we did not create on our own, but accessed at the time of its distribution in a creative commons or public domain manner is cited below, and retains its original license. Thank you to all these people, and please support them and their work:
+
+TEXTURES
+antoniobradiano - Unreal Forums - https://forums.unrealengine.com/showthread.php?86620-Free-materials-Grass-Rock-Brick-Seamless-material-test
+Azizul Hakim - ArtStation - https://www.artstation.com/artist/micro_ah
+jojo-ojoj - DeviantArt - http://jojo-ojoj.deviantart.com/art/Fish-scales-seamless-textures-2-501773878
+Dmitriy and Oleksandr Chugai - http://texturelib.com
+Good Textures - https://www.goodtextures.com/gallery
+wolverine041269 - DeviantArt - http://wolverine041269.deviantart.com/art/Grass-10-369697282 
+kayv - BlogSpot - http://kay-vriend.blogspot.com/
+Nobiax - DeviantArt - http://nobiax.deviantart.com/
+Paul Kind - YouTube - https://youtu.be/9eBJg3zAp9c
+Blender for Architecture - http://blender-archi.tuxfamily.org/Textures
+SWTexture - http://swtexture.com
+totravelandbeyond - VisualHunt - https://visualhunt.com/photo/68591/
+linolafett - DeviantArt - http://linolafett.deviantart.com/art/Wall-03-434854864
+fabooguy - DeviantArt - http://fabooguy.deviantart.com/gallery/
+
+MODELS
+FreeDeeLab / TryzDeLab - https://trzyde.blogspot.com/p/freebies_5.html?m=1
+TreesLibrary - Lluis Garcia - https://gumroad.com/d/e4ef402076048924ba63815cc3247ad6
+Mischa Winkler - http://mwvizwork.com/blog/
+Nobiax - DeviantArt - http://nobiax.deviantart.com/
+Aaron Neal (Advanced Grass Blueprint) - YouTube - https://youtu.be/LhMtYxmcI64  
