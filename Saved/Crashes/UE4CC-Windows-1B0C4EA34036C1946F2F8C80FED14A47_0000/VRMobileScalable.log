@@ -1,0 +1,638 @@
+﻿Log file open, 06/27/17 16:45:21
+LogInit:Display: Running engine for game: VRMobileScalable
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-907869552) SRandInit(-907869552).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110691
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: G:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.27-20.45.22:340][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-20.45.22:340][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-20.45.22:350][  0]LogInit: Computer: THERMALWIND
+[2017.06.27-20.45.22:350][  0]LogInit: User: 3DSim
+[2017.06.27-20.45.22:350][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.27-20.45.22:350][  0]LogInit: High frequency timer resolution =3.416979 MHz
+[2017.06.27-20.45.22:350][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2017.06.27-20.45.22:350][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-20.45.22:350][  0]LogMemory: Process Physical Memory: 275.52 MB used, 275.52 MB peak
+[2017.06.27-20.45.22:350][  0]LogMemory: Process Virtual Memory: 267.28 MB used, 267.28 MB peak
+[2017.06.27-20.45.22:350][  0]LogMemory: Physical Memory: 20026.16 MB used,  29019.40 MB free, 49045.56 MB total
+[2017.06.27-20.45.22:351][  0]LogMemory: Virtual Memory: 647.88 MB used,  29019.40 MB free, 134217728.00 MB total
+[2017.06.27-20.45.22:416][  0]LogInit: Using OS detected language (en-US).
+[2017.06.27-20.45.22:416][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.27-20.45.22:421][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.27-20.45.23:542][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-20.45.24:244][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2017.06.27-20.45.24:244][  0]LogD3D11RHI:       12244/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.27-20.45.24:246][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-20.45.24:246][  0]LogD3D11RHI:       0/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-20.45.24:246][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-20.45.24:256][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-20.45.24:256][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-20.45.24:256][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-20.45.24:256][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2017.06.27-20.45.24:256][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2017.06.27-20.45.24:256][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-20.45.24:256][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-20.45.24:256][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.27-20.45.24:256][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2017.06.27-20.45.24:256][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.27-20.45.24:256][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.27-20.45.24:256][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-20.45.24:933][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-20.45.24:969][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.27-20.45.25:018][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2017.06.27-20.45.25:018][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (H:/UnrealProjects/VRMobileScalable/Intermediate/Shaders/WorkingDirectory/33084/).
+[2017.06.27-20.45.25:018][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DSim/AppData/Local/Temp/UnrealShaderWorkingDir/B9D535894596C162F52626B01F48D589/'.
+[2017.06.27-20.45.25:018][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-20.45.26:220][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-20.45.26:268][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-20.45.26:313][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-20.45.26:358][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-20.45.26:404][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-20.45.26:447][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-20.45.26:494][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-20.45.26:539][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-20.45.26:577][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-20.45.26:623][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-20.45.26:666][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-20.45.26:713][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-20.45.26:760][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-20.45.26:807][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-20.45.26:859][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-20.45.26:954][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-20.45.26:954][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-20.45.26:987][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-20.45.27:072][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-20.45.27:100][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-20.45.27:153][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-20.45.27:200][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-20.45.27:244][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-20.45.27:290][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-20.45.27:290][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-20.45.27:717][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-20.45.27:829][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-20.45.27:829][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-20.45.27:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-20.45.27:829][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-20.45.27:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-20.45.27:829][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-20.45.27:849][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-20.45.27:861][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DSim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-20.45.27:871][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-20.45.27:872][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-20.45.27:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-20.45.27:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-20.45.28:268][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-20.45.28:342][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-20.45.28:505][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-20.45.28:547][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-20.45.28:588][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-20.45.28:588][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-20.45.28:588][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-20.45.29:147][  0]LogNetVersion: VRMobileScalable , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3431896694)
+[2017.06.27-20.45.29:207][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.06.27-20.45.29:255][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.029347 seconds
+[2017.06.27-20.45.29:260][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-20.45.29:260][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.27-20.45.29:260][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-20.45.29:312][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-20.45.32:136][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.27-20.45.32:164][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-20.45.32:203][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-20.45.32:693][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-20.45.33:066][  0]SourceControl: Info Source control is disabled
+[2017.06.27-20.45.33:068][  0]SourceControl: Info Source control is disabled
+[2017.06.27-20.45.33:110][  0]SourceControl: Info Source control is disabled
+[2017.06.27-20.45.33:152][  0]SourceControl: Info Source control is disabled
+[2017.06.27-20.45.33:755][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-20.45.34:408][  0]LogEngine: Initializing Engine...
+[2017.06.27-20.45.34:973][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.27-20.45.35:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-20.45.35:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-20.45.35:288][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-20.45.35:308][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-20.45.35:319][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-20.45.35:368][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-20.45.35:387][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-20.45.35:460][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-20.45.35:655][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-20.45.35:922][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-20.45.36:714][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-20.45.37:303][  0]LogConsoleResponse:Display: 
+[2017.06.27-20.45.37:441][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-20.45.37:441][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.27-20.45.38:279][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/' took 0.02s
+[2017.06.27-20.45.38:317][  0]SourceControl: Info Source control is disabled
+[2017.06.27-20.45.38:317][  0]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-20.45.38:318][  0]LightingResults: New page: Lighting Build
+[2017.06.27-20.45.38:352][  0]MapCheck: New page: Map Check
+[2017.06.27-20.45.38:352][  0]LightingResults: New page: Lighting Build
+[2017.06.27-20.45.38:427][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.27-20.45.38:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-20.45.38:440][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-20.45.38:529][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.289ms to complete.
+[2017.06.27-20.45.38:529][  0]LogFileHelpers: Loading map 'StartupMap' took 0.212
+[2017.06.27-20.45.38:670][  0]LogCollectionManager: Loaded 1 collections in 0.001497 seconds
+[2017.06.27-20.45.38:746][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' took 0.01s
+[2017.06.27-20.45.38:746][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' took 0.01s
+[2017.06.27-20.45.38:746][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' took 0.01s
+[2017.06.27-20.45.38:746][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2017.06.27-20.45.38:746][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.06.27-20.45.38:755][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2343 classes and 497 folders.
+[2017.06.27-20.45.38:810][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.27-20.45.38:866][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.27-20.45.38:899][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.27-20.45.38:974][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-20.45.38:979][  0]LogSlate: Took 0.000619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-20.45.38:981][  0]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-20.45.38:986][  0]LogSlate: Took 0.000514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-20.45.39:080][  0]LogRenderer: Reallocating scene render targets to support 1052x572 NumSamples 1 (Frame:1).
+[2017.06.27-20.45.39:182][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-20.45.39:241][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.27-20.45.39:241][  0]LogLoad: (Engine Initialization) Total time: 18.47 seconds
+[2017.06.27-20.45.39:241][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.06.27-20.45.39:241][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.27-20.45.39:241][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.27-20.45.39:251][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-20.45.39:254][  0]LogSteamController: SteamController is not available
+[2017.06.27-20.45.39:254][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-20.45.39:255][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-20.45.39:255][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.06.27-20.45.39:255][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.06.27-20.45.39:255][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.06.27-20.45.39:255][  0]LogSteamVRController: Controller role for device 2 is 0 (invalid=0, left=1, right=2).
+[2017.06.27-20.45.39:255][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.06.27-20.45.39:255][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.06.27-20.45.39:274][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-20.45.39:316][  0]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-20.45.39:376][  1]LogAssetRegistry: Asset discovery search completed in 10.1901 seconds
+[2017.06.27-20.45.39:378][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2017.06.27-20.45.39:378][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000020 seconds (updated 0 objects)
+[2017.06.27-20.45.45:133][644]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.27-20.45.51:900][427]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-20.45.51:908][427]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-20.45.51:916][427]LightingResults: New page: Lighting Build
+[2017.06.27-20.45.51:917][427]LoadErrors: New page: Loading map: CityAura-MiniSimulation.umap
+[2017.06.27-20.45.51:920][427]MapCheck: New page: Map Check
+[2017.06.27-20.45.51:920][427]LightingResults: New page: Lighting Build
+[2017.06.27-20.45.52:945][427]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-20.45.54:077][427]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-20.45.54:208][427]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-20.45.54:244][427]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-20.45.54:385][427]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.09ms to complete.
+[2017.06.27-20.45.54:385][427]LogFileHelpers: Loading map 'CityAura-MiniSimulation' took 2.486
+[2017.06.27-20.45.59:351][989]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-20.45.59:403][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.45.59:403][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-20.45.59:403][989]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 12:45:59 PM)
+[2017.06.27-20.45.59:403][989]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-20.45.59:423][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019219s)
+[2017.06.27-20.45.59:423][989]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-20.45.59:423][989]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.06.27-20.45.59:424][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020238s)
+[2017.06.27-20.45.59:448][989]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-20.45.59:455][989]LogInit: FAudioDevice initialized.
+[2017.06.27-20.45.59:562][989]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-20.45.59:562][989]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-20.45.59:574][989]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-16.45.59
+[2017.06.27-20.45.59:576][989]LogWorld: Bringing up level for play took: 0.012371
+[2017.06.27-20.45.59:617][989]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.27-20.45.59:627][989]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.527
+[2017.06.27-20.45.59:628][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.45.59:677][990]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.06.27-20.46.58:961][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.46.59:106][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.47.01:024][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A45-04)
+[2017.06.27-20.47.57:679][685]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-20.47.57:691][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.47.57:691][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-20.47.57:691][685]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 12:47:57 PM)
+[2017.06.27-20.47.57:691][685]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-20.47.57:713][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022016s)
+[2017.06.27-20.47.57:714][685]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-20.47.57:714][685]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.06.27-20.47.57:714][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.023015s)
+[2017.06.27-20.47.57:737][685]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-20.47.57:743][685]LogInit: FAudioDevice initialized.
+[2017.06.27-20.47.57:842][685]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-20.47.57:842][685]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-20.47.57:855][685]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-16.47.57
+[2017.06.27-20.47.57:856][685]LogWorld: Bringing up level for play took: 0.013414
+[2017.06.27-20.47.57:869][685]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.284
+[2017.06.27-20.47.57:870][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.49.50:939][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.49.51:095][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.55.53:266][552]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-04.FBX]
+[2017.06.27-20.55.53:295][552]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-04.FBX
+[2017.06.27-20.55.53:307][552]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-20.55.53:314][552]LogFbx:Warning: Triangulating static mesh S_GRID_Layout-R8C9-A45-04
+[2017.06.27-20.55.54:534][552]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-04...
+[2017.06.27-20.55.54:715][552]LogStaticMesh: Built static mesh [0.18s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-04.S_GRID_Layout-R8C9-A45-04
+[2017.06.27-20.55.54:742][552]LogEditorFactories: -- imported successfully
+[2017.06.27-20.55.54:790][552]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-20.57.07:343][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45-04" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45-04.uasset" SILENT=true
+[2017.06.27-20.57.07:364][792]LogSavePackage: Save=11.80ms
+[2017.06.27-20.57.07:364][792]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-042FCFC8F14FA68FDCDAD5A98A97AD5F5B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45-04.uasset'
+[2017.06.27-20.57.07:365][792]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45-04.uasset
+[2017.06.27-20.57.12:458][239]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-20.57.12:470][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.57.12:470][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-20.57.12:470][239]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 12:57:12 PM)
+[2017.06.27-20.57.12:470][239]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-20.57.12:490][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019446s)
+[2017.06.27-20.57.12:491][239]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-20.57.12:491][239]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.06.27-20.57.12:491][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020766s)
+[2017.06.27-20.57.12:515][239]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-20.57.12:522][239]LogInit: FAudioDevice initialized.
+[2017.06.27-20.57.12:620][239]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-20.57.12:620][239]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-20.57.12:633][239]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-16.57.12
+[2017.06.27-20.57.12:634][239]LogWorld: Bringing up level for play took: 0.013007
+[2017.06.27-20.57.12:645][239]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.491
+[2017.06.27-20.57.12:645][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.58.42:747][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-20.58.42:913][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-21.00.16:869][ 97]LogSavePackage: Save=578.66ms
+[2017.06.27-21.00.16:869][ 97]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Auto1CA4F8DFF451016BBBF35F2B809207CC4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto1.umap'
+[2017.06.27-21.00.16:871][ 97]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto1.umap
+[2017.06.27-21.00.16:872][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.596
+[2017.06.27-21.00.16:872][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.596
+[2017.06.27-21.00.16:875][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-04] ([1] browsable assets)...
+[2017.06.27-21.00.16:888][ 97]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45-04.S_GRID_Layout-R8C9-A45-04]
+[2017.06.27-21.00.16:888][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-04]
+[2017.06.27-21.00.16:905][ 97]LogSavePackage: Save=10.62ms
+[2017.06.27-21.00.16:905][ 97]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-04_Auto1E1FC4B2F4DF8B1C903D06E8C5EE40B0D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-04_Auto1.uasset'
+[2017.06.27-21.00.16:906][ 97]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-04_Auto1.uasset
+[2017.06.27-21.00.16:906][ 97]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.06.27-21.06.17:049][863]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-04.FBX]
+[2017.06.27-21.06.17:076][863]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-04.FBX
+[2017.06.27-21.06.17:087][863]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.06.17:094][863]LogFbx:Warning: Triangulating static mesh S_GRID_Layout-R8C9-A45-04
+[2017.06.27-21.06.18:230][863]LogFbx:Warning: Triangulating mesh UCX_S_GRID_Layout-R8C9-A45-04 for collision model
+[2017.06.27-21.06.18:269][863]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-04...
+[2017.06.27-21.06.18:440][863]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-04.S_GRID_Layout-R8C9-A45-04
+[2017.06.27-21.06.18:467][863]LogEditorFactories: -- imported successfully
+[2017.06.27-21.07.08:807][517]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.27-21.10.18:028][186]LogSavePackage: Save=576.36ms
+[2017.06.27-21.10.18:028][186]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Auto2C38D31CD4115C1C71A58ACB90DCAB24A.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto2.umap'
+[2017.06.27-21.10.18:029][186]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto2.umap
+[2017.06.27-21.10.18:031][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.600
+[2017.06.27-21.10.18:031][186]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.600
+[2017.06.27-21.10.18:033][186]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-04] ([1] browsable assets)...
+[2017.06.27-21.10.18:056][186]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45-04.S_GRID_Layout-R8C9-A45-04]
+[2017.06.27-21.10.18:056][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-04]
+[2017.06.27-21.10.18:074][186]LogSavePackage: Save=11.72ms
+[2017.06.27-21.10.18:074][186]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-04_Auto25962B37442B1286DBA6D04A4020E7D48.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-04_Auto2.uasset'
+[2017.06.27-21.10.18:075][186]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-04_Auto2.uasset
+[2017.06.27-21.10.18:075][186]LogFileHelpers: Auto-saving content packages took 0.042
+[2017.06.27-21.14.07:160][291]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-04.FBX]
+[2017.06.27-21.14.07:184][291]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-04.FBX
+[2017.06.27-21.14.07:196][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.14.07:203][291]LogFbx:Warning: Triangulating static mesh S_GRID_Layout-R8C9-A45-04
+[2017.06.27-21.14.08:408][291]LogFbx:Warning: Triangulating mesh UCX_S_GRID_Layout-R8C9-A45-04 for collision model
+[2017.06.27-21.14.08:443][291]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-04...
+[2017.06.27-21.14.08:616][291]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-04.S_GRID_Layout-R8C9-A45-04
+[2017.06.27-21.14.08:641][291]LogEditorFactories: -- imported successfully
+[2017.06.27-21.16.18:034][740]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-05.FBX)
+[2017.06.27-21.16.18:041][740]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-21.16.18:041][740]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-21.16.18:041][740]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-21.16.18:041][740]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-21.16.18:041][740]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-21.16.18:046][740]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-05.FBX
+[2017.06.27-21.16.18:059][740]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.16.20:360][740]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-05.FBX
+[2017.06.27-21.16.20:372][740]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.16.20:374][740]LogFbx:Warning: Triangulating static mesh S_GRID_Layout-R8C9-A45-05
+[2017.06.27-21.16.21:526][740]LogFbx:Warning: Triangulating mesh UCX_S_GRID_Layout-R8C9-A45-05 for collision model
+[2017.06.27-21.16.21:550][740]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-05...
+[2017.06.27-21.16.21:735][740]LogStaticMesh: Built static mesh [0.19s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-05.S_GRID_Layout-R8C9-A45-05
+[2017.06.27-21.16.27:059][837]LogActorFactory: Actor Factory created S_GRID_Layout-R8C9-A45-05
+[2017.06.27-21.16.28:798][ 18]LogActorFactory: Actor Factory created S_GRID_Layout-R8C9-A45-05
+[2017.06.27-21.16.29:339][ 75]LogActorFactory: Actor Factory created S_GRID_Layout-R8C9-A45-05
+[2017.06.27-21.20.19:867][624]LogSavePackage: Save=586.28ms
+[2017.06.27-21.20.19:867][624]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Auto37BFFCF4B43B62ECDD2D116B051BC6456.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto3.umap'
+[2017.06.27-21.20.19:868][624]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto3.umap
+[2017.06.27-21.20.19:869][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.607
+[2017.06.27-21.20.19:869][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.607
+[2017.06.27-21.20.19:874][624]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-05] ([1] browsable assets)...
+[2017.06.27-21.20.19:891][624]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45-05.S_GRID_Layout-R8C9-A45-05]
+[2017.06.27-21.20.19:891][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-05]
+[2017.06.27-21.20.19:903][624]LogSavePackage: Save=10.27ms
+[2017.06.27-21.20.19:903][624]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-05_Auto3311F2AA54E08538EEED55FA3AB181E89.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-05_Auto3.uasset'
+[2017.06.27-21.20.19:904][624]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-05_Auto3.uasset
+[2017.06.27-21.20.19:904][624]LogFileHelpers: Auto-saving content packages took 0.030
+[2017.06.27-21.21.18:554][312]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-06.FBX)
+[2017.06.27-21.21.18:559][312]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-21.21.18:559][312]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-21.21.18:559][312]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-21.21.18:559][312]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-21.21.18:559][312]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-21.21.18:563][312]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-06.FBX
+[2017.06.27-21.21.18:575][312]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.21.21:097][312]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-06.FBX
+[2017.06.27-21.21.21:108][312]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.21.21:110][312]LogFbx:Warning: Triangulating static mesh SGRIDLayoutR8C9A4505
+[2017.06.27-21.21.22:261][312]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-06...
+[2017.06.27-21.21.22:444][312]LogStaticMesh: Built static mesh [0.18s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-06.S_GRID_Layout-R8C9-A45-06
+[2017.06.27-21.22.59:618][666]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-06.FBX]
+[2017.06.27-21.22.59:642][666]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-06.FBX
+[2017.06.27-21.22.59:657][666]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.22.59:663][666]LogFbx:Warning: Triangulating static mesh SGRIDLayoutR8C9A4505
+[2017.06.27-21.23.00:870][666]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-06...
+[2017.06.27-21.23.01:059][666]LogStaticMesh: Built static mesh [0.19s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-06.S_GRID_Layout-R8C9-A45-06
+[2017.06.27-21.23.01:083][666]LogEditorFactories: -- imported successfully
+[2017.06.27-21.23.39:908][683]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-07.FBX)
+[2017.06.27-21.23.39:914][683]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-21.23.39:914][683]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-21.23.39:914][683]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-21.23.39:914][683]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-21.23.39:914][683]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-21.23.39:918][683]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-07.FBX
+[2017.06.27-21.23.39:931][683]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.23.43:073][683]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-07.FBX
+[2017.06.27-21.23.43:085][683]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.23.43:088][683]LogFbx:Warning: Triangulating static mesh SGRIDLayoutR8C9A4505
+[2017.06.27-21.23.44:243][683]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-07...
+[2017.06.27-21.23.44:414][683]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-07.S_GRID_Layout-R8C9-A45-07
+[2017.06.27-21.25.01:917][470]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-07.FBX]
+[2017.06.27-21.25.01:943][470]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-07.FBX
+[2017.06.27-21.25.01:954][470]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.25.01:962][470]LogFbx:Warning: Triangulating static mesh SGRIDLayoutR8C9A4505
+[2017.06.27-21.25.03:143][470]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-07...
+[2017.06.27-21.25.03:315][470]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-07.S_GRID_Layout-R8C9-A45-07
+[2017.06.27-21.25.03:344][470]LogEditorFactories: -- imported successfully
+[2017.06.27-21.25.38:143][219]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-07.FBX)
+[2017.06.27-21.25.38:148][219]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-21.25.38:148][219]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-21.25.38:148][219]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-21.25.38:148][219]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-21.25.38:148][219]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-21.25.38:153][219]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-07.FBX
+[2017.06.27-21.25.38:167][219]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.25.39:981][219]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-07.FBX
+[2017.06.27-21.25.39:993][219]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.25.39:995][219]LogFbx:Warning: Triangulating static mesh SGRIDLayoutR8C9A4505
+[2017.06.27-21.25.41:148][219]LogFbx:Warning: Triangulating mesh UCX_SGRIDLayoutR8C9A4505 for collision model
+[2017.06.27-21.25.41:172][219]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-07...
+[2017.06.27-21.25.41:340][219]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-07.S_GRID_Layout-R8C9-A45-07
+[2017.06.27-21.30.24:169][462]LogSavePackage: Save=588.61ms
+[2017.06.27-21.30.24:169][462]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Auto412C6690D43E2812C0DAFB1939493E3D4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto4.umap'
+[2017.06.27-21.30.24:170][462]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Auto4.umap
+[2017.06.27-21.30.24:171][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.609
+[2017.06.27-21.30.24:171][462]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.609
+[2017.06.27-21.30.24:172][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-07] ([1] browsable assets)...
+[2017.06.27-21.30.24:186][462]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45-07.S_GRID_Layout-R8C9-A45-07]
+[2017.06.27-21.30.24:186][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-07]
+[2017.06.27-21.30.24:198][462]LogSavePackage: Save=11.01ms
+[2017.06.27-21.30.24:199][462]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-07_Auto4D224BA284072189D0E7F77BFDD32DBE7.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-07_Auto4.uasset'
+[2017.06.27-21.30.24:199][462]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-07_Auto4.uasset
+[2017.06.27-21.30.24:199][462]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.06.27-21.31.53:576][258]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-08.FBX)
+[2017.06.27-21.31.53:582][258]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-21.31.53:582][258]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-21.31.53:582][258]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-21.31.53:582][258]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-21.31.53:582][258]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-21.31.53:587][258]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-08.FBX
+[2017.06.27-21.31.53:600][258]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.31.55:880][258]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-08.FBX
+[2017.06.27-21.31.55:892][258]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.31.55:895][258]LogFbx:Warning: Triangulating static mesh SGRIDLayoutR8C9A4505
+[2017.06.27-21.31.57:042][258]LogFbx:Warning: Triangulating mesh UCX_SGRIDLayoutR8C9A4505_00 for collision model
+[2017.06.27-21.31.57:065][258]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-08...
+[2017.06.27-21.31.57:236][258]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-08.S_GRID_Layout-R8C9-A45-08
+[2017.06.27-21.36.29:819][608]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX)
+[2017.06.27-21.36.29:824][608]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-21.36.29:824][608]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-21.36.29:824][608]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-21.36.29:824][608]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-21.36.29:824][608]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-21.36.29:828][608]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-21.36.29:842][608]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.36.52:504][608]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-21.36.52:520][608]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.36.52:523][608]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-21.36.53:686][608]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-21.36.53:710][608]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-21.36.53:891][608]LogStaticMesh: Built static mesh [0.18s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-21.39.11:743][548]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX]
+[2017.06.27-21.39.11:767][548]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-21.39.11:779][548]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.39.11:785][548]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-21.39.12:922][548]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-21.39.12:961][548]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-21.39.13:141][548]LogStaticMesh: Built static mesh [0.18s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-21.39.13:166][548]LogEditorFactories: -- imported successfully
+[2017.06.27-21.40.26:078][744]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.008
+[2017.06.27-21.40.26:079][744]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-09] ([1] browsable assets)...
+[2017.06.27-21.40.26:093][744]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09]
+[2017.06.27-21.40.26:093][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-09]
+[2017.06.27-21.40.26:105][744]LogSavePackage: Save=10.40ms
+[2017.06.27-21.40.26:105][744]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-09_Auto5A25DAC304F1C700261B3C196BE6AEC04.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-09_Auto5.uasset'
+[2017.06.27-21.40.26:105][744]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-09_Auto5.uasset
+[2017.06.27-21.40.26:105][744]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.06.27-21.41.46:806][423]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX]
+[2017.06.27-21.41.46:830][423]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-21.41.46:846][423]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-21.41.46:854][423]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-21.41.48:022][423]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-21.41.48:056][423]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-21.41.48:231][423]LogStaticMesh: Built static mesh [0.18s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-21.41.48:256][423]LogEditorFactories: -- imported successfully
+[2017.06.27-21.50.27:722][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.010
+[2017.06.27-21.50.27:723][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-09] ([1] browsable assets)...
+[2017.06.27-21.50.27:737][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09]
+[2017.06.27-21.50.27:737][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45-09]
+[2017.06.27-21.50.27:750][226]LogSavePackage: Save=11.64ms
+[2017.06.27-21.50.27:750][226]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45-09_Auto6EF70E16B46CC7472C6EF35970E9E09B3.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-09_Auto6.uasset'
+[2017.06.27-21.50.27:750][226]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45-09_Auto6.uasset
+[2017.06.27-21.50.27:750][226]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.06.27-22.24.33:739][365]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{9ef819d2-f1c1-40cf-ba4a-e7b68acd8a89} was removed. Shutting down audio device.
+[2017.06.27-22.25.24:044][ 90]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX]
+[2017.06.27-22.25.24:067][ 90]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.25.24:081][ 90]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.25.24:087][ 90]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-22.25.25:271][ 90]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-22.25.25:306][ 90]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-22.25.25:474][ 90]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-22.25.25:499][ 90]LogEditorFactories: -- imported successfully
+[2017.06.27-22.25.34:592][118]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX]
+[2017.06.27-22.25.34:616][118]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.25.34:628][118]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.25.34:636][118]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-22.25.35:804][118]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-22.25.35:842][118]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-22.25.36:023][118]LogStaticMesh: Built static mesh [0.18s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-22.25.36:049][118]LogEditorFactories: -- imported successfully
+[2017.06.27-22.29.31:116][243]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX)
+[2017.06.27-22.29.31:122][243]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-22.29.31:122][243]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-22.29.31:122][243]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-22.29.31:122][243]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-22.29.31:122][243]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-22.29.31:126][243]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.29.31:137][243]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.29.41:062][243]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.29.41:075][243]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.29.41:077][243]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-22.29.42:220][243]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-22.29.42:246][243]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-22.29.42:415][243]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-22.31.46:312][562]LogEditorFactories: Performing atomic reimport of [H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX]
+[2017.06.27-22.31.46:335][562]LogFbx: Loading FBX Scene from H:/CityProject-Auravana/GridLayout/0-FBX/S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.31.46:346][562]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.31.46:354][562]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-22.31.47:527][562]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-22.31.47:562][562]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-22.31.47:729][562]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-22.31.47:754][562]LogEditorFactories: -- imported successfully
+[2017.06.27-22.33.05:865][863]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX)
+[2017.06.27-22.33.05:878][863]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-22.33.05:878][863]LogFbx: ItemName: Model, ItemCount : 2
+[2017.06.27-22.33.05:878][863]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.06.27-22.33.05:878][863]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.27-22.33.05:878][863]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.06.27-22.33.05:882][863]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.33.05:893][863]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.33.09:477][863]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-09.FBX
+[2017.06.27-22.33.09:491][863]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-22.33.09:493][863]LogFbx:Warning: Triangulating static mesh SGRID
+[2017.06.27-22.33.10:660][863]LogFbx:Warning: Triangulating mesh UCX_SGRID_01 for collision model
+[2017.06.27-22.33.10:688][863]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45-09...
+[2017.06.27-22.33.10:856][863]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45-09.S_GRID_Layout-R8C9-A45-09
+[2017.06.27-22.33.41:814][475]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_67' or package '/Engine/Transient'.
+[2017.06.27-22.36.19:230][729]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-22.36.19:250][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-22.36.19:250][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-22.36.19:250][729]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 2:36:19 PM)
+[2017.06.27-22.36.19:250][729]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-22.36.19:273][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022571s)
+[2017.06.27-22.36.19:273][729]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-22.36.19:273][729]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.06.27-22.36.19:274][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.023469s)
+[2017.06.27-22.36.19:306][729]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.27-22.36.19:329][729]LogInit: FAudioDevice initialized.
+[2017.06.27-22.36.22:818][729]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.27-22.36.22:865][729]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-22.36.22:865][729]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-22.36.22:882][729]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-18.36.22
+[2017.06.27-22.36.22:884][729]LogWorld: Bringing up level for play took: 0.017348
+[2017.06.27-22.36.22:886][729]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.27-22.36.22:886][729]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.06.27-22.36.23:145][729]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.259 s
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: 
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: Stack: 
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000026BDE1C6
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002698B7D2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000269A1D96
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000269361C1
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DEF6608B
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF8AB8F3
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF8E4974
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000262F86E4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264B6CD4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CBCA1
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CDED2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264B76DE
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CDED2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264B76DE
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CDED2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000262F86E4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CD266
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF053E17
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000E0267C57
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF013FFF
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF02103B
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF04F8F9
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF03057F
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF73D499
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF08B056
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000262F86E4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264B6CD4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CBCA1
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264F4784
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CDED2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264B76DE
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CDED2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000262F86E4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000264CD266
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF053E17
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000E0267C57
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF013FFF
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF02103B
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000E018E7F9
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF747371
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000E017B33E
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF767C60
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000218EBC53
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000002191660E
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000219320D4
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000021402C58
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000021C28AD6
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor.exe!0x000000009E97E2B2
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F0B0
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F12A
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor.exe!0x000000009E980CF9
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: UE4Editor.exe!0x000000009E9825F7
+[2017.06.27-22.36.23:145][729]LogOutputDevice:Error: KERNEL32.DLL!0x000000008A412774
+[2017.06.27-22.36.23:146][729]LogOutputDevice:Error: ntdll.dll!0x000000008A580D61
+[2017.06.27-22.36.23:146][729]LogOutputDevice:Error: 
+[2017.06.27-22.36.23:156][729]LogStats:                SubmitErrorReport -  0.000 s

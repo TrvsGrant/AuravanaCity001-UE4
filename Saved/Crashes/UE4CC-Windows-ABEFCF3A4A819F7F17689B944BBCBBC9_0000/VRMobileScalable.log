@@ -1,0 +1,892 @@
+﻿Log file open, 06/29/17 10:07:54
+LogInit:Display: Running engine for game: VRMobileScalable
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-980268011) SRandInit(-980268011).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107812
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: G:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.29-14.07.54:850][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.29-14.07.54:850][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.29-14.07.54:870][  0]LogInit: Computer: THERMALWIND
+[2017.06.29-14.07.54:870][  0]LogInit: User: 3DSim
+[2017.06.29-14.07.54:870][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.29-14.07.54:870][  0]LogInit: High frequency timer resolution =3.416978 MHz
+[2017.06.29-14.07.54:870][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2017.06.29-14.07.54:870][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.29-14.07.54:870][  0]LogMemory: Process Physical Memory: 273.93 MB used, 273.93 MB peak
+[2017.06.29-14.07.54:870][  0]LogMemory: Process Virtual Memory: 267.19 MB used, 267.19 MB peak
+[2017.06.29-14.07.54:870][  0]LogMemory: Physical Memory: 17866.48 MB used,  31179.07 MB free, 49045.56 MB total
+[2017.06.29-14.07.54:870][  0]LogMemory: Virtual Memory: 647.88 MB used,  31179.07 MB free, 134217728.00 MB total
+[2017.06.29-14.07.54:925][  0]LogInit: Using OS detected language (en-US).
+[2017.06.29-14.07.54:925][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.29-14.07.54:929][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.29-14.07.55:930][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.29-14.07.56:580][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2017.06.29-14.07.56:580][  0]LogD3D11RHI:       12244/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.29-14.07.56:582][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.29-14.07.56:582][  0]LogD3D11RHI:       0/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.29-14.07.56:582][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.29-14.07.56:591][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.29-14.07.56:591][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.29-14.07.56:591][  0]LogWindows: EnumDisplayDevices:
+[2017.06.29-14.07.56:591][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2017.06.29-14.07.56:591][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2017.06.29-14.07.56:592][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.29-14.07.56:592][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.29-14.07.56:592][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.29-14.07.56:592][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2017.06.29-14.07.56:592][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.29-14.07.56:592][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.29-14.07.56:592][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.29-14.07.57:202][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.29-14.07.57:233][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.29-14.07.57:281][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2017.06.29-14.07.57:282][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (H:/UnrealProjects/VRMobileScalable/Intermediate/Shaders/WorkingDirectory/39820/).
+[2017.06.29-14.07.57:282][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DSim/AppData/Local/Temp/UnrealShaderWorkingDir/C14215684F68AA6F5C877994688848A3/'.
+[2017.06.29-14.07.57:282][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.29-14.07.58:269][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.29-14.07.58:315][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.29-14.07.58:356][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.29-14.07.58:398][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.29-14.07.58:440][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.29-14.07.58:482][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.29-14.07.58:523][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.29-14.07.58:565][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.29-14.07.58:601][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.29-14.07.58:643][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.29-14.07.58:683][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.29-14.07.58:724][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.29-14.07.58:765][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.29-14.07.58:805][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.29-14.07.58:849][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.29-14.07.58:929][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.29-14.07.58:929][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.29-14.07.58:961][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.29-14.07.59:040][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.29-14.07.59:064][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.29-14.07.59:105][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.29-14.07.59:146][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.29-14.07.59:187][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.29-14.07.59:229][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.29-14.07.59:229][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.29-14.07.59:610][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.29-14.07.59:714][  0]LogDerivedDataCache: Loaded boot cache 0.10s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.29-14.07.59:714][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.29-14.07.59:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.29-14.07.59:714][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.29-14.07.59:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.29-14.07.59:714][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.29-14.07.59:729][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.29-14.07.59:741][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DSim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.29-14.07.59:750][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.29-14.07.59:751][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.29-14.07.59:752][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.29-14.07.59:752][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.29-14.08.00:099][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.29-14.08.00:168][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.29-14.08.00:308][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.29-14.08.00:344][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.29-14.08.00:382][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.29-14.08.00:382][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.29-14.08.00:382][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.29-14.08.00:878][  0]LogNetVersion: VRMobileScalable , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3431896694)
+[2017.06.29-14.08.00:939][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.06.29-14.08.00:978][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.023322 seconds
+[2017.06.29-14.08.00:982][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.29-14.08.00:982][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.29-14.08.00:982][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.29-14.08.01:027][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.29-14.08.03:778][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.29-14.08.03:803][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.29-14.08.03:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.29-14.08.04:281][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.29-14.08.04:616][  0]SourceControl: Info Source control is disabled
+[2017.06.29-14.08.04:617][  0]SourceControl: Info Source control is disabled
+[2017.06.29-14.08.04:655][  0]SourceControl: Info Source control is disabled
+[2017.06.29-14.08.04:694][  0]SourceControl: Info Source control is disabled
+[2017.06.29-14.08.05:228][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.29-14.08.05:819][  0]LogEngine: Initializing Engine...
+[2017.06.29-14.08.08:934][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.29-14.08.09:150][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.29-14.08.09:150][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.29-14.08.09:253][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.29-14.08.09:279][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.29-14.08.09:289][  0]LogInit: FAudioDevice initialized.
+[2017.06.29-14.08.09:336][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.29-14.08.09:352][  0]LogInit: Texture streaming: Enabled
+[2017.06.29-14.08.09:424][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.29-14.08.09:617][  0]LogInit: Transaction tracking system initialized
+[2017.06.29-14.08.09:868][  0]BlueprintLog: New page: Editor Load
+[2017.06.29-14.08.10:619][  0]LocalizationService: Info Localization service is disabled
+[2017.06.29-14.08.11:161][  0]LogConsoleResponse:Display: 
+[2017.06.29-14.08.11:375][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.29-14.08.11:375][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.29-14.08.12:161][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/' took 0.02s
+[2017.06.29-14.08.12:199][  0]SourceControl: Info Source control is disabled
+[2017.06.29-14.08.12:199][  0]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.29-14.08.12:202][  0]LightingResults: New page: Lighting Build
+[2017.06.29-14.08.12:234][  0]MapCheck: New page: Map Check
+[2017.06.29-14.08.12:234][  0]LightingResults: New page: Lighting Build
+[2017.06.29-14.08.12:348][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.29-14.08.12:354][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.29-14.08.12:361][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.29-14.08.12:450][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.07ms to complete.
+[2017.06.29-14.08.12:450][  0]LogFileHelpers: Loading map 'StartupMap' took 0.250
+[2017.06.29-14.08.12:586][  0]LogCollectionManager: Loaded 1 collections in 0.001701 seconds
+[2017.06.29-14.08.12:660][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' took 0.01s
+[2017.06.29-14.08.12:660][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' took 0.01s
+[2017.06.29-14.08.12:660][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' took 0.01s
+[2017.06.29-14.08.12:661][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.06.29-14.08.12:661][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.06.29-14.08.12:669][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2343 classes and 497 folders.
+[2017.06.29-14.08.12:719][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.06.29-14.08.12:775][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.29-14.08.12:809][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.29-14.08.12:876][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.29-14.08.12:880][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.29-14.08.12:882][  0]LogSlate: Took 0.000589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.29-14.08.12:889][  0]LogSlate: Took 0.000552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.29-14.08.12:978][  0]LogRenderer: Reallocating scene render targets to support 1012x572 NumSamples 1 (Frame:1).
+[2017.06.29-14.08.13:067][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.29-14.08.13:124][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.29-14.08.13:125][  0]LogLoad: (Engine Initialization) Total time: 20.71 seconds
+[2017.06.29-14.08.13:125][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.06.29-14.08.13:125][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.29-14.08.13:125][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.29-14.08.13:134][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.29-14.08.13:143][  0]LogSteamController: SteamController is not available
+[2017.06.29-14.08.13:143][  0]LogOcInput: OculusInput pre-init called
+[2017.06.29-14.08.13:143][  0]LogHMD: Starting GearVRController plugin
+[2017.06.29-14.08.13:162][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.29-14.08.13:200][  0]LogSlate: Took 0.000618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.29-14.08.13:260][  1]LogAssetRegistry: Asset discovery search completed in 12.3425 seconds
+[2017.06.29-14.08.13:262][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2017.06.29-14.08.13:262][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000021 seconds (updated 0 objects)
+[2017.06.29-14.08.16:599][285]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.29-14.08.27:280][547]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.29-14.08.27:287][547]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.29-14.08.27:296][547]LightingResults: New page: Lighting Build
+[2017.06.29-14.08.27:297][547]LoadErrors: New page: Loading map: CityAura-MiniSimulation_v3.umap
+[2017.06.29-14.08.27:299][547]MapCheck: New page: Map Check
+[2017.06.29-14.08.27:299][547]LightingResults: New page: Lighting Build
+[2017.06.29-14.08.28:148][547]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.29-14.08.34:907][547]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v3
+[2017.06.29-14.08.35:126][547]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.29-14.08.35:184][547]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.29-14.08.35:328][547]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 143.461ms to complete.
+[2017.06.29-14.08.35:328][547]LogFileHelpers: Loading map 'CityAura-MiniSimulation_v3' took 8.049
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat'
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset.
+[2017.06.29-14.09.07:140][642]LoadErrors:Error: Error /Game/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02 : Can't find file for asset. /Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat'
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset.
+[2017.06.29-14.09.07:140][642]LoadErrors:Error: Error /Game/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02 : Can't find file for asset. /Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat'
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset.
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat'
+[2017.06.29-14.09.07:140][642]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset.
+[2017.06.29-14.09.07:141][642]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat'
+[2017.06.29-14.09.07:141][642]LoadErrors: Info Failed to load /Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.M_CULTIV_Plant-Tree-02-Bark_Mat Referenced by S_CULTIV_Plant-Tree-02
+[2017.06.29-14.09.07:141][642]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat' while loading NULL.
+[2017.06.29-14.09.07:141][642]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat'
+[2017.06.29-14.09.07:141][642]LoadErrors: Info Failed to load /Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.M_CULTIV_Plant-Tree-02-Leaf_Mat Referenced by S_CULTIV_Plant-Tree-02
+[2017.06.29-14.09.07:141][642]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat' while loading NULL.
+[2017.06.29-14.09.07:328][661]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.09.08:486][734]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.09.09:258][781]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.29-14.09.16:713][298]LogRenderer: Reallocating scene render targets to support 1104x728 NumSamples 1 (Frame:1).
+[2017.06.29-14.09.22:187][600]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat'
+[2017.06.29-14.09.22:187][600]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat_Inst.uasset.
+[2017.06.29-14.09.22:187][600]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat_Inst : Can't find file for asset. /Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat
+[2017.06.29-14.09.22:187][600]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat'
+[2017.06.29-14.09.22:187][600]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat_Inst.uasset.
+[2017.06.29-14.09.22:188][600]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat'
+[2017.06.29-14.09.22:188][600]LoadErrors: Info Failed to load /Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.M_CULTIV_Plant-Tree-02-Bark_Mat Referenced by M_CULTIV_Plant-Tree-02-Bark_Mat_Inst
+[2017.06.29-14.09.22:188][600]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat' while loading NULL.
+[2017.06.29-14.09.34:637][419]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat'
+[2017.06.29-14.09.34:637][419]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst.uasset.
+[2017.06.29-14.09.34:637][419]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst : Can't find file for asset. /Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat
+[2017.06.29-14.09.34:637][419]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat'
+[2017.06.29-14.09.34:637][419]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst.uasset.
+[2017.06.29-14.09.34:638][419]LogLinker:Warning: Can't find file '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat'
+[2017.06.29-14.09.34:638][419]LoadErrors: Info Failed to load /Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.M_CULTIV_Plant-Tree-02-Leaf_Mat Referenced by M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst
+[2017.06.29-14.09.34:638][419]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat' while loading NULL.
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D'
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.uasset.
+[2017.06.29-14.09.40:909][836]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat : Can't find file for asset. /Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N'
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.uasset.
+[2017.06.29-14.09.40:909][836]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat : Can't find file for asset. /Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D'
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.uasset.
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N'
+[2017.06.29-14.09.40:909][836]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.uasset.
+[2017.06.29-14.09.40:910][836]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D'
+[2017.06.29-14.09.40:910][836]LoadErrors: Info Failed to load /Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D.T_CULTIV_Plant-Tree-02-Bark_D Referenced by MaterialExpressionTextureSample_0
+[2017.06.29-14.09.40:910][836]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_D' while loading NULL.
+[2017.06.29-14.09.40:910][836]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N'
+[2017.06.29-14.09.40:910][836]LoadErrors: Info Failed to load /Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N.T_CULTIV_Plant-Tree-02-Bark_N Referenced by MaterialExpressionTextureSample_3
+[2017.06.29-14.09.40:910][836]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Bark_N' while loading NULL.
+[2017.06.29-14.09.40:912][836]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.40:912][836]LogMaterial:Warning: Failed to compile Material /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.40:912][836]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.40:961][836]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.40:961][836]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.40:961][836]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.41:017][836]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.41:017][836]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.41:017][836]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.41:020][836]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.41:020][836]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.41:020][836]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.41:047][836]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.29-14.09.41:049][836]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.09.41:051][836]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.41:056][836]LogSlate: Took 0.000653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.29-14.09.49:350][381]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.49:350][381]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.49:350][381]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.49:351][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.09.49:382][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.29-14.09.49:383][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.09.49:385][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.09.52:210][564]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.52:211][564]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.52:211][564]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.52:212][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.09.52:246][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.29-14.09.52:248][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.09.52:249][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.09.52:254][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.09.54:371][706]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.54:372][706]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.54:372][706]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.54:380][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.09.55:696][784]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.55:696][784]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.09.55:696][784]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.09.56:997][866]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.57:663][891]MaterialEditorStats: Info Base pass shader: 130 instructions
+[2017.06.29-14.09.57:663][891]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.29-14.09.57:663][891]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.29-14.09.57:663][891]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.09.58:364][948]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.09.58:378][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.09.59:014][968]MaterialEditorStats: Info Base pass shader: 133 instructions
+[2017.06.29-14.09.59:014][968]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.29-14.09.59:014][968]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.29-14.09.59:014][968]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.10.00:853][ 85]LogMaterialEditor: Saving and Compiling material M_CULTIV_Plant-Tree-02-Bark_Mat
+[2017.06.29-14.10.01:469][ 85]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.10.01:538][ 85]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.10.01:568][ 85]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.10.01:735][ 85]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.10.02:063][ 85]TextureStreamingBuild:Display: Compiling optional shaders took 0.335 seconds.
+[2017.06.29-14.10.03:649][ 85]LogSavePackage: Save=16.06ms
+[2017.06.29-14.10.03:649][ 85]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_CULTIV_Plant-Tree-02-Bark_Mat3CDF44584AE5461DCBF906A9EBF2898C.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.uasset'
+[2017.06.29-14.10.03:650][ 85]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.uasset
+[2017.06.29-14.10.03:657][ 85]MaterialEditorStats: Info Base pass shader: 133 instructions
+[2017.06.29-14.10.03:657][ 85]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.29-14.10.03:657][ 85]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.29-14.10.03:657][ 85]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.10.13:122][835]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.29-14.10.35:206][285]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.29-14.10.35:288][285]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.29-14.10.35:300][285]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.29-14.10.35:336][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.10.35:342][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.10.36:336][329]MaterialEditorStats: Info Base pass shader: 133 instructions
+[2017.06.29-14.10.36:336][329]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.29-14.10.36:336][329]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.29-14.10.36:336][329]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.11.13:428][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D'
+[2017.06.29-14.11.13:428][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset.
+[2017.06.29-14.11.13:428][156]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat : Can't find file for asset. /Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D
+[2017.06.29-14.11.13:428][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N'
+[2017.06.29-14.11.13:428][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset.
+[2017.06.29-14.11.13:428][156]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat : Can't find file for asset. /Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N
+[2017.06.29-14.11.13:428][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S'
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset.
+[2017.06.29-14.11.13:429][156]LoadErrors:Error: Error /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat : Can't find file for asset. /Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D'
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset.
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N'
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset.
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S'
+[2017.06.29-14.11.13:429][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S' while loading H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset.
+[2017.06.29-14.11.13:430][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D'
+[2017.06.29-14.11.13:430][156]LoadErrors: Info Failed to load /Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D.T_CULTIV_Plant-Tree-02-Leaf_D Referenced by MaterialExpressionTextureSample_0
+[2017.06.29-14.11.13:430][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_D' while loading NULL.
+[2017.06.29-14.11.13:430][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N'
+[2017.06.29-14.11.13:430][156]LoadErrors: Info Failed to load /Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N.T_CULTIV_Plant-Tree-02-Leaf_N Referenced by MaterialExpressionTextureSample_1
+[2017.06.29-14.11.13:430][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_N' while loading NULL.
+[2017.06.29-14.11.13:430][156]LogLinker:Warning: Can't find file '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S'
+[2017.06.29-14.11.13:430][156]LoadErrors: Info Failed to load /Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S.T_CULTIV_Plant-Tree-02-Leaf_S Referenced by MaterialExpressionTextureSample_2
+[2017.06.29-14.11.13:431][156]LogLinker:Warning: Can't find file for asset '/Game/City-Aura/T_CULTIV_Plant-Tree-02-Leaf_S' while loading NULL.
+[2017.06.29-14.11.13:452][156]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.13:453][156]LogMaterial:Warning: Failed to compile Material /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.13:453][156]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.16:001][452]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.16:002][452]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.16:002][452]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.16:061][452]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.16:062][452]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.16:062][452]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.16:066][452]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.16:067][452]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.16:067][452]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.16:094][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.29-14.11.16:096][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.11.16:097][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.11.16:099][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.29-14.11.16:104][452]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.17:631][575]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.29-14.11.24:578][228]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.24:579][228]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.24:579][228]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.24:580][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.24:613][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.29-14.11.24:614][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.11.24:617][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.11.24:618][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.29-14.11.24:624][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.30:015][671]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.30:016][671]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.30:016][671]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.30:024][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.34:217][ 20]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.34:219][ 20]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.34:219][ 20]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.34:225][ 20]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.45:508][  3]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.45:509][  3]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.45:509][  3]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.45:515][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.50:208][397]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.50:209][397]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.50:209][397]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.50:214][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.52:122][546]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.52:123][546]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.52:123][546]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.56:934][937]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.11.56:935][937]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.11.56:935][937]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.11.56:937][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.29-14.11.56:971][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.11.56:973][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.29-14.11.56:976][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.29-14.11.56:980][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.11.56:985][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.29-14.12.01:346][286]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.01:347][286]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.12.01:347][286]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.12.01:354][286]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.29-14.12.03:258][434]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.03:259][434]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.12.03:259][434]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.12.07:586][789]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.07:587][789]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_CULTIV_Plant-Tree-02-Leaf_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.29-14.12.07:587][789]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.29-14.12.07:589][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.06.29-14.12.07:619][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.29-14.12.07:621][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.29-14.12.07:625][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.12.07:629][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.29-14.12.07:633][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.06.29-14.12.08:917][875]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.12:883][179]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.12:907][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.06.29-14.12.14:200][245]MaterialEditorStats: Info Base pass shader: 146 instructions
+[2017.06.29-14.12.14:200][245]MaterialEditorStats: Info Vertex shader: 113 instructions
+[2017.06.29-14.12.14:200][245]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.29-14.12.14:200][245]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.12.22:095][931]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.22:116][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.29-14.12.22:150][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.29-14.12.22:156][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.29-14.12.22:162][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.29-14.12.22:168][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.06.29-14.12.22:174][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.29-14.12.23:518][987]MaterialEditorStats: Info Base pass shader: 146 instructions
+[2017.06.29-14.12.23:518][987]MaterialEditorStats: Info Vertex shader: 113 instructions
+[2017.06.29-14.12.23:518][987]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.29-14.12.23:518][987]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.12.27:739][342]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.27:767][342]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.29-14.12.29:077][406]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.29-14.12.29:077][406]MaterialEditorStats: Info Vertex shader: 113 instructions
+[2017.06.29-14.12.29:077][406]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.06.29-14.12.29:077][406]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.12.34:570][799]LogMaterialEditor: Saving and Compiling material M_CULTIV_Plant-Tree-02-Leaf_Mat
+[2017.06.29-14.12.35:186][799]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.35:279][799]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.35:333][799]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.35:524][799]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.12.36:353][799]TextureStreamingBuild:Display: Compiling optional shaders took 0.837 seconds.
+[2017.06.29-14.12.38:774][799]LogSavePackage: Save=15.21ms
+[2017.06.29-14.12.38:774][799]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_CULTIV_Plant-Tree-02-Leaf_Mat1A3A481E486AFB3995775FB90588EFB0.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset'
+[2017.06.29-14.12.38:775][799]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.uasset
+[2017.06.29-14.12.38:781][799]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.29-14.12.38:781][799]MaterialEditorStats: Info Vertex shader: 172 instructions
+[2017.06.29-14.12.38:781][799]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.06.29-14.12.38:781][799]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.29-14.13.01:834][826]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CULTIV_Plant-Tree-02-Bark_Mat_Inst, compiling. 
+[2017.06.29-14.13.02:233][826]TextureStreamingBuild:Display: Compiling optional shaders took 0.403 seconds.
+[2017.06.29-14.13.10:472][701]LogSavePackage: Save=12.28ms
+[2017.06.29-14.13.10:472][701]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_CULTIV_Plant-Tree-02-Bark_Mat_Inst705422314A60B03B9C1689832E521C32.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat_Inst.uasset'
+[2017.06.29-14.13.10:473][701]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat_Inst.uasset
+[2017.06.29-14.13.39:291][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset" SILENT=true
+[2017.06.29-14.13.39:305][554]LogSavePackage: Save=10.18ms
+[2017.06.29-14.13.39:305][554]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_CULTIV_Plant-Tree-0291F3F11A4192ADEB84E46F89D0671939.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset'
+[2017.06.29-14.13.39:306][554]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/City-Aura/S_CULTIV_Plant-Tree-02.uasset
+[2017.06.29-14.13.51:267][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-02)
+[2017.06.29-14.13.51:766][815]Cmd: DELETE
+[2017.06.29-14.13.51:766][815]Cmd: ACTOR DELETE
+[2017.06.29-14.13.51:771][815]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.13.51:780][815]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.29-14.13.54:916][138]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.15.03:597][301]Cmd: TRANSACTION UNDO
+[2017.06.29-14.15.03:597][301]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.19.01:267][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.06.29-14.19.05:205][435]LogSavePackage: Save=2324.83ms
+[2017.06.29-14.19.05:205][435]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3_Auto15231D4D248FB47C9AF75018A10E852D5.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_Auto1.umap'
+[2017.06.29-14.19.05:207][435]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_Auto1.umap
+[2017.06.29-14.19.05:210][435]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3' took 2.350
+[2017.06.29-14.19.05:210][435]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.350
+[2017.06.29-14.19.05:213][435]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst] ([1] browsable assets)...
+[2017.06.29-14.19.05:223][435]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst.M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst]
+[2017.06.29-14.19.05:223][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst]
+[2017.06.29-14.19.05:234][435]LogSavePackage: Save=10.52ms
+[2017.06.29-14.19.05:234][435]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst_Auto12C99CC584680CE1E3FA1AF994A972C19.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst_Auto1.uasset'
+[2017.06.29-14.19.05:235][435]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat_Inst_Auto1.uasset
+[2017.06.29-14.19.05:235][435]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.06.29-14.20.05:226][954]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.21.43:604][933]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.22.56:512][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.06.29-14.22.57:848][877]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (S_CULTIV_Plant-Tree-LongLeaves)
+[2017.06.29-14.22.58:783][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-LongLeaves)
+[2017.06.29-14.22.59:528][ 46]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (S_CULTIV_Plant-Tree-LongLeaves)
+[2017.06.29-14.23.04:891][568]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-LongLeaves
+[2017.06.29-14.23.15:642][658]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-LongLeaves
+[2017.06.29-14.23.17:524][848]LogMaterial:Warning: Material /Game/City-Aura/M_CULTIV_Plant-Tree-Acacia-01-Bark_Mat.M_CULTIV_Plant-Tree-Acacia-01-Bark_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.29-14.23.17:530][848]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-Acacia-01-Bark_Mat, compiling. 
+[2017.06.29-14.23.17:553][848]LogMaterial:Warning: Material /Game/City-Aura/M_CULTIV_Plant-Tree-LongLeaves-Leaf_Mat.M_CULTIV_Plant-Tree-LongLeaves-Leaf_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.29-14.23.17:560][848]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-LongLeaves-Leaf_Mat, compiling. 
+[2017.06.29-14.23.25:475][443]Cmd: TRANSACTION UNDO
+[2017.06.29-14.23.25:475][443]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.23.26:102][496]Cmd: TRANSACTION UNDO
+[2017.06.29-14.23.26:102][496]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.23.27:805][661]Cmd: TRANSACTION UNDO
+[2017.06.29-14.23.27:805][661]LogEditorTransaction: Undo Drag-drop Foliage
+[2017.06.29-14.23.36:465][385]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-Acacia-01-Large
+[2017.06.29-14.23.45:999][354]LogMaterial:Warning: Material /Game/City-Aura/M_Plant-Branch-Leaves-Greeny_Mat.M_Plant-Branch-Leaves-Greeny_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.29-14.23.46:010][354]LogMaterial: Missing cached shader map for material M_Plant-Branch-Leaves-Greeny_Mat, compiling. 
+[2017.06.29-14.23.48:132][471]Cmd: TRANSACTION UNDO
+[2017.06.29-14.23.48:132][471]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.24.23:762][339]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.24.45:247][678]Cmd: TRANSACTION UNDO
+[2017.06.29-14.24.45:247][678]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.24.55:593][899]Cmd: TRANSACTION UNDO
+[2017.06.29-14.24.55:593][899]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.25.08:470][392]Cmd: TRANSACTION UNDO
+[2017.06.29-14.25.08:470][392]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.25.52:437][479]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.25.56:539][930]LogMaterial:Warning: Material /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Bark_Mat.M_CULTIV_Plant-Tree-02-Bark_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.29-14.25.56:542][930]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Bark_Mat, compiling. 
+[2017.06.29-14.25.56:563][930]LogMaterial:Warning: Material /Game/City-Aura/City-Aura/M_CULTIV_Plant-Tree-02-Leaf_Mat.M_CULTIV_Plant-Tree-02-Leaf_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.29-14.25.56:569][930]LogMaterial: Missing cached shader map for material M_CULTIV_Plant-Tree-02-Leaf_Mat, compiling. 
+[2017.06.29-14.25.58:270][ 42]Cmd: TRANSACTION UNDO
+[2017.06.29-14.25.58:270][ 42]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.26.08:339][ 11]Cmd: TRANSACTION UNDO
+[2017.06.29-14.26.08:339][ 11]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.26.08:968][ 67]Cmd: TRANSACTION UNDO
+[2017.06.29-14.26.08:968][ 67]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.26.45:971][691]Cmd: TRANSACTION UNDO
+[2017.06.29-14.26.45:971][691]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.34:691][315]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.34:691][315]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.35:132][335]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.35:132][335]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.35:504][364]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.35:504][364]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.35:845][394]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.35:845][394]LogEditorTransaction: Undo Edit Density / 1Kuu
+[2017.06.29-14.27.36:310][438]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.36:310][438]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.36:712][474]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.36:712][474]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.37:147][515]Cmd: TRANSACTION UNDO
+[2017.06.29-14.27.37:147][515]LogEditorTransaction: Undo Foliage Editing
+[2017.06.29-14.27.45:613][459]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.27.46:556][564]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.27.58:072][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.06.29-14.27.58:794][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-02)
+[2017.06.29-14.28.21:213][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-LongLeaves7)
+[2017.06.29-14.28.25:317][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-3)
+[2017.06.29-14.28.45:260][949]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.28.46:470][ 87]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.29.19:117][613]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.29.21:639][842]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-02
+[2017.06.29-14.29.49:460][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-15)
+[2017.06.29-14.30.01:983][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-12)
+[2017.06.29-14.30.02:326][947]Cmd: DELETE
+[2017.06.29-14.30.02:326][947]Cmd: ACTOR DELETE
+[2017.06.29-14.30.02:331][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.30.02:340][947]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.29-14.30.12:353][104]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-Palm-02-Dual
+[2017.06.29-14.30.13:587][250]LogActorFactory: Actor Factory created S_CULTIV_Plant-Tree-Palm-02-Dual
+[2017.06.29-14.30.29:720][669]LogSavePackage: Save=2348.68ms
+[2017.06.29-14.30.29:720][669]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3ADAC075842BECD00A68DC0B5A17701DF.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap'
+[2017.06.29-14.30.29:722][669]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap
+[2017.06.29-14.30.29:827][669]LogSavePackage: Save=78.75ms
+[2017.06.29-14.30.29:827][669]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3_BuiltDataF9B6E2A3453BE0B9E8D94EB3DDDAAF1D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset'
+[2017.06.29-14.30.29:828][669]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset
+[2017.06.29-14.33.48:936][916]Cmd: TRANSACTION UNDO
+[2017.06.29-14.33.48:936][916]LogEditorTransaction: Undo Delete Folder
+[2017.06.29-14.33.48:957][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen31_89.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:959][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen34_95.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:961][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen2_35.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:961][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen10_51.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:962][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen18_63.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:963][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen13_57.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:963][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen42_111.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:965][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-HedgeArch2.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:965][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-HedgeOvoid8.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:965][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-HedgeOvoid16.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:966][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-HedgeOvoid11.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:968][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen45_117.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:969][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen53_133.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:969][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen61_149.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.33.48:970][916]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.CityAura-MiniSimulation_v3:PersistentLevel.S_CULTIV_Plant-BushEvergreen56_139.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.34.48:629][331]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_Planter-12x3x5)
+[2017.06.29-14.34.49:403][414]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual2)
+[2017.06.29-14.35.11:968][833]Cmd: TRANSACTION UNDO
+[2017.06.29-14.35.11:968][833]LogEditorTransaction: Undo Move Actors
+[2017.06.29-14.35.18:750][437]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_Planter-12x3x4)
+[2017.06.29-14.35.19:676][541]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-13)
+[2017.06.29-14.35.26:421][328]Cmd: MODE ROTGRID=0
+[2017.06.29-14.36.08:399][145]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x12)
+[2017.06.29-14.36.09:025][212]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-18)
+[2017.06.29-14.36.10:922][398]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x11)
+[2017.06.29-14.36.11:861][489]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-17)
+[2017.06.29-14.36.14:523][726]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x3)
+[2017.06.29-14.36.15:478][822]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-16)
+[2017.06.29-14.36.16:632][939]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x2)
+[2017.06.29-14.36.17:476][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-15)
+[2017.06.29-14.36.19:456][177]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x1)
+[2017.06.29-14.36.20:451][274]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-14)
+[2017.06.29-14.36.21:436][369]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x4)
+[2017.06.29-14.36.22:422][465]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-13)
+[2017.06.29-14.36.25:434][744]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x5)
+[2017.06.29-14.36.26:360][841]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual2)
+[2017.06.29-14.36.29:233][118]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x6)
+[2017.06.29-14.36.30:195][224]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual3)
+[2017.06.29-14.36.32:983][510]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x7)
+[2017.06.29-14.36.33:746][592]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual4)
+[2017.06.29-14.36.35:551][763]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x8)
+[2017.06.29-14.36.36:435][861]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual5)
+[2017.06.29-14.36.38:947][124]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x9)
+[2017.06.29-14.36.39:621][186]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual6)
+[2017.06.29-14.36.41:567][390]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_Planter-12x3x10)
+[2017.06.29-14.36.42:264][466]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Dual7)
+[2017.06.29-14.37.21:961][797]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_Planter-12x3x3)
+[2017.06.29-14.37.23:351][957]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_CULTIV_Plant-Tree-16)
+[2017.06.29-14.37.25:584][218]LogEditorViewport: Clicking on Actor (context menu): BP_PickupCube_C (S_CULT_Planter-12x3x3)
+[2017.06.29-14.38.20:963][531]LogSavePackage: Save=2366.50ms
+[2017.06.29-14.38.20:963][531]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3EDA72A504CB792A9485558A95E72C3C2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap'
+[2017.06.29-14.38.20:966][531]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap
+[2017.06.29-14.38.21:070][531]LogSavePackage: Save=75.39ms
+[2017.06.29-14.38.21:070][531]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3_BuiltData22E7B6B34CF9EF619F91FF992438EF9B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset'
+[2017.06.29-14.38.21:071][531]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset
+[2017.06.29-14.38.27:240][182]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_Planter-12x3x1)
+[2017.06.29-14.38.57:951][729]Cmd: DELETE
+[2017.06.29-14.38.57:951][729]Cmd: ACTOR DELETE
+[2017.06.29-14.38.57:956][729]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.29-14.38.57:964][729]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.39.04:546][227]LogSavePackage: Save=2373.46ms
+[2017.06.29-14.39.04:546][227]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3FE0B14B64735C3FC2A04D7BBA7490E8F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap'
+[2017.06.29-14.39.04:549][227]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap
+[2017.06.29-14.39.04:648][227]LogSavePackage: Save=76.21ms
+[2017.06.29-14.39.04:648][227]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3_BuiltData275E9679426183C52DC8E4AC7BBDC5F6.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset'
+[2017.06.29-14.39.04:649][227]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset
+[2017.06.29-14.39.17:640][485]LogSavePackage: Save=2338.43ms
+[2017.06.29-14.39.17:640][485]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v324F210C24513B4995B1615AC644C7CD4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap'
+[2017.06.29-14.39.17:642][485]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3.umap
+[2017.06.29-14.39.17:742][485]LogSavePackage: Save=76.54ms
+[2017.06.29-14.39.17:742][485]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v3_BuiltData1F2003F64545104C63087B8940861EF5.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset'
+[2017.06.29-14.39.17:743][485]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v3_BuiltData.uasset
+[2017.06.29-14.39.29:752][908]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.29-14.39.33:091][908]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v4
+[2017.06.29-14.39.35:751][908]LogSavePackage: Save=2432.51ms
+[2017.06.29-14.39.35:751][908]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v4F6A3B67541D691BF20982F95D891835F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.umap'
+[2017.06.29-14.39.35:753][908]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.umap
+[2017.06.29-14.39.35:938][908]LogSavePackage: Save=77.12ms
+[2017.06.29-14.39.35:938][908]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v4_BuiltDataFE60576E4B28F6CBA704CABD418A642C.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4_BuiltData.uasset'
+[2017.06.29-14.39.35:938][908]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4_BuiltData.uasset
+[2017.06.29-14.39.35:943][908]LogFileHelpers: Saving map 'CityAura-MiniSimulation_v4' took 3.514
+[2017.06.29-14.39.35:944][908]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.29-14.39.35:954][908]LightingResults: New page: Lighting Build
+[2017.06.29-14.39.35:955][908]LoadErrors: New page: Loading map: CityAura-MiniSimulation_v4.umap
+[2017.06.29-14.39.35:982][908]MapCheck: New page: Map Check
+[2017.06.29-14.39.35:982][908]LightingResults: New page: Lighting Build
+[2017.06.29-14.39.36:288][908]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.29-14.39.36:344][908]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.29-14.39.36:484][908]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.369ms to complete.
+[2017.06.29-14.39.36:484][908]LogFileHelpers: Loading map 'CityAura-MiniSimulation_v4' took 0.542
+[2017.06.29-14.40.42:559][331]Cmd: TRANSACTION UNDO
+[2017.06.29-14.40.42:559][331]LogEditorTransaction: Undo Scale Actors
+[2017.06.29-14.40.54:500][118]Cmd: TRANSACTION UNDO
+[2017.06.29-14.40.54:500][118]LogEditorTransaction: Undo Scale Actors
+[2017.06.29-14.43.38:003][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.29-14.43.39:953][598]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.29-14.43.41:760][692]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.29-14.44.29:392][325]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.29-14.44.30:792][400]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume2)
+[2017.06.29-14.47.02:464][328]LogEditorActor: Deleted Actor: PostProcessVolume
+[2017.06.29-14.47.02:480][328]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.06.29-14.47.20:751][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Trio24)
+[2017.06.29-14.47.30:635][ 43]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular)
+[2017.06.29-14.47.47:343][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-02)
+[2017.06.29-14.47.57:302][ 29]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular3)
+[2017.06.29-14.48.04:921][889]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular4)
+[2017.06.29-14.48.21:815][608]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.29-14.48.24:739][942]Cmd: TRANSACTION UNDO
+[2017.06.29-14.48.24:739][942]LogEditorTransaction: Undo Move Actors
+[2017.06.29-14.48.30:125][539]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular8)
+[2017.06.29-14.48.34:117][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C3C4C5C6)
+[2017.06.29-14.48.34:840][ 84]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular11)
+[2017.06.29-14.48.37:362][378]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular10)
+[2017.06.29-14.48.39:619][642]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular8)
+[2017.06.29-14.48.41:961][916]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular9)
+[2017.06.29-14.49.03:520][ 19]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_PlanterBench-Circular2)
+[2017.06.29-14.49.17:751][697]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (D_TRANS_PRT-Mover_Anim)
+[2017.06.29-14.49.21:403][ 79]Cmd: TRANSACTION UNDO
+[2017.06.29-14.49.21:403][ 79]LogEditorTransaction: Undo Move Actors
+[2017.06.29-14.49.47:084][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Path-Straight-2p8m5)
+[2017.06.29-14.49.48:250][ 99]Cmd: DELETE
+[2017.06.29-14.49.48:250][ 99]Cmd: ACTOR DELETE
+[2017.06.29-14.49.48:254][ 99]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.49.48:262][ 99]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.29-14.49.56:102][980]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular14)
+[2017.06.29-14.50.06:489][152]Cmd: TRANSACTION UNDO
+[2017.06.29-14.50.06:489][152]LogEditorTransaction: Undo Scale Actors
+[2017.06.29-14.50.16:100][252]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (D_TRANS_PRT-Mover_Anim2)
+[2017.06.29-14.50.19:183][613]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_TRANS_Utility-AutoMover-4Wheel3)
+[2017.06.29-14.51.29:810][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.06.29-14.51.30:798][603]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_CULT_Planter-12x3x3)
+[2017.06.29-14.51.41:404][834]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water)
+[2017.06.29-14.51.42:493][958]Cmd: EDIT COPY
+[2017.06.29-14.51.43:295][ 53]Cmd: EDIT PASTE
+[2017.06.29-14.51.45:131][247]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water9)
+[2017.06.29-14.51.49:034][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water2)
+[2017.06.29-14.51.49:798][787]Cmd: TRANSACTION UNDO
+[2017.06.29-14.51.49:798][787]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.29-14.51.50:839][894]Cmd: TRANSACTION UNDO
+[2017.06.29-14.51.50:839][894]LogEditorTransaction: Undo Rotate Actors
+[2017.06.29-14.51.50:844][894]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel.S_CULTIV_Plant-Tree-Palm-02-Dual8.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.51.50:845][894]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel.S_CULT_Planter-12x3x16.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.51.50:847][894]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel.S_CULT_Planter-12x3x21.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.51.50:847][894]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel.S_CULT_Planter-12x3x22.StaticMeshComponent0) Component already registered.
+[2017.06.29-14.51.53:194][165]Cmd: MODE ROTGRID=1
+[2017.06.29-14.52.02:436][256]Cmd: EDIT COPY
+[2017.06.29-14.52.03:613][396]Cmd: EDIT PASTE
+[2017.06.29-14.52.05:177][557]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water10)
+[2017.06.29-14.52.08:391][931]Cmd: EDIT COPY
+[2017.06.29-14.52.08:868][987]Cmd: EDIT PASTE
+[2017.06.29-14.52.11:218][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water11)
+[2017.06.29-14.52.15:715][740]Cmd: EDIT COPY
+[2017.06.29-14.52.16:209][798]Cmd: EDIT PASTE
+[2017.06.29-14.52.18:332][ 27]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water12)
+[2017.06.29-14.52.22:484][486]Cmd: EDIT COPY
+[2017.06.29-14.52.22:945][532]Cmd: EDIT PASTE
+[2017.06.29-14.52.24:812][728]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water13)
+[2017.06.29-14.52.26:884][965]Cmd: EDIT COPY
+[2017.06.29-14.52.27:973][ 93]Cmd: EDIT PASTE
+[2017.06.29-14.52.30:007][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water14)
+[2017.06.29-14.52.34:682][806]Cmd: EDIT COPY
+[2017.06.29-14.52.35:747][931]Cmd: EDIT PASTE
+[2017.06.29-14.52.37:876][159]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool-Water15)
+[2017.06.29-14.52.41:184][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water15)
+[2017.06.29-14.52.43:003][754]Cmd: DELETE
+[2017.06.29-14.52.43:003][754]Cmd: ACTOR DELETE
+[2017.06.29-14.52.43:008][754]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.43:018][754]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.52.43:687][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water14)
+[2017.06.29-14.52.43:927][851]Cmd: DELETE
+[2017.06.29-14.52.43:927][851]Cmd: ACTOR DELETE
+[2017.06.29-14.52.43:933][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.43:942][851]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.06.29-14.52.44:719][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water13)
+[2017.06.29-14.52.44:938][960]Cmd: DELETE
+[2017.06.29-14.52.44:938][960]Cmd: ACTOR DELETE
+[2017.06.29-14.52.44:943][960]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.44:952][960]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.52.45:586][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water12)
+[2017.06.29-14.52.45:789][ 50]Cmd: DELETE
+[2017.06.29-14.52.45:789][ 50]Cmd: ACTOR DELETE
+[2017.06.29-14.52.45:794][ 50]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.45:803][ 50]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.52.46:692][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water11)
+[2017.06.29-14.52.47:145][200]Cmd: DELETE
+[2017.06.29-14.52.47:145][200]Cmd: ACTOR DELETE
+[2017.06.29-14.52.47:150][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.47:158][200]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.52.47:580][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water4)
+[2017.06.29-14.52.47:770][263]Cmd: DELETE
+[2017.06.29-14.52.47:770][263]Cmd: ACTOR DELETE
+[2017.06.29-14.52.47:775][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.47:784][263]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.52.48:647][364]Cmd: TRANSACTION UNDO
+[2017.06.29-14.52.48:647][364]LogEditorTransaction: Undo Delete Actors
+[2017.06.29-14.52.51:490][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water10)
+[2017.06.29-14.52.51:856][686]Cmd: DELETE
+[2017.06.29-14.52.51:856][686]Cmd: ACTOR DELETE
+[2017.06.29-14.52.51:861][686]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.51:871][686]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.06.29-14.52.52:939][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water9)
+[2017.06.29-14.52.53:198][835]Cmd: DELETE
+[2017.06.29-14.52.53:198][835]Cmd: ACTOR DELETE
+[2017.06.29-14.52.53:203][835]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.53:212][835]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.29-14.52.54:215][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water)
+[2017.06.29-14.52.54:588][989]Cmd: DELETE
+[2017.06.29-14.52.54:588][989]Cmd: ACTOR DELETE
+[2017.06.29-14.52.54:593][989]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.29-14.52.54:603][989]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.06.29-14.52.55:717][120]Cmd: TRANSACTION UNDO
+[2017.06.29-14.52.55:717][120]LogEditorTransaction: Undo Delete Actors
+[2017.06.29-14.54.13:510][ 29]LogTemp: Repeting last play command: VR Preview
+[2017.06.29-14.54.14:091][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel.CityAura-MiniSimulation_v4' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4:PersistentLevel.CityAura-MiniSimulation_v4'
+[2017.06.29-14.54.14:091][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.29-14.54.14:093][ 29]PIE: New page: PIE session: CityAura-MiniSimulation_v4 (Jun 29, 2017, 6:54:14 AM)
+[2017.06.29-14.54.14:093][ 29]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v4
+[2017.06.29-14.54.14:190][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097673s)
+[2017.06.29-14.54.14:191][ 29]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v4
+[2017.06.29-14.54.14:191][ 29]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2017.06.29-14.54.14:192][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4 to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4 (0.099245s)
+[2017.06.29-14.54.14:218][ 29]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.29-14.54.14:228][ 29]LogInit: FAudioDevice initialized.
+[2017.06.29-14.54.17:371][ 29]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.29-14.54.17:422][ 29]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.29-14.54.17:422][ 29]LogLoad: Game class is 'GameModeBase'
+[2017.06.29-14.54.17:484][ 29]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v4.CityAura-MiniSimulation_v4 up for play (max tick rate 0) at 2017.06.29-10.54.17
+[2017.06.29-14.54.17:494][ 29]LogWorld: Bringing up level for play took: 0.069084
+[2017.06.29-14.54.17:542][ 29]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.29-14.54.17:545][ 29]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.29-14.54.17:545][ 29]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.06.29-14.54.18:249][ 29]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.704 s
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: 
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: Stack: 
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006C58E1C6
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006C33B7D2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006C351D96
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006C2E61C1
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068E2608B
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000006976B8F3
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000697A4974
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CB686E4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD26CD4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3BCA1
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3DED2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD276DE
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3DED2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD276DE
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3DED2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CB686E4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3D266
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068F13E17
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000006A127C57
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068ED3FFF
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068EE103B
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068F0F8F9
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068EF057F
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000695FD499
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068F4B056
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CB686E4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD26CD4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3BCA1
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD64784
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3DED2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD276DE
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3DED2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CB686E4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006CD3D266
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068F13E17
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000006A127C57
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068ED3FFF
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000068EE103B
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000006A04E7F9
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000069607371
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000006A03B33E
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000069627C60
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006756BC53
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006759660E
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000675B20D4
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000067082C58
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000678A8AD6
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor.exe!0x000000005079E2B2
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor.exe!0x000000005078F0B0
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor.exe!0x000000005078F12A
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor.exe!0x00000000507A0CF9
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: UE4Editor.exe!0x00000000507A25F7
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: KERNEL32.DLL!0x0000000004DB2774
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: ntdll.dll!0x00000000072A0D61
+[2017.06.29-14.54.18:249][ 29]LogOutputDevice:Error: 
+[2017.06.29-14.54.18:251][ 29]LogStats:                SubmitErrorReport -  0.000 s

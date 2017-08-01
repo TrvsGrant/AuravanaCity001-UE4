@@ -1,0 +1,6 @@
+FileVersion:2
+Type:Dynamic
+Guid:8066DD60-4793-F730-BC3D-D5BC36406EF6
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+(cultiv_plant) AND (Path:'/Game/City-Aura'...)

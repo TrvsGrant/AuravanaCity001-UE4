@@ -1,0 +1,1579 @@
+﻿Log file open, 06/27/17 12:52:09
+LogInit:Display: Running engine for game: VRMobileScalable
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1476189030) SRandInit(-1476189030).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.111144
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: G:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.27-16.52.09:507][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-16.52.09:507][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-16.52.09:517][  0]LogInit: Computer: THERMALWIND
+[2017.06.27-16.52.09:517][  0]LogInit: User: 3DSim
+[2017.06.27-16.52.09:517][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.27-16.52.09:517][  0]LogInit: High frequency timer resolution =3.416979 MHz
+[2017.06.27-16.52.09:517][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2017.06.27-16.52.09:517][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-16.52.09:517][  0]LogMemory: Process Physical Memory: 275.53 MB used, 275.53 MB peak
+[2017.06.27-16.52.09:517][  0]LogMemory: Process Virtual Memory: 267.28 MB used, 267.28 MB peak
+[2017.06.27-16.52.09:517][  0]LogMemory: Physical Memory: 16166.95 MB used,  32878.61 MB free, 49045.56 MB total
+[2017.06.27-16.52.09:517][  0]LogMemory: Virtual Memory: 647.88 MB used,  32878.61 MB free, 134217728.00 MB total
+[2017.06.27-16.52.09:582][  0]LogInit: Using OS detected language (en-US).
+[2017.06.27-16.52.09:582][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.27-16.52.09:587][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.27-16.52.10:633][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-16.52.11:298][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2017.06.27-16.52.11:298][  0]LogD3D11RHI:       12244/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.27-16.52.11:300][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-16.52.11:300][  0]LogD3D11RHI:       0/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-16.52.11:300][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-16.52.11:309][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-16.52.11:309][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-16.52.11:309][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-16.52.11:309][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2017.06.27-16.52.11:309][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2017.06.27-16.52.11:309][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-16.52.11:309][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-16.52.11:309][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.27-16.52.11:309][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2017.06.27-16.52.11:309][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.27-16.52.11:309][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.27-16.52.11:309][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-16.52.11:951][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-16.52.11:985][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.27-16.52.12:034][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2017.06.27-16.52.12:034][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (H:/UnrealProjects/VRMobileScalable/Intermediate/Shaders/WorkingDirectory/9752/).
+[2017.06.27-16.52.12:035][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DSim/AppData/Local/Temp/UnrealShaderWorkingDir/394C79A2482DF6A49233E9B78C72DD9E/'.
+[2017.06.27-16.52.12:035][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-16.52.13:095][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-16.52.13:140][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-16.52.13:183][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-16.52.13:226][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-16.52.13:270][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-16.52.13:312][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-16.52.13:354][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-16.52.13:400][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-16.52.13:436][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-16.52.13:477][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-16.52.13:519][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-16.52.13:561][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-16.52.13:603][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-16.52.13:644][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-16.52.13:688][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-16.52.13:771][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-16.52.13:771][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-16.52.13:803][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-16.52.13:883][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-16.52.13:907][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-16.52.13:948][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-16.52.13:989][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-16.52.14:030][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-16.52.14:072][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-16.52.14:072][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-16.52.14:462][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-16.52.14:569][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-16.52.14:569][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-16.52.14:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-16.52.14:569][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-16.52.14:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-16.52.14:569][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-16.52.14:584][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-16.52.14:597][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DSim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-16.52.14:606][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-16.52.14:607][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-16.52.14:608][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-16.52.14:608][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-16.52.14:963][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-16.52.15:034][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-16.52.15:179][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-16.52.15:217][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-16.52.15:257][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-16.52.15:257][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-16.52.15:257][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-16.52.15:781][  0]LogNetVersion: VRMobileScalable , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3431896694)
+[2017.06.27-16.52.15:836][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.06.27-16.52.15:876][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024433 seconds
+[2017.06.27-16.52.15:882][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-16.52.15:882][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.27-16.52.15:882][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-16.52.15:926][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-16.52.18:593][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.27-16.52.18:617][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-16.52.18:651][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-16.52.19:101][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-16.52.19:442][  0]SourceControl: Info Source control is disabled
+[2017.06.27-16.52.19:444][  0]SourceControl: Info Source control is disabled
+[2017.06.27-16.52.19:483][  0]SourceControl: Info Source control is disabled
+[2017.06.27-16.52.19:521][  0]SourceControl: Info Source control is disabled
+[2017.06.27-16.52.20:073][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-16.52.20:639][  0]LogEngine: Initializing Engine...
+[2017.06.27-16.52.21:190][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.27-16.52.21:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-16.52.21:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-16.52.21:489][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-16.52.21:509][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-16.52.21:519][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-16.52.21:567][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-16.52.21:586][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-16.52.21:657][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-16.52.21:835][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-16.52.22:076][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-16.52.22:800][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-16.52.23:346][  0]LogConsoleResponse:Display: 
+[2017.06.27-16.52.23:480][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-16.52.23:480][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.27-16.52.23:651][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/' took 0.01s
+[2017.06.27-16.52.24:291][  0]SourceControl: Info Source control is disabled
+[2017.06.27-16.52.24:291][  0]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-16.52.24:291][  0]LightingResults: New page: Lighting Build
+[2017.06.27-16.52.24:323][  0]MapCheck: New page: Map Check
+[2017.06.27-16.52.24:323][  0]LightingResults: New page: Lighting Build
+[2017.06.27-16.52.24:393][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.27-16.52.24:399][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-16.52.24:405][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-16.52.24:493][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.157ms to complete.
+[2017.06.27-16.52.24:493][  0]LogFileHelpers: Loading map 'StartupMap' took 0.203
+[2017.06.27-16.52.24:639][  0]LogCollectionManager: Loaded 1 collections in 0.001411 seconds
+[2017.06.27-16.52.24:712][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' took 0.01s
+[2017.06.27-16.52.24:712][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' took 0.01s
+[2017.06.27-16.52.24:712][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' took 0.01s
+[2017.06.27-16.52.24:712][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.06.27-16.52.24:712][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.06.27-16.52.24:721][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2343 classes and 497 folders.
+[2017.06.27-16.52.24:769][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.27-16.52.24:825][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.27-16.52.24:858][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.27-16.52.24:929][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-16.52.24:933][  0]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-16.52.24:936][  0]LogSlate: Took 0.000514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-16.52.24:941][  0]LogSlate: Took 0.000574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-16.52.25:027][  0]LogRenderer: Reallocating scene render targets to support 1052x572 NumSamples 1 (Frame:1).
+[2017.06.27-16.52.25:129][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-16.52.25:185][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.27-16.52.25:186][  0]LogLoad: (Engine Initialization) Total time: 17.18 seconds
+[2017.06.27-16.52.25:186][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.06.27-16.52.25:186][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.27-16.52.25:186][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.27-16.52.25:195][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-16.52.25:198][  0]LogSteamController: SteamController is not available
+[2017.06.27-16.52.25:199][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-16.52.25:199][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-16.52.25:199][  0]LogSteamVRController: Controller role for device 1 is 2 (invalid=0, left=1, right=2).
+[2017.06.27-16.52.25:199][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'right'.
+[2017.06.27-16.52.25:199][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.06.27-16.52.25:199][  0]LogSteamVRController: Controller role for device 2 is 0 (invalid=0, left=1, right=2).
+[2017.06.27-16.52.25:199][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.06.27-16.52.25:199][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.06.27-16.52.25:217][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-16.52.25:256][  0]LogSlate: Took 0.000597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-16.52.25:310][  1]LogAssetRegistry: Asset discovery search completed in 9.4957 seconds
+[2017.06.27-16.52.25:312][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2017.06.27-16.52.25:312][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000020 seconds (updated 0 objects)
+[2017.06.27-16.52.34:290][ 45]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.27-16.52.41:915][947]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-16.52.41:923][947]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-16.52.41:930][947]LightingResults: New page: Lighting Build
+[2017.06.27-16.52.41:931][947]LoadErrors: New page: Loading map: CityAura-MiniSimulation.umap
+[2017.06.27-16.52.41:933][947]MapCheck: New page: Map Check
+[2017.06.27-16.52.41:933][947]LightingResults: New page: Lighting Build
+[2017.06.27-16.52.43:720][947]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-16.52.43:934][947]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-16.52.44:060][947]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-16.52.44:097][947]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-16.52.44:235][947]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 137.631ms to complete.
+[2017.06.27-16.52.44:235][947]LogFileHelpers: Loading map 'CityAura-MiniSimulation' took 2.321
+[2017.06.27-16.52.46:241][157]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-16.52.46:287][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.52.46:287][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-16.52.46:288][157]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 8:52:46 AM)
+[2017.06.27-16.52.46:288][157]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-16.52.46:306][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018493s)
+[2017.06.27-16.52.46:307][157]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-16.52.46:307][157]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.06.27-16.52.46:307][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019384s)
+[2017.06.27-16.52.46:327][157]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-16.52.46:333][157]LogInit: FAudioDevice initialized.
+[2017.06.27-16.52.46:434][157]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-16.52.46:434][157]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-16.52.46:447][157]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-12.52.46
+[2017.06.27-16.52.46:449][157]LogWorld: Bringing up level for play took: 0.013151
+[2017.06.27-16.52.46:486][157]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.27-16.52.46:495][157]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.341
+[2017.06.27-16.52.46:495][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.52.46:542][158]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.06.27-16.58.18:056][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.58.18:194][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.58.24:805][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Pipe-OneMeter-A360)
+[2017.06.27-16.58.39:050][569]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-16.58.39:057][569]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.27-16.58.39:058][569]LogEditor: Converted: S_GRID_Pipe-OneMeter-A360 to S_GRID_Pipe-OneMeter-A360
+[2017.06.27-16.58.39:058][569]EditorErrors: New page: Actor Reattachment
+[2017.06.27-16.58.40:868][713]LogSavePackage: Save=512.75ms
+[2017.06.27-16.58.40:868][713]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation45EEE9E646B40CB68771109DFB3C45D4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.27-16.58.40:870][713]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.27-16.58.41:016][713]LogSavePackage: Save=121.96ms
+[2017.06.27-16.58.41:016][713]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData6C75C6474741AD5C9BE8B498593FB563.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.27-16.58.41:017][713]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.27-16.58.43:559][ 10]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-16.58.43:570][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.58.43:570][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-16.58.43:570][ 10]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 8:58:43 AM)
+[2017.06.27-16.58.43:570][ 10]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-16.58.43:589][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018633s)
+[2017.06.27-16.58.43:589][ 10]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-16.58.43:589][ 10]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.06.27-16.58.43:589][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019479s)
+[2017.06.27-16.58.43:611][ 10]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-16.58.43:617][ 10]LogInit: FAudioDevice initialized.
+[2017.06.27-16.58.43:705][ 10]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-16.58.43:705][ 10]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-16.58.43:718][ 10]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-12.58.43
+[2017.06.27-16.58.43:719][ 10]LogWorld: Bringing up level for play took: 0.012714
+[2017.06.27-16.58.43:728][ 10]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.426
+[2017.06.27-16.58.43:728][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.00.23:785][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A45)
+[2017.06.27-17.00.33:876][581]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:876][581]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:882][582]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:888][583]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:894][584]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:900][585]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:907][586]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:913][587]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:920][588]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:927][589]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:934][590]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:941][591]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:947][592]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:953][593]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:960][594]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:966][595]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:973][596]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:979][597]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:985][598]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:993][599]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.33:999][600]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:007][601]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:014][602]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:021][603]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:027][604]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:033][605]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:040][606]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:046][607]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:052][608]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:059][609]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:065][610]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:072][611]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:078][612]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:084][613]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:091][614]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:097][615]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:103][616]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:109][617]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:115][618]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:121][619]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:128][620]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:134][621]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:141][622]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:147][623]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:161][625]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:161][625]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:167][626]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:174][627]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:180][628]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:186][629]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:192][630]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:198][631]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:205][632]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:211][633]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:217][634]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:224][635]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:230][636]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:236][637]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:243][638]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:249][639]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:255][640]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:262][641]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:268][642]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:274][643]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:281][644]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:287][645]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:294][646]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:300][647]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:306][648]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:313][649]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:319][650]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:325][651]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:331][652]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:337][653]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:344][654]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:350][655]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:356][656]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:362][657]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:369][658]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:375][659]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:381][660]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:387][661]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:394][662]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:400][663]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:406][664]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:412][665]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:419][666]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:425][667]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:431][668]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:438][669]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:445][670]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:451][671]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:457][672]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:463][673]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:470][674]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:477][675]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:483][676]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:489][677]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:495][678]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:501][679]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:508][680]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:514][681]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:520][682]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:527][683]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:533][684]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:539][685]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:545][686]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:551][687]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:557][688]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:563][689]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:570][690]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:576][691]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:582][692]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:588][693]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:594][694]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:600][695]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:607][696]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:613][697]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:619][698]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:625][699]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:632][700]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:638][701]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:644][702]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:651][703]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:657][704]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:663][705]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:669][706]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:675][707]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:681][708]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:687][709]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:693][710]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:699][711]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:706][712]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:712][713]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:718][714]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:724][715]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:730][716]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:736][717]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:743][718]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:749][719]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:755][720]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:762][721]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:768][722]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:775][723]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:781][724]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:787][725]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:793][726]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:799][727]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:806][728]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:812][729]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:818][730]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:825][731]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:831][732]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:837][733]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:843][734]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:850][735]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:856][736]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:862][737]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:868][738]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:874][739]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:881][740]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:887][741]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:894][742]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:900][743]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:906][744]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:913][745]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:919][746]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:925][747]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:931][748]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:939][749]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:945][750]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:952][751]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:958][752]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:965][753]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:971][754]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:977][755]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:984][756]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:990][757]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.34:996][758]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:002][759]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:009][760]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:015][761]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:022][762]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:029][763]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:036][764]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:043][765]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:049][766]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:055][767]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:062][768]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:069][769]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:075][770]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:082][771]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:088][772]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:096][773]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:103][774]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:109][775]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:115][776]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:122][777]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:128][778]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:135][779]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:141][780]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:147][781]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:153][782]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:160][783]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:167][784]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:173][785]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:180][786]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:186][787]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:192][788]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:198][789]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:204][790]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:211][791]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:216][792]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:222][793]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:228][794]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:234][795]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:240][796]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:247][797]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:253][798]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:259][799]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:265][800]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:272][801]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:278][802]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:284][803]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:291][804]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:297][805]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:303][806]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:309][807]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:315][808]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:321][809]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:327][810]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:333][811]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:340][812]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:346][813]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:352][814]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:359][815]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:365][816]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:371][817]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:378][818]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:384][819]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:390][820]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:396][821]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:403][822]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:410][823]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:418][824]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:424][825]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:431][826]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:441][827]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:451][828]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:457][829]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:463][830]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:470][831]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:476][832]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:483][833]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:489][834]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:495][835]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:501][836]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:507][837]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:514][838]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:520][839]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:526][840]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:532][841]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:539][842]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:545][843]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:551][844]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:558][845]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:564][846]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:571][847]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:578][848]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:584][849]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:591][850]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:598][851]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:604][852]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:610][853]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:616][854]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:623][855]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:629][856]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:635][857]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:641][858]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:648][859]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:654][860]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:660][861]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:666][862]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:673][863]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:679][864]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:685][865]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:692][866]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:698][867]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:705][868]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:711][869]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:717][870]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:724][871]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:730][872]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:736][873]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:743][874]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:749][875]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:755][876]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:761][877]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:767][878]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:774][879]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:780][880]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:786][881]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:792][882]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:797][883]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:804][884]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:811][885]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:817][886]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:823][887]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:829][888]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:835][889]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:842][890]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:848][891]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:854][892]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:860][893]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:866][894]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:873][895]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:879][896]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:885][897]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:891][898]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:898][899]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:905][900]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:912][901]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:919][902]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:926][903]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:933][904]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:939][905]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:946][906]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:952][907]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:958][908]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:964][909]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:970][910]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:977][911]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:983][912]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:989][913]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.35:995][914]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:001][915]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:008][916]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:015][917]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:022][918]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:028][919]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:034][920]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:041][921]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:048][922]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:054][923]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:060][924]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:066][925]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:073][926]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:079][927]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:085][928]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:091][929]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:097][930]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:104][931]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:110][932]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:116][933]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:122][934]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:128][935]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:134][936]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:140][937]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:146][938]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:152][939]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:159][940]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:166][941]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:173][942]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:180][943]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:186][944]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:193][945]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:199][946]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:205][947]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:212][948]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:218][949]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:224][950]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:231][951]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:238][952]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:244][953]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:250][954]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:257][955]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:263][956]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:269][957]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:276][958]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:282][959]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:288][960]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:294][961]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:300][962]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:306][963]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:312][964]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:318][965]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:324][966]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:330][967]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:337][968]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:343][969]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:349][970]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:355][971]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:361][972]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:367][973]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:373][974]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:379][975]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:385][976]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:391][977]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:398][978]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:404][979]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:411][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:417][981]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:423][982]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:430][983]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:436][984]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:443][985]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:449][986]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:454][987]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:461][988]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:468][989]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:474][990]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:481][991]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:488][992]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:495][993]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:501][994]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:508][995]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:514][996]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:519][997]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:526][998]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:532][999]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:539][  0]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:546][  1]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:552][  2]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:558][  3]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:564][  4]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:570][  5]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:576][  6]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:582][  7]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:589][  8]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:595][  9]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:601][ 10]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:608][ 11]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:614][ 12]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:620][ 13]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:627][ 14]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:633][ 15]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:639][ 16]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:646][ 17]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:652][ 18]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:658][ 19]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:664][ 20]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:670][ 21]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:676][ 22]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:682][ 23]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:688][ 24]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:695][ 25]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:701][ 26]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:707][ 27]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:713][ 28]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:719][ 29]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:726][ 30]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:732][ 31]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:738][ 32]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:744][ 33]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:751][ 34]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:758][ 35]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:764][ 36]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:771][ 37]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:777][ 38]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:783][ 39]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:790][ 40]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:796][ 41]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:803][ 42]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:809][ 43]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:814][ 44]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:820][ 45]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:826][ 46]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:832][ 47]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:839][ 48]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:845][ 49]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:851][ 50]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:857][ 51]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:863][ 52]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:869][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:875][ 54]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:881][ 55]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:887][ 56]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:893][ 57]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:900][ 58]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:906][ 59]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:912][ 60]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:918][ 61]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:924][ 62]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:931][ 63]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:937][ 64]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:943][ 65]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:949][ 66]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:955][ 67]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:962][ 68]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:968][ 69]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:974][ 70]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:980][ 71]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:986][ 72]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.36:993][ 73]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:000][ 74]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:006][ 75]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:012][ 76]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:018][ 77]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:025][ 78]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:031][ 79]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:038][ 80]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:044][ 81]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:050][ 82]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:056][ 83]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:062][ 84]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:069][ 85]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:076][ 86]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:082][ 87]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:088][ 88]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:094][ 89]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:100][ 90]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:106][ 91]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:112][ 92]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:118][ 93]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:124][ 94]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:130][ 95]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:136][ 96]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:142][ 97]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:148][ 98]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:155][ 99]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:161][100]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:168][101]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:174][102]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:180][103]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:187][104]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:193][105]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:200][106]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:207][107]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:227][109]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:227][109]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:233][110]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:239][111]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:246][112]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:251][113]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:259][114]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:266][115]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:272][116]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:279][117]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:285][118]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:292][119]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:299][120]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:305][121]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:312][122]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:318][123]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:325][124]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:332][125]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:338][126]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:344][127]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:350][128]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:356][129]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:362][130]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:369][131]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:375][132]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:381][133]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:387][134]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:393][135]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:400][136]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:406][137]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:412][138]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:418][139]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:424][140]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:431][141]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:437][142]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:443][143]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:449][144]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:455][145]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:461][146]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:468][147]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:474][148]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:480][149]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:486][150]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:492][151]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:498][152]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:504][153]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:510][154]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:516][155]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:522][156]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:528][157]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:534][158]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:540][159]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:546][160]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:553][161]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:559][162]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:565][163]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:571][164]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:578][165]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:584][166]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:591][167]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:597][168]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:603][169]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:610][170]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:616][171]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:622][172]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:628][173]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:635][174]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:641][175]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:647][176]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:653][177]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:659][178]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:665][179]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:671][180]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:678][181]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:684][182]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:690][183]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:697][184]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:704][185]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:711][186]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:717][187]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:723][188]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:729][189]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:735][190]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:741][191]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:747][192]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:753][193]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:759][194]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:766][195]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:772][196]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:778][197]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:784][198]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:790][199]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:797][200]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:803][201]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:809][202]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:815][203]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:821][204]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:827][205]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:833][206]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:839][207]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:845][208]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:851][209]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:857][210]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:863][211]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:870][212]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:876][213]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:882][214]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:888][215]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:894][216]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:901][217]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:907][218]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:913][219]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:919][220]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:925][221]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:931][222]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:937][223]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:943][224]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:949][225]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:955][226]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:962][227]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:968][228]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:974][229]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:980][230]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:986][231]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.37:993][232]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:000][233]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:007][234]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:013][235]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:020][236]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:027][237]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:033][238]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:040][239]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:046][240]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:052][241]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:059][242]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:066][243]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:073][244]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:080][245]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:086][246]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:092][247]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:098][248]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:104][249]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:110][250]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:116][251]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:122][252]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:128][253]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:135][254]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:141][255]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:147][256]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:153][257]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:159][258]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:166][259]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:172][260]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:178][261]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:184][262]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:191][263]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:197][264]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:203][265]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:210][266]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:216][267]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:222][268]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:238][269]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:245][270]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:251][271]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:257][272]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:264][273]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:271][274]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:277][275]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:284][276]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:290][277]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:296][278]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:302][279]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:308][280]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:315][281]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:321][282]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:327][283]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:334][284]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:340][285]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:346][286]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:353][287]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:359][288]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:366][289]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:372][290]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:378][291]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:384][292]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:390][293]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:396][294]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:402][295]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:409][296]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:415][297]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:421][298]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:427][299]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:434][300]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:440][301]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:446][302]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:452][303]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:458][304]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:464][305]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:470][306]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:477][307]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:483][308]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:490][309]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:496][310]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:502][311]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:508][312]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:514][313]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:520][314]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:526][315]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:532][316]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:538][317]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:544][318]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:550][319]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:556][320]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:562][321]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:568][322]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:574][323]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:580][324]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:586][325]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:592][326]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:598][327]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:605][328]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:610][329]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:616][330]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:622][331]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:628][332]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:635][333]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:641][334]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:647][335]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:653][336]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:659][337]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:665][338]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:671][339]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:677][340]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:683][341]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:689][342]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:695][343]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:702][344]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:708][345]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:714][346]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:720][347]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:726][348]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:732][349]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:738][350]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:744][351]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:750][352]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:756][353]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:763][354]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:769][355]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:775][356]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:782][357]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:788][358]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:794][359]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:800][360]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:806][361]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:813][362]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:819][363]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:825][364]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:831][365]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:837][366]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:844][367]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:850][368]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:856][369]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:863][370]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:870][371]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:876][372]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:882][373]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:888][374]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:894][375]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:900][376]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:906][377]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:912][378]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:919][379]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:925][380]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:931][381]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:937][382]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:943][383]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:950][384]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:956][385]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:962][386]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:969][387]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:975][388]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:981][389]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:988][390]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.38:994][391]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:001][392]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:007][393]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:013][394]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:019][395]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:026][396]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:032][397]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:038][398]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:044][399]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:050][400]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:056][401]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:062][402]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:068][403]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:075][404]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:080][405]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:086][406]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:093][407]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:099][408]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:105][409]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:112][410]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:118][411]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:124][412]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:131][413]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:137][414]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:143][415]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:149][416]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:155][417]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:162][418]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:168][419]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:174][420]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:180][421]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:186][422]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:192][423]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:200][424]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:206][425]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:212][426]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:218][427]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:224][428]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:244][429]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:250][430]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:256][431]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:263][432]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:269][433]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:275][434]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:281][435]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:287][436]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:293][437]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:300][438]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:305][439]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:311][440]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:317][441]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:323][442]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:329][443]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:336][444]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:342][445]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:348][446]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:355][447]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:361][448]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:368][449]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:374][450]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:381][451]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:388][452]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:395][453]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:402][454]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.39:408][455]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2017.06.27-17.00.48:552][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.00.48:733][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.00.56:748][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A45)
+[2017.06.27-17.10.57:143][135]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-LOD_LOD1\S_GRID_Layout-R8C9-A45_LOD1.fbx)
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: Material, ItemCount : 14
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: Texture, ItemCount : 4
+[2017.06.27-17.10.57:151][135]LogFbx: ItemName: Video, ItemCount : 4
+[2017.06.27-17.10.57:156][135]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-LOD_LOD1\S_GRID_Layout-R8C9-A45_LOD1.fbx
+[2017.06.27-17.10.57:175][135]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-17.11.00:309][135]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45-LOD_LOD1\S_GRID_Layout-R8C9-A45_LOD1.fbx
+[2017.06.27-17.11.00:325][135]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-17.11.00:343][135]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45_LOD1...
+[2017.06.27-17.11.00:445][135]LogStaticMesh: Built static mesh [0.10s] /Game/City-Aura/S_GRID_Layout-R8C9-A45_LOD1.S_GRID_Layout-R8C9-A45_LOD1
+[2017.06.27-17.11.00:472][135]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.27-17.12.24:046][791]LogSlate: Took 0.000471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-17.12.33:087][818]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.008
+[2017.06.27-17.12.33:088][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45_LOD1] ([1] browsable assets)...
+[2017.06.27-17.12.33:101][818]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45_LOD1.S_GRID_Layout-R8C9-A45_LOD1]
+[2017.06.27-17.12.33:101][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45_LOD1]
+[2017.06.27-17.12.33:113][818]LogSavePackage: Save=10.57ms
+[2017.06.27-17.12.33:113][818]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45_LOD1_Auto19CFA063D4F2E11D2719E7EB41D4067C6.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45_LOD1_Auto1.uasset'
+[2017.06.27-17.12.33:114][818]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45_LOD1_Auto1.uasset
+[2017.06.27-17.12.33:114][818]LogFileHelpers: Auto-saving content packages took 0.026
+[2017.06.27-17.14.38:433][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.27-17.14.38:452][598]LogSavePackage: Save=10.53ms
+[2017.06.27-17.14.38:452][598]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A459489F2CF406721976007BBBFCA75DE38.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.27-17.14.38:453][598]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.27-17.14.41:287][862]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.14.41:299][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.14.41:299][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.14.41:299][862]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:14:41 AM)
+[2017.06.27-17.14.41:299][862]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.14.41:319][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019485s)
+[2017.06.27-17.14.41:319][862]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.14.41:319][862]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.06.27-17.14.41:320][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020449s)
+[2017.06.27-17.14.41:349][862]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.14.41:355][862]LogInit: FAudioDevice initialized.
+[2017.06.27-17.14.41:452][862]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.14.41:452][862]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.14.41:464][862]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.14.41
+[2017.06.27-17.14.41:465][862]LogWorld: Bringing up level for play took: 0.012254
+[2017.06.27-17.14.41:474][862]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.68
+[2017.06.27-17.14.41:475][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.20.52:848][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.20.53:002][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.20.53:190][731]LogSlate: Took 0.000617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.27-17.20.57:263][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C3C4C5C6)
+[2017.06.27-17.21.18:290][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C3C4C5C6)
+[2017.06.27-17.21.18:797][717]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (S_GRID_Ground-C3C4C5C6)
+[2017.06.27-17.23.06:807][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-17.23.06:825][439]LogSavePackage: Save=10.07ms
+[2017.06.27-17.23.06:825][439]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C61CA8DDE543AC6604B349E08625707782.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-17.23.06:826][439]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-17.23.11:862][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A45)
+[2017.06.27-17.23.26:124][ 33]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.23.26:138][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.23.26:138][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.23.26:138][ 33]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:23:26 AM)
+[2017.06.27-17.23.26:138][ 33]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.23.26:157][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018948s)
+[2017.06.27-17.23.26:158][ 33]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.23.26:158][ 33]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.06.27-17.23.26:158][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019853s)
+[2017.06.27-17.23.26:181][ 33]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.23.26:188][ 33]LogInit: FAudioDevice initialized.
+[2017.06.27-17.23.26:284][ 33]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.23.26:284][ 33]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.23.26:297][ 33]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.23.26
+[2017.06.27-17.23.26:298][ 33]LogWorld: Bringing up level for play took: 0.013682
+[2017.06.27-17.23.26:310][ 33]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.157
+[2017.06.27-17.23.26:311][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.24.57:045][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.24.57:212][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.30.36:965][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.008
+[2017.06.27-17.30.36:966][ 70]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Ground-C3C4C5C6] ([1] browsable assets)...
+[2017.06.27-17.30.36:992][ 70]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Ground-C3C4C5C6.S_GRID_Ground-C3C4C5C6]
+[2017.06.27-17.30.36:992][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Ground-C3C4C5C6]
+[2017.06.27-17.30.37:010][ 70]LogSavePackage: Save=9.72ms
+[2017.06.27-17.30.37:010][ 70]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6_Auto25227540E435C5615E56082A9B49EAF19.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Ground-C3C4C5C6_Auto2.uasset'
+[2017.06.27-17.30.37:011][ 70]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Ground-C3C4C5C6_Auto2.uasset
+[2017.06.27-17.30.37:011][ 70]LogFileHelpers: Auto-saving content packages took 0.045
+[2017.06.27-17.32.18:794][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-17.32.18:804][131]LogSavePackage: Save=2.37ms
+[2017.06.27-17.32.18:804][131]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6DB4AD99B47B1DDBB8A7DB0B25BBF884B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-17.32.18:805][131]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-17.32.25:820][792]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.32.25:833][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.32.25:833][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.32.25:833][792]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:32:25 AM)
+[2017.06.27-17.32.25:833][792]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.32.25:852][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019063s)
+[2017.06.27-17.32.25:853][792]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.32.25:853][792]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.06.27-17.32.25:853][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020105s)
+[2017.06.27-17.32.25:874][792]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.32.25:881][792]LogInit: FAudioDevice initialized.
+[2017.06.27-17.32.25:975][792]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.32.25:975][792]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.32.25:987][792]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.32.25
+[2017.06.27-17.32.25:989][792]LogWorld: Bringing up level for play took: 0.012383
+[2017.06.27-17.32.25:999][792]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.154
+[2017.06.27-17.32.26:000][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.33.04:711][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.33.04:871][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.33.10:072][569]Cmd: TRANSACTION UNDO
+[2017.06.27-17.33.10:072][569]LogEditorTransaction: Undo Create Box Collision
+[2017.06.27-17.35.58:854][998]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.27-17.36.44:431][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-17.36.44:449][203]LogSavePackage: Save=9.95ms
+[2017.06.27-17.36.44:449][203]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6550C2D5340FE9605E2AA40AFB2FF7A56.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-17.36.44:450][203]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-17.36.48:584][529]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.36.48:595][529]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.36.48:595][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.36.48:595][529]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:36:48 AM)
+[2017.06.27-17.36.48:595][529]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.36.48:615][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019671s)
+[2017.06.27-17.36.48:615][529]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.36.48:616][529]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.06.27-17.36.48:616][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020713s)
+[2017.06.27-17.36.48:638][529]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.36.48:644][529]LogInit: FAudioDevice initialized.
+[2017.06.27-17.36.48:758][529]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.36.48:758][529]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.36.48:770][529]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.36.48
+[2017.06.27-17.36.48:771][529]LogWorld: Bringing up level for play took: 0.012176
+[2017.06.27-17.36.48:784][529]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.63
+[2017.06.27-17.36.48:784][529]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.37.20:843][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.37.21:010][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.37.38:727][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-17.37.38:744][767]LogSavePackage: Save=9.66ms
+[2017.06.27-17.37.38:744][767]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6CCC427B24D7EF0AF717663A2AEF5981A.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-17.37.38:745][767]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-17.37.43:990][256]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.37.44:002][256]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.37.44:002][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.37.44:002][256]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:37:44 AM)
+[2017.06.27-17.37.44:002][256]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.37.44:021][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018133s)
+[2017.06.27-17.37.44:021][256]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.37.44:021][256]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2017.06.27-17.37.44:021][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.018950s)
+[2017.06.27-17.37.44:043][256]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.37.44:049][256]LogInit: FAudioDevice initialized.
+[2017.06.27-17.37.44:143][256]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.37.44:143][256]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.37.44:156][256]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.37.44
+[2017.06.27-17.37.44:158][256]LogWorld: Bringing up level for play took: 0.013325
+[2017.06.27-17.37.44:168][256]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.014
+[2017.06.27-17.37.44:168][256]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.38.11:747][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.38.11:916][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.38.28:791][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-17.38.28:809][306]LogSavePackage: Save=10.12ms
+[2017.06.27-17.38.28:809][306]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6446C170F45224D390E20D39C5483275D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-17.38.28:810][306]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-17.38.42:105][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.27-17.38.42:124][468]LogSavePackage: Save=9.93ms
+[2017.06.27-17.38.42:125][468]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45343803D24C92C71697436ABC1F21E57E.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.27-17.38.42:126][468]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.27-17.38.43:853][616]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.38.43:865][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.38.43:865][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.38.43:865][616]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:38:43 AM)
+[2017.06.27-17.38.43:865][616]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.38.43:885][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019409s)
+[2017.06.27-17.38.43:885][616]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.38.43:885][616]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.06.27-17.38.43:886][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020266s)
+[2017.06.27-17.38.43:908][616]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.38.43:914][616]LogInit: FAudioDevice initialized.
+[2017.06.27-17.38.44:011][616]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.38.44:011][616]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.38.44:023][616]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.38.44
+[2017.06.27-17.38.44:024][616]LogWorld: Bringing up level for play took: 0.012130
+[2017.06.27-17.38.44:035][616]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.118
+[2017.06.27-17.38.44:036][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.39.32:937][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.39.33:111][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.39.52:529][836]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.39.52:541][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.39.52:541][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.39.52:541][836]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:39:52 AM)
+[2017.06.27-17.39.52:541][836]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.39.52:560][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019402s)
+[2017.06.27-17.39.52:561][836]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.39.52:561][836]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.06.27-17.39.52:561][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020313s)
+[2017.06.27-17.39.52:583][836]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.39.52:590][836]LogInit: FAudioDevice initialized.
+[2017.06.27-17.39.52:693][836]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.39.52:693][836]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.39.52:704][836]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.39.52
+[2017.06.27-17.39.52:706][836]LogWorld: Bringing up level for play took: 0.012062
+[2017.06.27-17.39.52:717][836]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.563
+[2017.06.27-17.39.52:717][836]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.40.42:693][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.40.42:862][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.41.09:515][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.27-17.41.09:533][591]LogSavePackage: Save=10.30ms
+[2017.06.27-17.41.09:533][591]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45B9EFD69F477C1C09D8650EBB6FF9FC31.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.27-17.41.09:534][591]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.27-17.41.11:371][751]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.41.11:382][751]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.41.11:382][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.41.11:382][751]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:41:11 AM)
+[2017.06.27-17.41.11:383][751]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.41.11:402][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019710s)
+[2017.06.27-17.41.11:403][751]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.41.11:403][751]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.06.27-17.41.11:403][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020599s)
+[2017.06.27-17.41.11:427][751]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.41.11:433][751]LogInit: FAudioDevice initialized.
+[2017.06.27-17.41.11:532][751]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.41.11:532][751]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.41.11:545][751]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.41.11
+[2017.06.27-17.41.11:546][751]LogWorld: Bringing up level for play took: 0.012642
+[2017.06.27-17.41.11:557][751]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.597
+[2017.06.27-17.41.11:557][751]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.41.35:248][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.41.35:406][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.45.01:045][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.27-17.45.01:064][774]LogSavePackage: Save=10.49ms
+[2017.06.27-17.45.01:064][774]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45267E16484C85EEDBC6092EB9B0C8C4DD.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.27-17.45.01:066][774]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.27-17.45.06:083][200]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.45.06:096][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.45.06:096][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.45.06:096][200]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:45:06 AM)
+[2017.06.27-17.45.06:096][200]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.45.06:116][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019757s)
+[2017.06.27-17.45.06:116][200]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.45.06:116][200]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.06.27-17.45.06:116][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020706s)
+[2017.06.27-17.45.06:140][200]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.45.06:146][200]LogInit: FAudioDevice initialized.
+[2017.06.27-17.45.06:246][200]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.45.06:246][200]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.45.06:258][200]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.45.06
+[2017.06.27-17.45.06:259][200]LogWorld: Bringing up level for play took: 0.012193
+[2017.06.27-17.45.06:270][200]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.117
+[2017.06.27-17.45.06:271][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.48.04:453][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.48.04:618][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.48.37:986][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-17.48.38:004][622]LogSavePackage: Save=9.63ms
+[2017.06.27-17.48.38:004][622]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C633CE95FA4416ED1E527770AD654A4646.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-17.48.38:005][622]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-17.48.39:251][729]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.48.39:262][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.48.39:262][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.48.39:263][729]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:48:39 AM)
+[2017.06.27-17.48.39:263][729]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.48.39:281][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018658s)
+[2017.06.27-17.48.39:282][729]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.48.39:282][729]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.06.27-17.48.39:282][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019583s)
+[2017.06.27-17.48.39:303][729]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.48.39:309][729]LogInit: FAudioDevice initialized.
+[2017.06.27-17.48.39:416][729]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.48.39:416][729]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.48.39:428][729]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.48.39
+[2017.06.27-17.48.39:429][729]LogWorld: Bringing up level for play took: 0.012007
+[2017.06.27-17.48.39:440][729]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.714
+[2017.06.27-17.48.39:441][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.49.15:302][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.49.15:471][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.49.31:948][269]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.49.31:959][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.49.31:959][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.49.31:960][269]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:49:31 AM)
+[2017.06.27-17.49.31:960][269]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.49.31:978][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018395s)
+[2017.06.27-17.49.31:978][269]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.49.31:979][269]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2017.06.27-17.49.31:979][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019246s)
+[2017.06.27-17.49.32:000][269]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.49.32:006][269]LogInit: FAudioDevice initialized.
+[2017.06.27-17.49.32:107][269]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.49.32:107][269]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.49.32:122][269]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.49.32
+[2017.06.27-17.49.32:124][269]LogWorld: Bringing up level for play took: 0.015889
+[2017.06.27-17.49.32:135][269]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.018
+[2017.06.27-17.49.32:136][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.53.21:371][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.53.21:538][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.53.49:556][929]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-17.53.49:568][929]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.53.49:568][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-17.53.49:568][929]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 9:53:49 AM)
+[2017.06.27-17.53.49:568][929]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-17.53.49:588][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020104s)
+[2017.06.27-17.53.49:589][929]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-17.53.49:589][929]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.06.27-17.53.49:589][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.021060s)
+[2017.06.27-17.53.49:614][929]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-17.53.49:620][929]LogInit: FAudioDevice initialized.
+[2017.06.27-17.53.49:721][929]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-17.53.49:721][929]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-17.53.49:733][929]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-13.53.49
+[2017.06.27-17.53.49:735][929]LogWorld: Bringing up level for play took: 0.012698
+[2017.06.27-17.53.49:746][929]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.407
+[2017.06.27-17.53.49:747][929]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.54.43:745][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.54.43:920][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-17.55.15:184][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.009
+[2017.06.27-17.55.15:185][440]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Ground-C3C4C5C6] ([1] browsable assets)...
+[2017.06.27-17.55.15:198][440]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Ground-C3C4C5C6.S_GRID_Ground-C3C4C5C6]
+[2017.06.27-17.55.15:198][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Ground-C3C4C5C6]
+[2017.06.27-17.55.15:222][440]LogSavePackage: Save=12.39ms
+[2017.06.27-17.55.15:222][440]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6_Auto39838068242B45E9AC4196DB84F0BA703.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Ground-C3C4C5C6_Auto3.uasset'
+[2017.06.27-17.55.15:223][440]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Ground-C3C4C5C6_Auto3.uasset
+[2017.06.27-17.55.15:223][440]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Layout-R8C9-A45] ([1] browsable assets)...
+[2017.06.27-17.55.15:233][440]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Layout-R8C9-A45.S_GRID_Layout-R8C9-A45]
+[2017.06.27-17.55.15:233][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Layout-R8C9-A45]
+[2017.06.27-17.55.15:253][440]LogSavePackage: Save=10.56ms
+[2017.06.27-17.55.15:253][440]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A45_Auto30877808D43FC3F97CF33F58432ABFA28.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45_Auto3.uasset'
+[2017.06.27-17.55.15:253][440]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Layout-R8C9-A45_Auto3.uasset
+[2017.06.27-17.55.15:253][440]LogFileHelpers: Auto-saving content packages took 0.069
+[2017.06.27-18.05.28:173][818]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.007
+[2017.06.27-18.05.28:174][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Ground-C3C4C5C6] ([1] browsable assets)...
+[2017.06.27-18.05.28:188][818]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Ground-C3C4C5C6.S_GRID_Ground-C3C4C5C6]
+[2017.06.27-18.05.28:188][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Ground-C3C4C5C6]
+[2017.06.27-18.05.28:206][818]LogSavePackage: Save=9.94ms
+[2017.06.27-18.05.28:207][818]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6_Auto4DF3982D34C3A9D7990F57E8F1040BC9F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Ground-C3C4C5C6_Auto4.uasset'
+[2017.06.27-18.05.28:207][818]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Ground-C3C4C5C6_Auto4.uasset
+[2017.06.27-18.05.28:207][818]LogFileHelpers: Auto-saving content packages took 0.033
+[2017.06.27-18.14.58:909][133]LogEditorTransaction: Undo Remove Collision
+[2017.06.27-18.17.56:047][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.27-18.17.56:057][282]LogSavePackage: Save=2.25ms
+[2017.06.27-18.17.56:057][282]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C635B8BD4740745CAE74AAC1BDEBB2EDB7.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.27-18.17.56:059][282]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.27-18.18.23:564][709]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-18.18.23:576][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-18.18.23:576][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-18.18.23:576][709]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 10:18:23 AM)
+[2017.06.27-18.18.23:576][709]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-18.18.23:596][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019736s)
+[2017.06.27-18.18.23:596][709]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-18.18.23:597][709]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2017.06.27-18.18.23:597][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020765s)
+[2017.06.27-18.18.23:618][709]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-18.18.23:624][709]LogInit: FAudioDevice initialized.
+[2017.06.27-18.18.23:723][709]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-18.18.23:723][709]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-18.18.23:737][709]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-14.18.23
+[2017.06.27-18.18.23:739][709]LogWorld: Bringing up level for play took: 0.014212
+[2017.06.27-18.18.23:740][709]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.27-18.18.23:740][709]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.06.27-18.18.23:969][709]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.229 s
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: 
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: Stack: 
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003806E1C6
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000037E1B7D2
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000037E31D96
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000037DC61C1
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000224D608B
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022E1B8F3
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022E54974
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000386486E4
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000038806CD4
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881BCA1
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881DED2
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000388076DE
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881DED2
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000388076DE
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881DED2
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000386486E4
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881D266
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000225C3E17
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000237D7C57
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022583FFF
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002259103B
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000225BF8F9
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000225A057F
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022CAD499
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000225FB056
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000386486E4
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000038806CD4
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881BCA1
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000038844784
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881DED2
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000388076DE
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881DED2
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000386486E4
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000003881D266
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000225C3E17
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000237D7C57
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022583FFF
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002259103B
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000236FE7F9
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022CB7371
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000236EB33E
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022CD7C60
+[2017.06.27-18.18.23:969][709]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000026B9BC53
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000026BC660E
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000026BE20D4
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000266B2C58
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000026ED8AD6
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor.exe!0x000000009E97E2B2
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F0B0
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F12A
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor.exe!0x000000009E980CF9
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: UE4Editor.exe!0x000000009E9825F7
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: KERNEL32.DLL!0x000000008A412774
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: ntdll.dll!0x000000008A580D61
+[2017.06.27-18.18.23:970][709]LogOutputDevice:Error: 
+[2017.06.27-18.18.23:973][709]LogStats:                SubmitErrorReport -  0.000 s

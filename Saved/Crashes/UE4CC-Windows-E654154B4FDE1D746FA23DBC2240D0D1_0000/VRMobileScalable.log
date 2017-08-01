@@ -1,0 +1,1183 @@
+﻿Log file open, 06/25/17 10:22:34
+LogInit:Display: Running engine for game: VRMobileScalable
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(161792973) SRandInit(161792973).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.108457
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: G:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.25-14.22.35:220][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.25-14.22.35:220][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.25-14.22.35:228][  0]LogInit: Computer: THERMALWIND
+[2017.06.25-14.22.35:228][  0]LogInit: User: 3DSim
+[2017.06.25-14.22.35:228][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.25-14.22.35:228][  0]LogInit: High frequency timer resolution =3.416979 MHz
+[2017.06.25-14.22.35:228][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2017.06.25-14.22.35:228][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-14.22.35:228][  0]LogMemory: Process Physical Memory: 273.34 MB used, 273.34 MB peak
+[2017.06.25-14.22.35:228][  0]LogMemory: Process Virtual Memory: 267.14 MB used, 267.14 MB peak
+[2017.06.25-14.22.35:228][  0]LogMemory: Physical Memory: 17674.16 MB used,  31371.39 MB free, 49045.56 MB total
+[2017.06.25-14.22.35:228][  0]LogMemory: Virtual Memory: 647.88 MB used,  31371.39 MB free, 134217728.00 MB total
+[2017.06.25-14.22.35:283][  0]LogInit: Using OS detected language (en-US).
+[2017.06.25-14.22.35:283][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.25-14.22.35:288][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.25-14.22.36:284][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.25-14.22.36:961][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2017.06.25-14.22.36:961][  0]LogD3D11RHI:       12244/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.25-14.22.36:963][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.25-14.22.36:963][  0]LogD3D11RHI:       0/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.25-14.22.36:963][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.25-14.22.36:973][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.25-14.22.36:973][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.25-14.22.36:973][  0]LogWindows: EnumDisplayDevices:
+[2017.06.25-14.22.36:973][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2017.06.25-14.22.36:973][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2017.06.25-14.22.36:973][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.25-14.22.36:974][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.25-14.22.36:974][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.25-14.22.36:974][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2017.06.25-14.22.36:974][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.25-14.22.36:974][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.25-14.22.36:974][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.25-14.22.37:614][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.25-14.22.37:642][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.25-14.22.37:691][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2017.06.25-14.22.37:692][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (H:/UnrealProjects/VRMobileScalable/Intermediate/Shaders/WorkingDirectory/26344/).
+[2017.06.25-14.22.37:692][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DSim/AppData/Local/Temp/UnrealShaderWorkingDir/5ED2554645C67F0E4E3E44B48614222E/'.
+[2017.06.25-14.22.37:692][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.25-14.22.38:755][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.25-14.22.38:808][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.25-14.22.38:853][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.25-14.22.38:895][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.25-14.22.38:937][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.25-14.22.38:978][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.25-14.22.39:017][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.25-14.22.39:059][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.25-14.22.39:094][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.25-14.22.39:136][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.25-14.22.39:175][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.25-14.22.39:215][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.25-14.22.39:255][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.25-14.22.39:295][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.25-14.22.39:343][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.25-14.22.39:432][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.25-14.22.39:432][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.25-14.22.39:464][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.25-14.22.39:548][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.25-14.22.39:573][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.25-14.22.39:614][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.25-14.22.39:654][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.25-14.22.39:697][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.25-14.22.39:742][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.25-14.22.39:742][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.25-14.22.40:159][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.25-14.22.40:273][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.25-14.22.40:273][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.25-14.22.40:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.25-14.22.40:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.25-14.22.40:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.25-14.22.40:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.25-14.22.40:293][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.25-14.22.40:305][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DSim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.25-14.22.40:315][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.25-14.22.40:316][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.25-14.22.40:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.25-14.22.40:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.25-14.22.40:706][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.25-14.22.40:786][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.25-14.22.40:943][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.25-14.22.40:981][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.25-14.22.41:021][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.25-14.22.41:021][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.25-14.22.41:021][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.25-14.22.41:554][  0]LogNetVersion: VRMobileScalable , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3431896694)
+[2017.06.25-14.22.41:614][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.06.25-14.22.41:657][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025140 seconds
+[2017.06.25-14.22.41:663][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.25-14.22.41:663][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.25-14.22.41:663][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.25-14.22.41:711][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.25-14.22.44:438][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.25-14.22.44:476][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.25-14.22.44:938][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.25-14.22.45:280][  0]SourceControl: Info Source control is disabled
+[2017.06.25-14.22.45:282][  0]SourceControl: Info Source control is disabled
+[2017.06.25-14.22.45:319][  0]SourceControl: Info Source control is disabled
+[2017.06.25-14.22.45:359][  0]SourceControl: Info Source control is disabled
+[2017.06.25-14.22.45:919][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.25-14.22.46:409][  0]LogEngine: Initializing Engine...
+[2017.06.25-14.22.46:997][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.25-14.22.47:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.25-14.22.47:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.25-14.22.47:309][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.25-14.22.47:329][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-14.22.47:339][  0]LogInit: FAudioDevice initialized.
+[2017.06.25-14.22.47:389][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.25-14.22.47:408][  0]LogInit: Texture streaming: Enabled
+[2017.06.25-14.22.47:479][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.25-14.22.47:659][  0]LogInit: Transaction tracking system initialized
+[2017.06.25-14.22.47:902][  0]BlueprintLog: New page: Editor Load
+[2017.06.25-14.22.48:585][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2017.06.25-14.22.48:749][  0]LocalizationService: Info Localization service is disabled
+[2017.06.25-14.22.49:302][  0]LogConsoleResponse:Display: 
+[2017.06.25-14.22.49:437][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.25-14.22.49:437][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.25-14.22.49:840][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/' took 0.01s
+[2017.06.25-14.22.50:263][  0]SourceControl: Info Source control is disabled
+[2017.06.25-14.22.50:263][  0]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.25-14.22.50:264][  0]LightingResults: New page: Lighting Build
+[2017.06.25-14.22.50:296][  0]MapCheck: New page: Map Check
+[2017.06.25-14.22.50:296][  0]LightingResults: New page: Lighting Build
+[2017.06.25-14.22.50:367][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.25-14.22.50:373][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.25-14.22.50:379][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.25-14.22.50:469][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.213ms to complete.
+[2017.06.25-14.22.50:469][  0]LogFileHelpers: Loading map 'StartupMap' took 0.205
+[2017.06.25-14.22.50:603][  0]LogCollectionManager: Loaded 0 collections in 0.001247 seconds
+[2017.06.25-14.22.50:680][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' took 0.01s
+[2017.06.25-14.22.50:680][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' took 0.01s
+[2017.06.25-14.22.50:680][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' took 0.01s
+[2017.06.25-14.22.50:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.25-14.22.50:688][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2017.06.25-14.22.50:739][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.25-14.22.50:790][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.25-14.22.50:827][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.25-14.22.50:896][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.25-14.22.50:901][  0]LogSlate: Took 0.000608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.25-14.22.50:903][  0]LogSlate: Took 0.000565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.25-14.22.50:910][  0]LogSlate: Took 0.000573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.25-14.22.51:001][  0]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:1).
+[2017.06.25-14.22.51:091][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-14.22.51:148][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.25-14.22.51:149][  0]LogLoad: (Engine Initialization) Total time: 17.37 seconds
+[2017.06.25-14.22.51:149][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.06.25-14.22.51:149][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.25-14.22.51:149][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.25-14.22.51:158][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.25-14.22.51:159][  0]LogOcInput: OculusInput pre-init called
+[2017.06.25-14.22.51:159][  0]LogHMD: Starting GearVRController plugin
+[2017.06.25-14.22.51:159][  0]LogSteamVRController: Controller role for device 4 is 2 (invalid=0, left=1, right=2).
+[2017.06.25-14.22.51:159][  0]LogSteamVRController:Warning: Controller device 4 is being assigned to its prefered role 'right'.
+[2017.06.25-14.22.51:159][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 1 (left=0, right=1).
+[2017.06.25-14.22.51:174][  0]LogAssetRegistry: Asset discovery search completed in 9.5813 seconds
+[2017.06.25-14.22.51:176][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.25-14.22.51:176][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.06.25-14.22.51:178][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.25-14.22.51:216][  0]LogSlate: Took 0.000640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-14.23.26:245][168]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.25-14.23.26:253][168]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-14.23.26:261][168]LightingResults: New page: Lighting Build
+[2017.06.25-14.23.26:261][168]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.06.25-14.23.26:263][168]MapCheck: New page: Map Check
+[2017.06.25-14.23.26:263][168]LightingResults: New page: Lighting Build
+[2017.06.25-14.23.26:797][168]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.25-14.23.26:864][168]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.25-14.23.26:887][168]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.25-14.23.26:967][168]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.24ms to complete.
+[2017.06.25-14.23.26:967][168]LogFileHelpers: Loading map 'MotionControllerMap' took 0.723
+[2017.06.25-14.23.30:167][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.23.30:167][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-14.23.30:167][545]PIE: New page: PIE session: MotionControllerMap (Jun 25, 2017, 6:23:30 AM)
+[2017.06.25-14.23.30:167][545]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.25-14.23.30:175][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007321s)
+[2017.06.25-14.23.30:175][545]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.25-14.23.30:175][545]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2017.06.25-14.23.30:175][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008071s)
+[2017.06.25-14.23.30:196][545]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-14.23.30:203][545]LogInit: FAudioDevice initialized.
+[2017.06.25-14.23.30:301][545]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-14.23.30:301][545]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-14.23.30:305][545]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.25-10.23.30
+[2017.06.25-14.23.30:305][545]LogWorld: Bringing up level for play took: 0.002174
+[2017.06.25-14.23.30:344][545]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.25-14.23.30:351][545]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.237
+[2017.06.25-14.23.30:351][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.23.30:398][546]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.06.25-14.23.32:945][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.23.33:071][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.23.36:118][131]LogTemp: Repeting last play command: VR Preview
+[2017.06.25-14.23.36:123][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.23.36:123][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-14.23.36:123][131]PIE: New page: PIE session: MotionControllerMap (Jun 25, 2017, 6:23:36 AM)
+[2017.06.25-14.23.36:123][131]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.25-14.23.36:131][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007324s)
+[2017.06.25-14.23.36:131][131]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.25-14.23.36:131][131]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.06.25-14.23.36:131][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008040s)
+[2017.06.25-14.23.36:152][131]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-14.23.36:158][131]LogInit: FAudioDevice initialized.
+[2017.06.25-14.23.36:243][131]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-14.23.36:243][131]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-14.23.36:246][131]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.25-10.23.36
+[2017.06.25-14.23.36:246][131]LogWorld: Bringing up level for play took: 0.001902
+[2017.06.25-14.23.36:252][131]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.138
+[2017.06.25-14.23.36:253][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.24.47:913][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.24.48:039][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.26.57:361][771]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.25-14.26.57:404][773]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRMobileScalable
+[2017.06.25-14.26.57:404][773]LogTemp: CWD: G:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.25-14.26.57:404][773]LogTemp: Initial Dir: G:\Epic Games\UE_4.16
+[2017.06.25-14.26.57:404][773]LogTemp: Env CWD: G:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.25-14.26.57:407][773]LogTemp: BranchPath = THERMALWIND/G/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = THERMALWIND/G/Epic Games/UE_4.16/Engine/Binaries
+[2017.06.25-14.26.57:422][774]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\3DSim\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.25-14.29.29:295][905]LogSavePackage: Save=160.63ms
+[2017.06.25-14.29.29:295][905]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/MotionControllerMapE8EBBAE943FB52FD914922BC1704FD76.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.06.25-14.29.29:295][905]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.06.25-14.29.29:453][905]LogSavePackage: Save=144.64ms
+[2017.06.25-14.29.29:453][905]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/MotionControllerMap_BuiltData534616DF489CF2E5DDECC38C90377C57.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.06.25-14.29.29:454][905]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.06.25-14.29.31:482][148]LogTemp: Repeting last play command: VR Preview
+[2017.06.25-14.29.31:487][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.29.31:487][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-14.29.31:488][148]PIE: New page: PIE session: MotionControllerMap (Jun 25, 2017, 6:29:31 AM)
+[2017.06.25-14.29.31:488][148]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.25-14.29.31:496][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008294s)
+[2017.06.25-14.29.31:497][148]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.25-14.29.31:497][148]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2017.06.25-14.29.31:497][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.009313s)
+[2017.06.25-14.29.31:518][148]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-14.29.31:525][148]LogInit: FAudioDevice initialized.
+[2017.06.25-14.29.31:609][148]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-14.29.31:609][148]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-14.29.31:611][148]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.25-10.29.31
+[2017.06.25-14.29.31:612][148]LogWorld: Bringing up level for play took: 0.002044
+[2017.06.25-14.29.31:618][148]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.496
+[2017.06.25-14.29.31:618][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.30.22:475][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.30.22:595][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.47.01:870][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2017.06.25-14.47.02:192][850]Cmd: DELETE
+[2017.06.25-14.47.02:192][850]Cmd: ACTOR DELETE
+[2017.06.25-14.47.02:193][850]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.02:201][850]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.25-14.47.02:668][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2017.06.25-14.47.02:779][913]Cmd: DELETE
+[2017.06.25-14.47.02:779][913]Cmd: ACTOR DELETE
+[2017.06.25-14.47.02:779][913]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.02:786][913]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.03:743][ 27]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume7)
+[2017.06.25-14.47.03:865][ 35]Cmd: DELETE
+[2017.06.25-14.47.03:865][ 35]Cmd: ACTOR DELETE
+[2017.06.25-14.47.03:866][ 35]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.03:872][ 35]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.25-14.47.04:633][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2017.06.25-14.47.04:721][131]Cmd: DELETE
+[2017.06.25-14.47.04:721][131]Cmd: ACTOR DELETE
+[2017.06.25-14.47.04:722][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.04:728][131]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.05:281][197]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume5)
+[2017.06.25-14.47.05:553][224]Cmd: DELETE
+[2017.06.25-14.47.05:553][224]Cmd: ACTOR DELETE
+[2017.06.25-14.47.05:554][224]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.05:560][224]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.06:149][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2017.06.25-14.47.06:379][315]Cmd: DELETE
+[2017.06.25-14.47.06:379][315]Cmd: ACTOR DELETE
+[2017.06.25-14.47.06:380][315]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.06:387][315]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.25-14.47.06:943][381]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume6)
+[2017.06.25-14.47.07:301][418]Cmd: DELETE
+[2017.06.25-14.47.07:301][418]Cmd: ACTOR DELETE
+[2017.06.25-14.47.07:302][418]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.07:308][418]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.07:914][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2017.06.25-14.47.08:085][505]Cmd: DELETE
+[2017.06.25-14.47.08:085][505]Cmd: ACTOR DELETE
+[2017.06.25-14.47.08:085][505]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.08:092][505]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.08:569][562]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume)
+[2017.06.25-14.47.08:844][589]Cmd: DELETE
+[2017.06.25-14.47.08:844][589]Cmd: ACTOR DELETE
+[2017.06.25-14.47.08:845][589]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.08:851][589]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.09:224][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2017.06.25-14.47.09:437][653]Cmd: DELETE
+[2017.06.25-14.47.09:437][653]Cmd: ACTOR DELETE
+[2017.06.25-14.47.09:437][653]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.09:444][653]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.09:996][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2017.06.25-14.47.10:152][732]Cmd: DELETE
+[2017.06.25-14.47.10:152][732]Cmd: ACTOR DELETE
+[2017.06.25-14.47.10:153][732]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.10:159][732]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.12:351][989]Cmd: DELETE
+[2017.06.25-14.47.12:352][989]Cmd: ACTOR DELETE
+[2017.06.25-14.47.12:352][989]LogEditorActor: Deleted Actor: Brush
+[2017.06.25-14.47.12:367][989]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.25-14.47.15:373][339]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume4)
+[2017.06.25-14.47.16:001][408]Cmd: DELETE
+[2017.06.25-14.47.16:001][408]Cmd: ACTOR DELETE
+[2017.06.25-14.47.16:002][408]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.16:008][408]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.17:222][548]Cmd: DELETE
+[2017.06.25-14.47.17:222][548]Cmd: ACTOR DELETE
+[2017.06.25-14.47.17:223][548]LogEditorActor: Deleted Actor: Brush
+[2017.06.25-14.47.17:237][548]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.06.25-14.47.17:760][610]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume3)
+[2017.06.25-14.47.18:249][662]Cmd: DELETE
+[2017.06.25-14.47.18:249][662]Cmd: ACTOR DELETE
+[2017.06.25-14.47.18:250][662]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.18:257][662]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.23:344][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2017.06.25-14.47.23:670][299]Cmd: DELETE
+[2017.06.25-14.47.23:670][299]Cmd: ACTOR DELETE
+[2017.06.25-14.47.23:670][299]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.23:676][299]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.24:557][399]Cmd: DELETE
+[2017.06.25-14.47.24:557][399]Cmd: ACTOR DELETE
+[2017.06.25-14.47.24:558][399]LogEditorActor: Deleted Actor: Brush
+[2017.06.25-14.47.24:572][399]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.06.25-14.47.25:785][543]Cmd: TRANSACTION UNDO
+[2017.06.25-14.47.25:785][543]LogEditorTransaction: Undo Delete Actors
+[2017.06.25-14.47.25:829][543]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-14.47.27:316][713]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume2)
+[2017.06.25-14.47.27:856][772]Cmd: DELETE
+[2017.06.25-14.47.27:856][772]Cmd: ACTOR DELETE
+[2017.06.25-14.47.27:857][772]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.27:864][772]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.28:607][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2017.06.25-14.47.28:953][896]Cmd: DELETE
+[2017.06.25-14.47.28:953][896]Cmd: ACTOR DELETE
+[2017.06.25-14.47.28:954][896]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.28:961][896]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.25-14.47.29:630][976]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume9)
+[2017.06.25-14.47.30:054][ 21]Cmd: DELETE
+[2017.06.25-14.47.30:054][ 21]Cmd: ACTOR DELETE
+[2017.06.25-14.47.30:054][ 21]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.30:061][ 21]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.30:617][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube10)
+[2017.06.25-14.47.31:066][135]Cmd: DELETE
+[2017.06.25-14.47.31:066][135]Cmd: ACTOR DELETE
+[2017.06.25-14.47.31:066][135]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.31:073][135]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.31:900][234]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume10)
+[2017.06.25-14.47.32:306][277]Cmd: DELETE
+[2017.06.25-14.47.32:306][277]Cmd: ACTOR DELETE
+[2017.06.25-14.47.32:306][277]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.32:313][277]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.33:123][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2017.06.25-14.47.33:262][384]Cmd: DELETE
+[2017.06.25-14.47.33:262][384]Cmd: ACTOR DELETE
+[2017.06.25-14.47.33:263][384]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.33:269][384]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.33:829][451]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume13)
+[2017.06.25-14.47.34:184][488]Cmd: DELETE
+[2017.06.25-14.47.34:184][488]Cmd: ACTOR DELETE
+[2017.06.25-14.47.34:184][488]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.34:191][488]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.35:226][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2017.06.25-14.47.36:344][739]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.06.25-14.47.39:516][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube14)
+[2017.06.25-14.47.39:830][104]Cmd: DELETE
+[2017.06.25-14.47.39:830][104]Cmd: ACTOR DELETE
+[2017.06.25-14.47.39:831][104]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.39:838][104]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.41:241][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2017.06.25-14.47.41:636][308]Cmd: DELETE
+[2017.06.25-14.47.41:636][308]Cmd: ACTOR DELETE
+[2017.06.25-14.47.41:636][308]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.41:644][308]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.25-14.47.43:003][466]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume11)
+[2017.06.25-14.47.43:455][514]Cmd: DELETE
+[2017.06.25-14.47.43:455][514]Cmd: ACTOR DELETE
+[2017.06.25-14.47.43:455][514]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.47.43:462][514]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.47.43:988][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube13)
+[2017.06.25-14.47.44:526][635]Cmd: DELETE
+[2017.06.25-14.47.44:526][635]Cmd: ACTOR DELETE
+[2017.06.25-14.47.44:526][635]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.25-14.47.44:533][635]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.17:843][556]Cmd: DELETE
+[2017.06.25-14.48.17:843][556]Cmd: ACTOR DELETE
+[2017.06.25-14.48.17:844][556]LogEditorActor: Deleted Actor: Brush
+[2017.06.25-14.48.17:855][556]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.25-14.48.18:830][672]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume8)
+[2017.06.25-14.48.21:624][  1]Cmd: DELETE
+[2017.06.25-14.48.21:624][  1]Cmd: ACTOR DELETE
+[2017.06.25-14.48.21:624][  1]LogEditorActor: Deleted Actor: NavModifierVolume
+[2017.06.25-14.48.21:631][  1]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.22:967][161]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (EditorCube40)
+[2017.06.25-14.48.23:293][186]Cmd: DELETE
+[2017.06.25-14.48.23:293][186]Cmd: ACTOR DELETE
+[2017.06.25-14.48.23:293][186]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.48.23:300][186]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.25:794][484]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (EditorCube39)
+[2017.06.25-14.48.26:110][517]Cmd: DELETE
+[2017.06.25-14.48.26:110][517]Cmd: ACTOR DELETE
+[2017.06.25-14.48.26:110][517]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.48.26:117][517]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.26:790][597]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (EditorCube38)
+[2017.06.25-14.48.26:982][615]Cmd: DELETE
+[2017.06.25-14.48.26:982][615]Cmd: ACTOR DELETE
+[2017.06.25-14.48.26:983][615]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.48.26:989][615]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.27:879][721]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2017.06.25-14.48.28:357][774]Cmd: DELETE
+[2017.06.25-14.48.28:358][774]Cmd: ACTOR DELETE
+[2017.06.25-14.48.28:358][774]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.06.25-14.48.28:365][774]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.29:011][851]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (EditorCube30)
+[2017.06.25-14.48.29:392][890]Cmd: DELETE
+[2017.06.25-14.48.29:392][890]Cmd: ACTOR DELETE
+[2017.06.25-14.48.29:392][890]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.48.29:398][890]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.30:664][ 41]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.06.25-14.48.41:843][375]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.06.25-14.48.41:850][375]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.48.43:454][567]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.06.25-14.48.43:998][628]LogSlate: Took 0.000644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.25-14.49.18:711][739]LogEditorViewport: Clicking on Component (LMB): TextRenderComponent (NewTextRenderComponent)
+[2017.06.25-14.49.22:108][144]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (EditorCube26)
+[2017.06.25-14.49.24:092][376]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.06.25-14.49.35:086][648]Cmd: DELETE
+[2017.06.25-14.49.35:086][648]Cmd: ACTOR DELETE
+[2017.06.25-14.49.35:086][648]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.06.25-14.49.35:093][648]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.25-14.49.45:770][911]LogEditorViewport: Clicking on Actor (context menu): BP_PickupCube_C (EditorCube33)
+[2017.06.25-14.49.54:885][987]Cmd: DELETE
+[2017.06.25-14.49.54:885][987]Cmd: ACTOR DELETE
+[2017.06.25-14.49.54:885][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:885][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:886][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:887][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:887][987]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.54:893][987]LogEditorActor: Deleted 13 Actors (0.009 secs)
+[2017.06.25-14.49.56:753][210]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BP_PickupCube)
+[2017.06.25-14.49.57:111][248]Cmd: DELETE
+[2017.06.25-14.49.57:111][248]Cmd: ACTOR DELETE
+[2017.06.25-14.49.57:111][248]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.25-14.49.57:118][248]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.25-14.50.02:893][938]LogTemp: Repeting last play command: VR Preview
+[2017.06.25-14.50.02:900][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.50.02:900][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-14.50.02:900][938]PIE: New page: PIE session: MotionControllerMap (Jun 25, 2017, 6:50:02 AM)
+[2017.06.25-14.50.02:900][938]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.25-14.50.02:905][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005391s)
+[2017.06.25-14.50.02:906][938]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.25-14.50.02:906][938]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.06.25-14.50.02:906][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.006212s)
+[2017.06.25-14.50.02:927][938]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-14.50.02:933][938]LogInit: FAudioDevice initialized.
+[2017.06.25-14.50.03:014][938]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-14.50.03:014][938]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-14.50.03:015][938]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.25-10.50.03
+[2017.06.25-14.50.03:016][938]LogWorld: Bringing up level for play took: 0.000856
+[2017.06.25-14.50.03:022][938]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.908
+[2017.06.25-14.50.03:023][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.50.37:202][982]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.50.37:319][982]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.25-14.51.26:641][811]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.25-14.51.26:740][811]LogSavePackage: Save=85.22ms
+[2017.06.25-14.51.26:740][811]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation04D19D3140B16B9DCFF043A1CF7E823D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.25-14.51.26:741][811]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.25-14.51.26:835][811]LogSavePackage: Save=89.06ms
+[2017.06.25-14.51.26:835][811]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData448F78CE4CF030FA0A50A4A76610D4D8.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.25-14.51.26:836][811]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.25-14.51.26:839][811]LogFileHelpers: Saving map 'CityAura-MiniSimulation' took 0.652
+[2017.06.25-14.51.26:840][811]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.25-14.51.26:850][811]LightingResults: New page: Lighting Build
+[2017.06.25-14.51.26:851][811]LoadErrors: New page: Loading map: CityAura-MiniSimulation.umap
+[2017.06.25-14.51.26:852][811]MapCheck: New page: Map Check
+[2017.06.25-14.51.26:852][811]LightingResults: New page: Lighting Build
+[2017.06.25-14.51.26:921][811]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.25-14.51.26:936][811]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.25-14.51.27:006][811]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.632ms to complete.
+[2017.06.25-14.51.27:006][811]LogFileHelpers: Loading map 'CityAura-MiniSimulation' took 0.167
+[2017.06.25-15.00.53:231][812]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation' took 0.007
+[2017.06.25-15.04.47:347][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C8.FBX)
+[2017.06.25-15.04.47:353][378]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.25-15.04.47:353][378]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.25-15.04.47:353][378]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.25-15.04.47:353][378]LogFbx: ItemName: Material, ItemCount : 13
+[2017.06.25-15.04.47:353][378]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.06.25-15.04.47:357][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C8.FBX
+[2017.06.25-15.04.47:644][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.32:707][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C8.FBX
+[2017.06.25-15.05.32:713][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.32:715][378]LogFbx:Warning: Triangulating static mesh S_GRID_Ground-C8
+[2017.06.25-15.05.32:718][378]LogStaticMesh: Building static mesh S_GRID_Ground-C8...
+[2017.06.25-15.05.32:719][378]LogStaticMesh: Built static mesh [0.00s] /Game/City-Aura/S_GRID_Ground-C8.S_GRID_Ground-C8
+[2017.06.25-15.05.32:725][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C9.FBX)
+[2017.06.25-15.05.32:736][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C9.FBX
+[2017.06.25-15.05.32:742][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.32:744][378]LogFbx:Warning: Triangulating static mesh S_GRID_Ground-C9
+[2017.06.25-15.05.32:748][378]LogStaticMesh: Building static mesh S_GRID_Ground-C9...
+[2017.06.25-15.05.32:749][378]LogStaticMesh: Built static mesh [0.00s] /Game/City-Aura/S_GRID_Ground-C9.S_GRID_Ground-C9
+[2017.06.25-15.05.32:754][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45.FBX)
+[2017.06.25-15.05.32:764][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Layout-R8C9-A45.FBX
+[2017.06.25-15.05.32:776][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.32:778][378]LogFbx:Warning: Triangulating static mesh S_GRID_Layout-R8C9-A45
+[2017.06.25-15.05.33:930][378]LogStaticMesh: Building static mesh S_GRID_Layout-R8C9-A45...
+[2017.06.25-15.05.34:095][378]LogStaticMesh: Built static mesh [0.17s] /Game/City-Aura/S_GRID_Layout-R8C9-A45.S_GRID_Layout-R8C9-A45
+[2017.06.25-15.05.34:144][378]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.25-15.05.34:177][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_PathBorder-C4.FBX)
+[2017.06.25-15.05.34:186][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_PathBorder-C4.FBX
+[2017.06.25-15.05.34:193][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.34:195][378]LogFbx:Warning: Triangulating static mesh S_GRID_PathBorder-C4
+[2017.06.25-15.05.34:277][378]LogStaticMesh: Building static mesh S_GRID_PathBorder-C4...
+[2017.06.25-15.05.34:283][378]LogStaticMesh: Built static mesh [0.01s] /Game/City-Aura/S_GRID_PathBorder-C4.S_GRID_PathBorder-C4
+[2017.06.25-15.05.34:305][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_PathBorder-C5.FBX)
+[2017.06.25-15.05.34:314][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_PathBorder-C5.FBX
+[2017.06.25-15.05.34:321][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.34:323][378]LogFbx:Warning: Triangulating static mesh S_GRID_PathBorder-C5
+[2017.06.25-15.05.34:433][378]LogStaticMesh: Building static mesh S_GRID_PathBorder-C5...
+[2017.06.25-15.05.34:440][378]LogStaticMesh: Built static mesh [0.01s] /Game/City-Aura/S_GRID_PathBorder-C5.S_GRID_PathBorder-C5
+[2017.06.25-15.05.34:455][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_PathBorder-C7.FBX)
+[2017.06.25-15.05.34:465][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_PathBorder-C7.FBX
+[2017.06.25-15.05.34:479][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.34:482][378]LogFbx:Warning: Triangulating static mesh S_GRID_PathBorder-C7
+[2017.06.25-15.05.36:578][378]LogStaticMesh: Building static mesh S_GRID_PathBorder-C7...
+[2017.06.25-15.05.36:802][378]LogStaticMesh: Built static mesh [0.22s] /Game/City-Aura/S_GRID_PathBorder-C7.S_GRID_PathBorder-C7
+[2017.06.25-15.05.36:884][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C2-Pool.FBX)
+[2017.06.25-15.05.36:894][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C2-Pool.FBX
+[2017.06.25-15.05.36:908][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.36:931][378]LogStaticMesh: Building static mesh S_GRID_C2-Pool...
+[2017.06.25-15.05.37:230][378]LogStaticMesh: Built static mesh [0.30s] /Game/City-Aura/S_GRID_C2-Pool.S_GRID_C2-Pool
+[2017.06.25-15.05.37:264][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C2-Pool-Water.FBX)
+[2017.06.25-15.05.37:273][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C2-Pool-Water.FBX
+[2017.06.25-15.05.37:279][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.37:283][378]LogStaticMesh: Building static mesh S_GRID_C2-Pool-Water...
+[2017.06.25-15.05.37:288][378]LogStaticMesh: Built static mesh [0.01s] /Game/City-Aura/S_GRID_C2-Pool-Water.S_GRID_C2-Pool-Water
+[2017.06.25-15.05.37:303][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C3-Path.FBX)
+[2017.06.25-15.05.37:311][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C3-Path.FBX
+[2017.06.25-15.05.37:318][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.37:320][378]LogFbx:Warning: Triangulating static mesh S_GRID_C3-Path
+[2017.06.25-15.05.37:556][378]LogStaticMesh: Building static mesh S_GRID_C3-Path...
+[2017.06.25-15.05.37:577][378]LogStaticMesh: Built static mesh [0.02s] /Game/City-Aura/S_GRID_C3-Path.S_GRID_C3-Path
+[2017.06.25-15.05.37:595][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C3-Wall.FBX)
+[2017.06.25-15.05.37:604][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C3-Wall.FBX
+[2017.06.25-15.05.37:611][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.37:617][378]LogStaticMesh: Building static mesh S_GRID_C3-Wall...
+[2017.06.25-15.05.37:644][378]LogStaticMesh: Built static mesh [0.03s] /Game/City-Aura/S_GRID_C3-Wall.S_GRID_C3-Wall
+[2017.06.25-15.05.37:664][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C6-Path.FBX)
+[2017.06.25-15.05.37:673][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C6-Path.FBX
+[2017.06.25-15.05.37:680][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.37:683][378]LogFbx:Warning: Triangulating static mesh S_GRID_C6-Path
+[2017.06.25-15.05.38:006][378]LogStaticMesh: Building static mesh S_GRID_C6-Path...
+[2017.06.25-15.05.38:037][378]LogStaticMesh: Built static mesh [0.03s] /Game/City-Aura/S_GRID_C6-Path.S_GRID_C6-Path
+[2017.06.25-15.05.38:059][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C8-Sector-Stairs.FBX)
+[2017.06.25-15.05.38:067][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C8-Sector-Stairs.FBX
+[2017.06.25-15.05.38:073][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.38:076][378]LogFbx:Warning: Triangulating static mesh S_GRID_C8-SectorStairs
+[2017.06.25-15.05.38:077][378]LogStaticMesh: Building static mesh S_GRID_C8-Sector-Stairs...
+[2017.06.25-15.05.38:078][378]LogStaticMesh: Built static mesh [0.00s] /Game/City-Aura/S_GRID_C8-Sector-Stairs.S_GRID_C8-Sector-Stairs
+[2017.06.25-15.05.38:086][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C8-Sector-Water.FBX)
+[2017.06.25-15.05.38:095][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_C8-Sector-Water.FBX
+[2017.06.25-15.05.38:101][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.38:103][378]LogFbx:Warning: Triangulating static mesh S_GRID_C8-SectorWater
+[2017.06.25-15.05.38:106][378]LogStaticMesh: Building static mesh S_GRID_C8-Sector-Water...
+[2017.06.25-15.05.38:106][378]LogStaticMesh: Built static mesh [0.00s] /Game/City-Aura/S_GRID_C8-Sector-Water.S_GRID_C8-Sector-Water
+[2017.06.25-15.05.38:127][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C3C4C5C6.FBX)
+[2017.06.25-15.05.38:136][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C3C4C5C6.FBX
+[2017.06.25-15.05.38:144][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.38:150][378]LogStaticMesh: Building static mesh S_GRID_Ground-C3C4C5C6...
+[2017.06.25-15.05.38:192][378]LogStaticMesh: Built static mesh [0.04s] /Game/City-Aura/S_GRID_Ground-C3C4C5C6.S_GRID_Ground-C3C4C5C6
+[2017.06.25-15.05.38:204][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C7.FBX)
+[2017.06.25-15.05.38:213][378]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Ground-C7.FBX
+[2017.06.25-15.05.38:220][378]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.25-15.05.38:223][378]LogStaticMesh: Building static mesh S_GRID_Ground-C7...
+[2017.06.25-15.05.38:229][378]LogStaticMesh: Built static mesh [0.01s] /Game/City-Aura/S_GRID_Ground-C7.S_GRID_Ground-C7
+[2017.06.25-15.07.53:938][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Tile-WhiteCross_01_N.tga)
+[2017.06.25-15.07.54:143][900]LogTexture:Display: Building textures: T_Tile-WhiteCross_01_N (BC5, 1024X1024)
+[2017.06.25-15.07.54:246][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Tile-WhiteCross_01_RMA.tga)
+[2017.06.25-15.07.54:267][900]LogTexture:Display: Building textures: T_Tile-WhiteCross_01_RMA (AutoDXT, 1024X1024)
+[2017.06.25-15.07.54:640][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Tile-WhiteCross_01a_D.tga)
+[2017.06.25-15.07.54:671][900]LogTexture:Display: Building textures: T_Tile-WhiteCross_01a_D (AutoDXT, 1024X1024)
+[2017.06.25-15.07.54:981][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Terrain-Grass_04_D.jpg)
+[2017.06.25-15.07.55:003][900]LogTexture:Display: Building textures: T_Terrain-Grass_04_D (AutoDXT, 640X640)
+[2017.06.25-15.07.55:588][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Terrain-Grass_04_N.jpg)
+[2017.06.25-15.07.55:619][900]LogTexture:Display: Building textures: T_Terrain-Grass_04_N (BC5, 640X640)
+[2017.06.25-15.07.55:695][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Tile-Clay-5x5_D.tga)
+[2017.06.25-15.07.55:716][900]LogTexture:Display: Building textures: T_Tile-Clay-5x5_D (AutoDXT, 1024X1024)
+[2017.06.25-15.07.56:035][900]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\StingrayProjects\HTC_Vive_project-03\HTC_Vive_project-03\content\models\City-Aura\T_Tile-Clay-5x5_N.tga)
+[2017.06.25-15.07.56:064][900]LogTexture:Display: Building textures: T_Tile-Clay-5x5_N (BC5, 1024X1024)
+[2017.06.25-15.08.33:138][131]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.06.25-15.09.02:403][851]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.02:650][851]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.02:703][851]LogSlate: Took 0.009137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.25-15.09.03:544][890]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.06.25-15.09.03:544][890]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.06.25-15.09.03:544][890]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.25-15.09.26:348][893]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.26:359][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.25-15.09.26:387][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.25-15.09.27:266][952]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.06.25-15.09.27:266][952]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.06.25-15.09.27:267][952]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.25-15.09.28:465][ 70]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.28:477][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.25-15.09.28:505][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.25-15.09.28:511][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.25-15.09.29:049][101]MaterialEditorStats: Info Base pass shader: 124 instructions
+[2017.06.25-15.09.29:049][101]MaterialEditorStats: Info Vertex shader: 85 instructions
+[2017.06.25-15.09.29:049][101]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.25-15.09.35:051][734]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.35:066][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.25-15.09.35:640][768]MaterialEditorStats: Info Base pass shader: 126 instructions
+[2017.06.25-15.09.35:640][768]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.09.35:640][768]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.25-15.09.35:640][768]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.09.39:857][216]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.39:870][216]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.25-15.09.40:445][251]MaterialEditorStats: Info Base pass shader: 131 instructions
+[2017.06.25-15.09.40:445][251]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.09.40:445][251]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.25-15.09.40:445][251]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.09.45:837][833]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.45:854][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.25-15.09.46:425][868]MaterialEditorStats: Info Base pass shader: 131 instructions
+[2017.06.25-15.09.46:425][868]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.09.46:425][868]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.25-15.09.46:425][868]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.09.51:552][412]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.09.51:569][412]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.25-15.09.52:132][445]MaterialEditorStats: Info Base pass shader: 134 instructions
+[2017.06.25-15.09.52:132][445]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.09.52:132][445]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.25-15.09.52:132][445]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.10.00:189][304]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2017.06.25-15.10.00:824][304]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.10.00:863][304]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.10.00:889][304]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.10.00:927][304]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.06.25-15.10.01:320][304]TextureStreamingBuild:Display: Compiling optional shaders took 0.401 seconds.
+[2017.06.25-15.10.02:864][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/NewMaterial" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/NewMaterial.uasset" SILENT=true
+[2017.06.25-15.10.02:877][304]LogSavePackage: Save=12.40ms
+[2017.06.25-15.10.02:877][304]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/NewMaterial3A4B967F4E7F4755817AD982E6F07BA9.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/NewMaterial.uasset'
+[2017.06.25-15.10.02:878][304]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/NewMaterial.uasset
+[2017.06.25-15.10.02:885][304]MaterialEditorStats: Info Base pass shader: 134 instructions
+[2017.06.25-15.10.02:885][304]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.10.02:885][304]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.25-15.10.02:885][304]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.10.57:445][811]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.10.58:254][873]MaterialEditorStats: Info Base pass shader: 134 instructions
+[2017.06.25-15.10.58:254][873]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.10.58:254][873]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.25-15.10.58:254][873]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.11.02:285][330]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.11.02:300][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.25-15.11.02:848][367]MaterialEditorStats: Info Base pass shader: 134 instructions
+[2017.06.25-15.11.02:848][367]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.25-15.11.02:848][367]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.25-15.11.02:848][367]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.25-15.11.08:442][893]LogActorFactory: Actor Factory created S_GRID_Layout-R8C9-A45
+[2017.06.25-15.11.09:767][ 31]LogActorFactory: Actor Factory created S_GRID_Layout-R8C9-A45
+[2017.06.25-15.11.31:522][ 44]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.06.25-15.11.56:842][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A45)
+[2017.06.25-15.12.16:918][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/M_Tile-WhiteCross_01" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/M_Tile-WhiteCross_01.uasset" SILENT=true
+[2017.06.25-15.12.16:931][331]LogSavePackage: Save=12.24ms
+[2017.06.25-15.12.16:931][331]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_Tile-WhiteCross_01A02D62014FEA34F75A463FB1E3DF99F1.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/M_Tile-WhiteCross_01.uasset'
+[2017.06.25-15.12.16:933][331]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/M_Tile-WhiteCross_01.uasset
+[2017.06.25-15.12.33:665][926]LogSavePackage: Save=85.99ms
+[2017.06.25-15.12.33:665][926]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation59FFBDEF48D5D99C853E7B9A05EAA902.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.25-15.12.33:666][926]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.25-15.12.33:772][926]LogSavePackage: Save=86.16ms
+[2017.06.25-15.12.33:772][926]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData3B0F3E14436BC8A38CAF63BF45EA429D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.25-15.12.33:773][926]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.25-15.12.34:921][ 28]LogTemp: Repeting last play command: VR Preview
+[2017.06.25-15.12.34:938][ 28]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.12.34:938][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-15.12.34:939][ 28]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 25, 2017, 7:12:34 AM)
+[2017.06.25-15.12.34:939][ 28]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.25-15.12.34:944][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005182s)
+[2017.06.25-15.12.34:944][ 28]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.25-15.12.34:944][ 28]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.06.25-15.12.34:945][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.005957s)
+[2017.06.25-15.12.34:966][ 28]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-15.12.34:975][ 28]LogInit: FAudioDevice initialized.
+[2017.06.25-15.12.38:446][ 28]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.25-15.12.38:487][ 28]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-15.12.38:487][ 28]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-15.12.38:489][ 28]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.25-11.12.38
+[2017.06.25-15.12.38:489][ 28]LogWorld: Bringing up level for play took: 0.001176
+[2017.06.25-15.12.38:492][ 28]LogBlueprint:Warning: SetRelativeScale3D : Invalid Scale entered (X=inf Y=0.000 Z=70.000). Resetting to 1.f.
+[2017.06.25-15.12.38:493][ 28]LogBlueprint:Warning: SetRelativeScale3D : Invalid Scale entered (X=inf Y=0.000 Z=70.000). Resetting to 1.f.
+[2017.06.25-15.12.38:502][ 28]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 4.388
+[2017.06.25-15.12.38:503][ 28]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.12.44:035][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.12.44:078][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.13.14:999][148]LogTemp: Repeting last play command: VR Preview
+[2017.06.25-15.13.15:014][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.13.15:015][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-15.13.15:015][148]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 25, 2017, 7:13:15 AM)
+[2017.06.25-15.13.15:015][148]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.25-15.13.15:023][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007632s)
+[2017.06.25-15.13.15:023][148]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.25-15.13.15:023][148]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2017.06.25-15.13.15:023][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.008665s)
+[2017.06.25-15.13.15:044][148]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-15.13.15:051][148]LogInit: FAudioDevice initialized.
+[2017.06.25-15.13.15:675][148]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.25-15.13.15:716][148]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-15.13.15:716][148]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-15.13.15:718][148]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.25-11.13.15
+[2017.06.25-15.13.15:718][148]LogWorld: Bringing up level for play took: 0.000929
+[2017.06.25-15.13.15:728][148]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 1.614
+[2017.06.25-15.13.15:729][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.13.36:202][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.13.36:359][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.13.40:537][318]LogSavePackage: Save=89.40ms
+[2017.06.25-15.13.40:537][318]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulationD8C6C2374C8886E607E3228B402E7E6A.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.25-15.13.40:538][318]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.25-15.13.40:638][318]LogSavePackage: Save=90.19ms
+[2017.06.25-15.13.40:638][318]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData1450557344AFFE3FB458A18661EB35E2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.25-15.13.40:639][318]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.25-15.13.43:166][535]LogTemp: Repeting last play command: VR Preview
+[2017.06.25-15.13.43:172][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.13.43:172][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-15.13.43:172][535]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 25, 2017, 7:13:43 AM)
+[2017.06.25-15.13.43:172][535]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.25-15.13.43:177][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005009s)
+[2017.06.25-15.13.43:178][535]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.25-15.13.43:178][535]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2017.06.25-15.13.43:178][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.005747s)
+[2017.06.25-15.13.43:201][535]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.25-15.13.43:207][535]LogInit: FAudioDevice initialized.
+[2017.06.25-15.13.43:306][535]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-15.13.43:306][535]LogLoad: Game class is 'GameModeBase'
+[2017.06.25-15.13.43:307][535]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.25-11.13.43
+[2017.06.25-15.13.43:308][535]LogWorld: Bringing up level for play took: 0.000922
+[2017.06.25-15.13.43:318][535]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.796
+[2017.06.25-15.13.43:318][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.14.09:220][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.14.09:374][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.25-15.14.15:336][332]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for H:/UnrealProjects/VRMobileScalable/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.06.25-15.14.43:945][741]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.06.25-15.14.45:802][741]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.06.25-15.14.45:840][741]LogMaterial: Missing cached shader map for material M_Tile-WhiteCross_01, compiling. 
+[2017.06.25-15.14.45:867][741]LogMaterial: Missing cached shader map for material M_Tile-WhiteCross_01, compiling. 
+[2017.06.25-15.14.45:903][741]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tile-WhiteCross_01, compiling. 
+[2017.06.25-15.14.46:610][741]TextureStreamingBuild:Display: Compiling optional shaders took 0.714 seconds.
+[2017.06.25-15.14.49:604][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/M_Tile-WhiteCross_01" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/M_Tile-WhiteCross_01.uasset" SILENT=true
+[2017.06.25-15.14.49:619][741]LogSavePackage: Save=12.27ms
+[2017.06.25-15.14.49:619][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_Tile-WhiteCross_01509C695E400E08DD78051EB5FC2EF660.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/M_Tile-WhiteCross_01.uasset'
+[2017.06.25-15.14.49:620][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/M_Tile-WhiteCross_01.uasset
+[2017.06.25-15.14.49:632][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C2-Pool" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C2-Pool.uasset" SILENT=true
+[2017.06.25-15.14.49:643][741]LogSavePackage: Save=9.81ms
+[2017.06.25-15.14.49:643][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C2-Pool07FACD2C4845D5FC16E0D18A5EDC0E8C.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C2-Pool.uasset'
+[2017.06.25-15.14.49:644][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C2-Pool.uasset
+[2017.06.25-15.14.49:655][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C2-Pool-Water" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C2-Pool-Water.uasset" SILENT=true
+[2017.06.25-15.14.49:666][741]LogSavePackage: Save=9.02ms
+[2017.06.25-15.14.49:666][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C2-Pool-WaterE5C4F3C940A85A8BE70F3AA27BD2B42F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C2-Pool-Water.uasset'
+[2017.06.25-15.14.49:667][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C2-Pool-Water.uasset
+[2017.06.25-15.14.49:678][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C3-Path" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C3-Path.uasset" SILENT=true
+[2017.06.25-15.14.49:690][741]LogSavePackage: Save=9.76ms
+[2017.06.25-15.14.49:690][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C3-Path06F3A60843B8E5D8A0563C8C3A232B81.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C3-Path.uasset'
+[2017.06.25-15.14.49:691][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C3-Path.uasset
+[2017.06.25-15.14.49:702][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C3-Wall" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C3-Wall.uasset" SILENT=true
+[2017.06.25-15.14.49:713][741]LogSavePackage: Save=10.20ms
+[2017.06.25-15.14.49:713][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C3-Wall00D075AF46E8DFD61FD1669703CD7430.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C3-Wall.uasset'
+[2017.06.25-15.14.49:714][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C3-Wall.uasset
+[2017.06.25-15.14.49:726][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C6-Path" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C6-Path.uasset" SILENT=true
+[2017.06.25-15.14.49:737][741]LogSavePackage: Save=9.54ms
+[2017.06.25-15.14.49:737][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C6-Path90A1224140E3FE92D2E9588C7B66E6B2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C6-Path.uasset'
+[2017.06.25-15.14.49:738][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C6-Path.uasset
+[2017.06.25-15.14.49:751][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C8-Sector-Stairs" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C8-Sector-Stairs.uasset" SILENT=true
+[2017.06.25-15.14.49:762][741]LogSavePackage: Save=9.62ms
+[2017.06.25-15.14.49:762][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C8-Sector-Stairs64A007B142962430E90507AF989DD5CA.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C8-Sector-Stairs.uasset'
+[2017.06.25-15.14.49:763][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C8-Sector-Stairs.uasset
+[2017.06.25-15.14.49:775][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_C8-Sector-Water" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C8-Sector-Water.uasset" SILENT=true
+[2017.06.25-15.14.49:786][741]LogSavePackage: Save=10.15ms
+[2017.06.25-15.14.49:786][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_C8-Sector-Water6CBF5E3A41E2EE882911A28BBEBAE13F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C8-Sector-Water.uasset'
+[2017.06.25-15.14.49:787][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_C8-Sector-Water.uasset
+[2017.06.25-15.14.49:799][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C3C4C5C6" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset" SILENT=true
+[2017.06.25-15.14.49:810][741]LogSavePackage: Save=10.13ms
+[2017.06.25-15.14.49:810][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C3C4C5C6D479523C422DC955E62F7CA1FFB1DAB6.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset'
+[2017.06.25-15.14.49:812][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C3C4C5C6.uasset
+[2017.06.25-15.14.49:824][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C7" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C7.uasset" SILENT=true
+[2017.06.25-15.14.49:835][741]LogSavePackage: Save=10.19ms
+[2017.06.25-15.14.49:835][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C72C9BE75A43C95C01176D059838C13D3E.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C7.uasset'
+[2017.06.25-15.14.49:836][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C7.uasset
+[2017.06.25-15.14.49:848][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C8" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C8.uasset" SILENT=true
+[2017.06.25-15.14.49:859][741]LogSavePackage: Save=9.81ms
+[2017.06.25-15.14.49:859][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C8F2FD39D045FC0E357BC6A2A04F342958.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C8.uasset'
+[2017.06.25-15.14.49:860][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C8.uasset
+[2017.06.25-15.14.49:873][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Ground-C9" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C9.uasset" SILENT=true
+[2017.06.25-15.14.49:884][741]LogSavePackage: Save=9.78ms
+[2017.06.25-15.14.49:884][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Ground-C932AF235046D523194207FCA5BC1B0FF4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C9.uasset'
+[2017.06.25-15.14.49:885][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Ground-C9.uasset
+[2017.06.25-15.14.49:896][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.25-15.14.49:908][741]LogSavePackage: Save=10.61ms
+[2017.06.25-15.14.49:908][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A455AD931E447D5C5762C9FD9BE0DA475D3.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.25-15.14.49:909][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.25-15.14.49:921][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_PathBorder-C4" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C4.uasset" SILENT=true
+[2017.06.25-15.14.49:932][741]LogSavePackage: Save=9.62ms
+[2017.06.25-15.14.49:932][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_PathBorder-C4A2BAC1084070E7A7F1B1079E8B01EAFC.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C4.uasset'
+[2017.06.25-15.14.49:933][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C4.uasset
+[2017.06.25-15.14.49:945][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_PathBorder-C5" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C5.uasset" SILENT=true
+[2017.06.25-15.14.49:956][741]LogSavePackage: Save=10.02ms
+[2017.06.25-15.14.49:956][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_PathBorder-C5E77FE9364873A86C09DC6DB90EE7D08E.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C5.uasset'
+[2017.06.25-15.14.49:957][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C5.uasset
+[2017.06.25-15.14.49:968][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_PathBorder-C7" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C7.uasset" SILENT=true
+[2017.06.25-15.14.49:981][741]LogSavePackage: Save=10.59ms
+[2017.06.25-15.14.49:981][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_PathBorder-C7CF2997E94DF90113085189811CA6432B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C7.uasset'
+[2017.06.25-15.14.49:982][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_PathBorder-C7.uasset
+[2017.06.25-15.14.49:991][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Terrain-Grass_04_D" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Terrain-Grass_04_D.uasset" SILENT=true
+[2017.06.25-15.14.50:085][741]LogSavePackage: Save=93.23ms
+[2017.06.25-15.14.50:085][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Terrain-Grass_04_D7F31A60F4B5CC2E23191E7A7AFDFCA59.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Terrain-Grass_04_D.uasset'
+[2017.06.25-15.14.50:086][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Terrain-Grass_04_D.uasset
+[2017.06.25-15.14.50:095][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Terrain-Grass_04_N" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Terrain-Grass_04_N.uasset" SILENT=true
+[2017.06.25-15.14.50:203][741]LogSavePackage: Save=106.13ms
+[2017.06.25-15.14.50:203][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Terrain-Grass_04_N5AC296DB41745FE1EF2A3D8D58168365.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Terrain-Grass_04_N.uasset'
+[2017.06.25-15.14.50:204][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Terrain-Grass_04_N.uasset
+[2017.06.25-15.14.50:213][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Tile-Clay-5x5_D" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-Clay-5x5_D.uasset" SILENT=true
+[2017.06.25-15.14.50:347][741]LogSavePackage: Save=133.18ms
+[2017.06.25-15.14.50:347][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Tile-Clay-5x5_D9E1A3DAC463B0751F0E9E38D759B59E2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-Clay-5x5_D.uasset'
+[2017.06.25-15.14.50:348][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-Clay-5x5_D.uasset
+[2017.06.25-15.14.50:358][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Tile-Clay-5x5_N" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-Clay-5x5_N.uasset" SILENT=true
+[2017.06.25-15.14.50:566][741]LogSavePackage: Save=207.18ms
+[2017.06.25-15.14.50:566][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Tile-Clay-5x5_NF5B5E4FD48C19B59678A7D8FF2E87358.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-Clay-5x5_N.uasset'
+[2017.06.25-15.14.50:567][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-Clay-5x5_N.uasset
+[2017.06.25-15.14.50:578][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Tile-WhiteCross_01_N" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01_N.uasset" SILENT=true
+[2017.06.25-15.14.50:696][741]LogSavePackage: Save=116.62ms
+[2017.06.25-15.14.50:696][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Tile-WhiteCross_01_NADCB9C164F5FC261C578AA998B7EF2A1.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01_N.uasset'
+[2017.06.25-15.14.50:697][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01_N.uasset
+[2017.06.25-15.14.50:705][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Tile-WhiteCross_01_RMA" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01_RMA.uasset" SILENT=true
+[2017.06.25-15.14.50:851][741]LogSavePackage: Save=144.85ms
+[2017.06.25-15.14.50:851][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Tile-WhiteCross_01_RMA73714EAE44D31A8902D8E1AACD24B2B3.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01_RMA.uasset'
+[2017.06.25-15.14.50:852][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01_RMA.uasset
+[2017.06.25-15.14.50:862][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/T_Tile-WhiteCross_01a_D" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01a_D.uasset" SILENT=true
+[2017.06.25-15.14.51:007][741]LogSavePackage: Save=143.64ms
+[2017.06.25-15.14.51:007][741]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/T_Tile-WhiteCross_01a_D182FC54E4652C29BE169ECA1C30B676F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01a_D.uasset'
+[2017.06.25-15.14.51:008][741]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/T_Tile-WhiteCross_01a_D.uasset
+[2017.06.25-15.14.51:180][741]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.06.25-15.14.51:182][741]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.25-15.14.51:349][742]Cmd: QUIT_EDITOR
+[2017.06.25-15.14.51:662][742]LogExit: Preparing to exit.
+[2017.06.25-15.14.52:869][742]LogExit: Editor shut down
+[2017.06.25-15.14.52:873][742]LogExit: Transaction tracking system shut down
+[2017.06.25-15.14.52:947][742]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.25-15.14.52:947][742]LogExit: Object subsystem successfully closed.
+[2017.06.25-15.14.52:972][742]LogD3D11RHI: Shutdown
+[2017.06.25-15.14.52:972][742]LogD3D11RHI: CleanupD3DDevice
+[2017.06.25-15.14.52:975][742]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module TextureEditor (530)
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (528)
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.25-15.14.52:984][742]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.25-15.14.52:985][742]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.25-15.14.52:985][742]LogDirectoryWatcher: A directory notification for 'G:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.25-15.14.52:986][742]LogDirectoryWatcher: A directory notification for 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' was aborted.
+[2017.06.25-15.14.52:986][742]LogDirectoryWatcher: A directory notification for 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' was aborted.
+[2017.06.25-15.14.52:986][742]LogDirectoryWatcher: A directory notification for 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' was aborted.
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.25-15.14.52:986][742]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.25-15.14.52:987][742]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.25-15.14.53:329][742]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.25-15.14.53:383][742]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.25-15.14.53:384][742]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.25-15.14.53:385][742]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.25-15.14.53:418][742]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.25-15.14.53:419][742]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.25-15.14.53:420][742]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.25-15.14.53:420][742]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.25-15.14.53:420][742]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.25-15.14.53:420][742]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.25-15.14.53:420][742]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.25-15.14.53:420][742]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.25-15.14.53:520][742]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.25-15.14.53:620][742]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.25-15.14.53:620][742]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.25-15.14.53:620][742]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.25-15.14.53:620][742]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.25-15.14.53:620][742]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.25-15.14.53:620][742]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.25-15.14.53:621][742]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.25-15.14.53:622][742]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.25-15.14.53:622][742]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.25-15.14.53:622][742]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.25-15.14.53:622][742]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.25-15.14.53:622][742]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.25-15.14.53:622][742]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.25-15.14.53:623][742]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.25-15.14.53:623][742]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.25-15.14.53:623][742]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.25-15.14.53:623][742]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.25-15.14.53:623][742]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.25-15.14.53:623][742]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.25-15.14.53:728][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.25-15.14.53:728][742]LogDirectoryWatcher: A directory notification for 'H:/UnrealProjects/VRMobileScalable/Content/' was aborted.
+[2017.06.25-15.14.53:728][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.25-15.14.53:728][742]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.25-15.14.53:730][742]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.25-15.14.53:731][742]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.25-15.14.53:810][742]LogDerivedDataCache: Shutdown
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.25-15.14.53:810][742]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.25-15.14.53:810][742]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.25-15.14.53:810][742]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.25-15.14.53:810][742]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B5ED8D1-4145-8A22-561E-75A67D735022%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f97e27c542cf35a05c58b18006c58f43%7C874c566fab4d4d43bfd5064effd8eea5%7Cae763ea4-ab73-4209-8aa1-7cfa082d9280&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.25-15.14.53:819][742]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.25-15.14.53:820][742]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.25-15.14.53:820][742]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.25-15.14.53:820][742]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.25-15.14.53:820][742]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.25-15.14.53:821][742]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.25-15.14.53:821][742]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.25-15.14.53:821][742]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.25-15.14.53:821][742]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.25-15.14.53:822][742]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.25-15.14.53:823][742]LogExit: Exiting.
+[2017.06.25-15.14.53:830][742]Log file closed, 06/25/17 11:14:53

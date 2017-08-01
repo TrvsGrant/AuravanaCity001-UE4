@@ -1,0 +1,947 @@
+﻿Log file open, 06/27/17 18:58:36
+LogInit:Display: Running engine for game: VRMobileScalable
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(639650604) SRandInit(639650604).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110213
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: G:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.27-22.58.36:858][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-22.58.36:858][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-22.58.36:868][  0]LogInit: Computer: THERMALWIND
+[2017.06.27-22.58.36:868][  0]LogInit: User: 3DSim
+[2017.06.27-22.58.36:868][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.27-22.58.36:868][  0]LogInit: High frequency timer resolution =3.416979 MHz
+[2017.06.27-22.58.36:868][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2017.06.27-22.58.36:868][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-22.58.36:868][  0]LogMemory: Process Physical Memory: 275.54 MB used, 275.54 MB peak
+[2017.06.27-22.58.36:868][  0]LogMemory: Process Virtual Memory: 267.23 MB used, 267.23 MB peak
+[2017.06.27-22.58.36:868][  0]LogMemory: Physical Memory: 20086.38 MB used,  28959.18 MB free, 49045.56 MB total
+[2017.06.27-22.58.36:868][  0]LogMemory: Virtual Memory: 647.88 MB used,  28959.18 MB free, 134217728.00 MB total
+[2017.06.27-22.58.36:926][  0]LogInit: Using OS detected language (en-US).
+[2017.06.27-22.58.36:926][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.27-22.58.36:933][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.27-22.58.38:020][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-22.58.38:701][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2017.06.27-22.58.38:701][  0]LogD3D11RHI:       12244/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.27-22.58.38:703][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-22.58.38:703][  0]LogD3D11RHI:       0/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-22.58.38:703][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-22.58.38:713][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-22.58.38:713][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-22.58.38:713][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-22.58.38:713][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2017.06.27-22.58.38:713][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2017.06.27-22.58.38:713][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-22.58.38:713][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-22.58.38:714][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.27-22.58.38:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2017.06.27-22.58.38:714][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.27-22.58.38:714][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.27-22.58.38:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-22.58.39:365][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-22.58.39:401][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.27-22.58.39:452][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2017.06.27-22.58.39:452][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (H:/UnrealProjects/VRMobileScalable/Intermediate/Shaders/WorkingDirectory/19320/).
+[2017.06.27-22.58.39:453][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DSim/AppData/Local/Temp/UnrealShaderWorkingDir/E9D62C2044F19514C2219884A1EF1607/'.
+[2017.06.27-22.58.39:453][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-22.58.40:660][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-22.58.40:706][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-22.58.40:750][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-22.58.40:797][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-22.58.40:844][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-22.58.40:894][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-22.58.40:938][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-22.58.40:982][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-22.58.41:023][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-22.58.41:073][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-22.58.41:114][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-22.58.41:157][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-22.58.41:200][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-22.58.41:243][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-22.58.41:289][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-22.58.41:373][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-22.58.41:373][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-22.58.41:409][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-22.58.41:493][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-22.58.41:518][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-22.58.41:563][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-22.58.41:612][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-22.58.41:655][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-22.58.41:697][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-22.58.41:697][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-22.58.42:092][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-22.58.42:200][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-22.58.42:200][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-22.58.42:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-22.58.42:200][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-22.58.42:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-22.58.42:200][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-22.58.42:215][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-22.58.42:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DSim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-22.58.42:238][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-22.58.42:238][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-22.58.42:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-22.58.42:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-22.58.42:625][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-22.58.42:697][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-22.58.42:848][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-22.58.42:888][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-22.58.42:928][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-22.58.42:928][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-22.58.42:928][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-22.58.43:430][  0]LogNetVersion: VRMobileScalable , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3431896694)
+[2017.06.27-22.58.43:487][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.06.27-22.58.43:532][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025437 seconds
+[2017.06.27-22.58.43:538][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-22.58.43:538][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.27-22.58.43:538][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-22.58.43:590][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-22.58.46:333][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.27-22.58.46:360][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-22.58.46:393][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-22.58.46:857][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-22.58.47:206][  0]SourceControl: Info Source control is disabled
+[2017.06.27-22.58.47:208][  0]SourceControl: Info Source control is disabled
+[2017.06.27-22.58.47:250][  0]SourceControl: Info Source control is disabled
+[2017.06.27-22.58.47:292][  0]SourceControl: Info Source control is disabled
+[2017.06.27-22.58.47:871][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-22.58.48:466][  0]LogEngine: Initializing Engine...
+[2017.06.27-22.58.51:582][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.27-22.58.51:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-22.58.51:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-22.58.51:913][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-22.58.51:934][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-22.58.51:942][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-22.58.51:989][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-22.58.51:996][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-22.58.52:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-22.58.52:282][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-22.58.52:556][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-22.58.53:361][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-22.58.53:947][  0]LogConsoleResponse:Display: 
+[2017.06.27-22.58.54:090][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-22.58.54:090][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.27-22.58.54:965][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/' took 0.02s
+[2017.06.27-22.58.55:008][  0]SourceControl: Info Source control is disabled
+[2017.06.27-22.58.55:008][  0]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-22.58.55:009][  0]LightingResults: New page: Lighting Build
+[2017.06.27-22.58.55:045][  0]MapCheck: New page: Map Check
+[2017.06.27-22.58.55:045][  0]LightingResults: New page: Lighting Build
+[2017.06.27-22.58.55:122][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.27-22.58.55:127][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-22.58.55:135][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-22.58.55:224][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.697ms to complete.
+[2017.06.27-22.58.55:224][  0]LogFileHelpers: Loading map 'StartupMap' took 0.217
+[2017.06.27-22.58.55:382][  0]LogCollectionManager: Loaded 1 collections in 0.001735 seconds
+[2017.06.27-22.58.55:459][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' took 0.01s
+[2017.06.27-22.58.55:459][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' took 0.01s
+[2017.06.27-22.58.55:459][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' took 0.01s
+[2017.06.27-22.58.55:459][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2017.06.27-22.58.55:459][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.06.27-22.58.55:468][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2343 classes and 497 folders.
+[2017.06.27-22.58.55:518][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.27-22.58.55:587][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.27-22.58.55:624][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.27-22.58.55:696][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-22.58.55:702][  0]LogSlate: Took 0.000622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-22.58.55:705][  0]LogSlate: Took 0.000570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-22.58.55:711][  0]LogSlate: Took 0.000514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-22.58.55:809][  0]LogRenderer: Reallocating scene render targets to support 1052x572 NumSamples 1 (Frame:1).
+[2017.06.27-22.58.55:920][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-22.58.55:977][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.27-22.58.55:977][  0]LogLoad: (Engine Initialization) Total time: 20.62 seconds
+[2017.06.27-22.58.55:977][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.06.27-22.58.55:977][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.27-22.58.55:977][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.27-22.58.55:986][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-22.58.55:991][  0]LogSteamController: SteamController is not available
+[2017.06.27-22.58.55:991][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-22.58.55:991][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-22.58.55:991][  0]LogSteamVRController: Controller role for device 1 is 0 (invalid=0, left=1, right=2).
+[2017.06.27-22.58.55:991][  0]LogSteamVRController:Warning: Controller device 1 has no role set.  There is no 'right' controller according to steamvr, so we are pickign that.
+[2017.06.27-22.58.55:991][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 1 (left=0, right=1).
+[2017.06.27-22.58.55:991][  0]LogSteamVRController: Controller role for device 2 is 0 (invalid=0, left=1, right=2).
+[2017.06.27-22.58.55:991][  0]LogSteamVRController: Putting controller 2 on the left hand because there is already a controller for the right.
+[2017.06.27-22.58.55:991][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 0 (left=0, right=1).
+[2017.06.27-22.58.56:010][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-22.58.56:054][  0]LogSlate: Took 0.000603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-22.58.56:119][  1]LogAssetRegistry: Asset discovery search completed in 12.6538 seconds
+[2017.06.27-22.58.56:121][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2017.06.27-22.58.56:121][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000026 seconds (updated 0 objects)
+[2017.06.27-22.58.57:470][ 55]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-22.59.03:732][518]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.27-22.59.07:335][927]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-22.59.07:344][927]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-22.59.07:353][927]LightingResults: New page: Lighting Build
+[2017.06.27-22.59.07:353][927]LoadErrors: New page: Loading map: CityAura-MiniSimulation.umap
+[2017.06.27-22.59.07:356][927]MapCheck: New page: Map Check
+[2017.06.27-22.59.07:356][927]LightingResults: New page: Lighting Build
+[2017.06.27-22.59.08:379][927]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-22.59.09:543][927]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-22.59.09:676][927]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-22.59.09:716][927]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-22.59.09:855][927]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.831ms to complete.
+[2017.06.27-22.59.09:855][927]LogFileHelpers: Loading map 'CityAura-MiniSimulation' took 2.521
+[2017.06.27-22.59.15:943][608]Cmd: STAT FPS
+[2017.06.27-22.59.18:762][939]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-22.59.18:805][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-22.59.18:805][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-22.59.18:806][939]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 2:59:18 PM)
+[2017.06.27-22.59.18:806][939]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-22.59.18:826][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020287s)
+[2017.06.27-22.59.18:827][939]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-22.59.18:827][939]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.06.27-22.59.18:827][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.021166s)
+[2017.06.27-22.59.18:853][939]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-22.59.18:861][939]LogInit: FAudioDevice initialized.
+[2017.06.27-22.59.18:968][939]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-22.59.18:968][939]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-22.59.18:983][939]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-18.59.18
+[2017.06.27-22.59.18:984][939]LogWorld: Bringing up level for play took: 0.014112
+[2017.06.27-22.59.19:024][939]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.27-22.59.19:033][939]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.881
+[2017.06.27-22.59.19:034][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-22.59.19:080][940]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.06.27-23.04.17:373][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-23.04.17:516][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-23.04.24:381][753]LogSavePackage: Save=568.17ms
+[2017.06.27-23.04.24:381][753]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation43DEB442413EC13C5CE9B081A55D8FF7.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.27-23.04.24:382][753]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.27-23.04.24:534][753]LogSavePackage: Save=127.28ms
+[2017.06.27-23.04.24:534][753]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltDataE73BEFC74F38881383EDB1A6360F4294.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.27-23.04.24:535][753]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.27-23.04.29:416][305]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.27-23.04.47:287][305]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v2
+[2017.06.27-23.04.47:930][305]LogSavePackage: Save=592.17ms
+[2017.06.27-23.04.47:930][305]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v23CF1F0AC490260555E9B0EA8B8A7F58A.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.27-23.04.47:932][305]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.27-23.04.48:035][305]LogSavePackage: Save=87.75ms
+[2017.06.27-23.04.48:035][305]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltDataEE6C4D76426960163342E88E8C1229C9.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.27-23.04.48:036][305]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.27-23.04.48:040][305]LogFileHelpers: Saving map 'CityAura-MiniSimulation_v2' took 1.309
+[2017.06.27-23.04.48:040][305]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-23.04.48:054][305]LightingResults: New page: Lighting Build
+[2017.06.27-23.04.48:055][305]LoadErrors: New page: Loading map: CityAura-MiniSimulation_v2.umap
+[2017.06.27-23.04.48:061][305]MapCheck: New page: Map Check
+[2017.06.27-23.04.48:061][305]LightingResults: New page: Lighting Build
+[2017.06.27-23.04.48:245][305]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-23.04.48:277][305]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-23.04.48:400][305]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.874ms to complete.
+[2017.06.27-23.04.48:400][305]LogFileHelpers: Loading map 'CityAura-MiniSimulation_v2' took 0.360
+[2017.06.27-23.04.58:468][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water)
+[2017.06.27-23.05.02:679][937]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C2-Pool)
+[2017.06.27-23.05.11:669][678]Cmd: TRANSACTION UNDO
+[2017.06.27-23.05.11:669][678]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.05.16:552][201]Cmd: TRANSACTION UNDO
+[2017.06.27-23.05.16:552][201]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.05.45:368][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C9)
+[2017.06.27-23.05.46:340][104]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_Ground-C8)
+[2017.06.27-23.05.47:061][180]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_Ground-C7)
+[2017.06.27-23.05.48:136][296]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular64)
+[2017.06.27-23.05.49:239][414]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides4)
+[2017.06.27-23.05.53:163][801]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides3)
+[2017.06.27-23.05.54:667][963]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular63)
+[2017.06.27-23.05.56:051][111]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular5)
+[2017.06.27-23.05.57:072][215]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.27-23.06.00:214][552]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_Ground-C9)
+[2017.06.27-23.06.05:785][170]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water)
+[2017.06.27-23.06.14:988][159]Cmd: TRANSACTION UNDO
+[2017.06.27-23.06.14:988][159]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.06.14:992][159]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_GRID_Ground-C9_50.StaticMeshComponent0) Component already registered.
+[2017.06.27-23.06.19:206][583]Cmd: TRANSACTION UNDO
+[2017.06.27-23.06.19:206][583]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.06.19:210][583]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_GRID_Ground-C9_50.StaticMeshComponent0) Component already registered.
+[2017.06.27-23.07.51:428][382]Cmd: TRANSACTION UNDO
+[2017.06.27-23.07.51:428][382]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.07.51:432][382]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_GRID_Ground-C9_50.StaticMeshComponent0) Component already registered.
+[2017.06.27-23.07.57:124][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C7)
+[2017.06.27-23.07.58:843][135]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water)
+[2017.06.27-23.07.59:751][231]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_Ground-C8)
+[2017.06.27-23.08.00:867][351]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_Ground-C9)
+[2017.06.27-23.08.38:774][375]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular63)
+[2017.06.27-23.08.40:841][594]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.27-23.08.43:967][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water2)
+[2017.06.27-23.08.45:472][ 94]Cmd: DELETE
+[2017.06.27-23.08.45:472][ 94]Cmd: ACTOR DELETE
+[2017.06.27-23.08.45:473][ 94]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.08.45:482][ 94]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.27-23.08.47:281][302]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular5)
+[2017.06.27-23.08.48:109][383]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.27-23.08.49:149][487]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular63)
+[2017.06.27-23.08.50:353][612]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides3)
+[2017.06.27-23.08.51:687][749]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular64)
+[2017.06.27-23.08.52:612][843]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides4)
+[2017.06.27-23.08.53:953][983]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water)
+[2017.06.27-23.09.00:508][659]Cmd: TRANSACTION UNDO
+[2017.06.27-23.09.00:508][659]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.09.14:576][ 61]Cmd: TRANSACTION UNDO
+[2017.06.27-23.09.14:576][ 61]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.10.12:259][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water)
+[2017.06.27-23.10.16:219][269]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular64)
+[2017.06.27-23.10.19:193][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C8)
+[2017.06.27-23.10.21:138][778]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular64)
+[2017.06.27-23.10.22:768][938]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides4)
+[2017.06.27-23.10.24:771][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C8)
+[2017.06.27-23.10.26:124][273]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular64)
+[2017.06.27-23.10.27:270][386]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides4)
+[2017.06.27-23.10.28:243][476]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides3)
+[2017.06.27-23.10.29:038][552]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular63)
+[2017.06.27-23.10.30:009][648]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular5)
+[2017.06.27-23.10.30:552][698]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.27-23.10.35:773][240]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water)
+[2017.06.27-23.10.46:642][353]Cmd: TRANSACTION UNDO
+[2017.06.27-23.10.46:642][353]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.11.59:426][ 66]Cmd: EDIT COPY
+[2017.06.27-23.12.01:464][259]Cmd: EDIT PASTE
+[2017.06.27-23.12.08:263][960]Cmd: TRANSACTION UNDO
+[2017.06.27-23.12.08:263][960]LogEditorTransaction: Undo Paste
+[2017.06.27-23.12.09:986][110]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides4)
+[2017.06.27-23.12.12:245][316]Cmd: TRANSACTION UNDO
+[2017.06.27-23.12.12:245][316]LogEditorTransaction: Undo Move Actors
+[2017.06.27-23.12.13:900][461]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides3)
+[2017.06.27-23.12.15:158][572]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular64)
+[2017.06.27-23.12.16:105][663]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular63)
+[2017.06.27-23.12.17:073][758]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular5)
+[2017.06.27-23.12.17:889][834]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.27-23.12.19:899][ 36]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water)
+[2017.06.27-23.12.24:560][524]Cmd: EDIT COPY
+[2017.06.27-23.12.24:964][566]Cmd: EDIT PASTE
+[2017.06.27-23.12.29:511][ 19]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water2)
+[2017.06.27-23.12.40:401][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water3)
+[2017.06.27-23.12.41:101][172]Cmd: DELETE
+[2017.06.27-23.12.41:101][172]Cmd: ACTOR DELETE
+[2017.06.27-23.12.41:103][172]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.12.41:113][172]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.27-23.12.42:061][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water4)
+[2017.06.27-23.12.42:246][293]Cmd: DELETE
+[2017.06.27-23.12.42:246][293]Cmd: ACTOR DELETE
+[2017.06.27-23.12.42:248][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.12.42:255][293]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.27-23.12.46:970][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water5)
+[2017.06.27-23.12.47:082][798]Cmd: DELETE
+[2017.06.27-23.12.47:082][798]Cmd: ACTOR DELETE
+[2017.06.27-23.12.47:083][798]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.12.47:090][798]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.27-23.12.50:544][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water6)
+[2017.06.27-23.12.50:717][178]Cmd: DELETE
+[2017.06.27-23.12.50:717][178]Cmd: ACTOR DELETE
+[2017.06.27-23.12.50:718][178]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.12.50:726][178]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.27-23.12.53:443][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C8-Sector-Water7)
+[2017.06.27-23.12.53:746][508]Cmd: DELETE
+[2017.06.27-23.12.53:747][508]Cmd: ACTOR DELETE
+[2017.06.27-23.12.53:748][508]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.12.53:756][508]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.27-23.13.05:678][855]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F1-BioReactor-2)
+[2017.06.27-23.13.06:503][931]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F1-BioReactor-3)
+[2017.06.27-23.13.07:804][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F2-DodecP02Q6)
+[2017.06.27-23.13.08:656][144]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F4-Tower-TopSpher-4)
+[2017.06.27-23.14.10:443][539]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular66)
+[2017.06.27-23.14.11:313][632]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F1-BioReactor-2)
+[2017.06.27-23.14.13:161][837]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular67)
+[2017.06.27-23.14.14:126][939]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F1-BioReactor-3)
+[2017.06.27-23.14.19:946][570]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular65)
+[2017.06.27-23.14.21:608][755]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F2-DodecP02Q6)
+[2017.06.27-23.14.23:501][940]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular62)
+[2017.06.27-23.14.24:348][ 27]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F4-Tower-TopSpher-4)
+[2017.06.27-23.14.26:343][196]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular57)
+[2017.06.27-23.14.27:045][267]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F4-Tower-TopSpher-3)
+[2017.06.27-23.14.28:693][446]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular61)
+[2017.06.27-23.14.30:195][606]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F2-DodecP02Q05)
+[2017.06.27-23.14.32:060][810]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular60)
+[2017.06.27-23.14.34:232][ 47]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F1-BioReactor-02)
+[2017.06.27-23.14.39:215][564]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular59)
+[2017.06.27-23.14.40:145][661]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F1-BioReactor-01)
+[2017.06.27-23.15.05:009][198]Cmd: MODE ROTGRID=0
+[2017.06.27-23.18.10:038][652]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular70)
+[2017.06.27-23.18.12:237][855]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides7)
+[2017.06.27-23.18.13:796][998]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular69)
+[2017.06.27-23.18.14:709][ 77]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides6)
+[2017.06.27-23.18.15:883][182]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular68)
+[2017.06.27-23.18.16:930][274]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides5)
+[2017.06.27-23.18.20:041][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water2)
+[2017.06.27-23.18.28:144][375]Cmd: EDIT COPY
+[2017.06.27-23.18.28:468][407]Cmd: EDIT PASTE
+[2017.06.27-23.18.33:103][832]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water3)
+[2017.06.27-23.18.36:851][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A48)
+[2017.06.27-23.18.37:171][188]Cmd: TRANSACTION UNDO
+[2017.06.27-23.18.37:171][188]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.27-23.18.38:646][303]Cmd: TRANSACTION UNDO
+[2017.06.27-23.18.38:646][303]LogEditorTransaction: Undo Actor Movement
+[2017.06.27-23.18.39:183][346]Cmd: TRANSACTION UNDO
+[2017.06.27-23.18.39:183][346]LogEditorTransaction: Undo Rotate Actors
+[2017.06.27-23.18.41:157][508]Cmd: MODE ROTGRID=1
+[2017.06.27-23.18.52:421][523]Cmd: EDIT COPY
+[2017.06.27-23.18.52:700][549]Cmd: EDIT PASTE
+[2017.06.27-23.18.55:962][840]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water4)
+[2017.06.27-23.19.02:218][420]Cmd: EDIT COPY
+[2017.06.27-23.19.02:431][444]Cmd: EDIT PASTE
+[2017.06.27-23.19.05:447][769]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water5)
+[2017.06.27-23.19.11:989][442]Cmd: EDIT COPY
+[2017.06.27-23.19.12:199][465]Cmd: EDIT PASTE
+[2017.06.27-23.19.14:820][735]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water6)
+[2017.06.27-23.19.19:647][240]Cmd: EDIT COPY
+[2017.06.27-23.19.19:884][265]Cmd: EDIT PASTE
+[2017.06.27-23.19.22:666][563]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C8-Sector-Water7)
+[2017.06.27-23.21.14:974][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water2)
+[2017.06.27-23.21.15:879][435]Cmd: DELETE
+[2017.06.27-23.21.15:879][435]Cmd: ACTOR DELETE
+[2017.06.27-23.21.15:881][435]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.15:889][435]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.27-23.21.16:723][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water8)
+[2017.06.27-23.21.16:992][553]Cmd: DELETE
+[2017.06.27-23.21.16:992][553]Cmd: ACTOR DELETE
+[2017.06.27-23.21.16:994][553]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.17:002][553]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.27-23.21.17:787][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water3)
+[2017.06.27-23.21.17:924][652]Cmd: DELETE
+[2017.06.27-23.21.17:924][652]Cmd: ACTOR DELETE
+[2017.06.27-23.21.17:925][652]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.17:934][652]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.27-23.21.22:319][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water7)
+[2017.06.27-23.21.22:650][161]Cmd: DELETE
+[2017.06.27-23.21.22:650][161]Cmd: ACTOR DELETE
+[2017.06.27-23.21.22:652][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.22:660][161]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.27-23.21.23:286][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water6)
+[2017.06.27-23.21.23:429][241]Cmd: DELETE
+[2017.06.27-23.21.23:429][241]Cmd: ACTOR DELETE
+[2017.06.27-23.21.23:431][241]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.23:438][241]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.27-23.21.29:224][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool5)
+[2017.06.27-23.21.36:380][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water5)
+[2017.06.27-23.21.37:405][756]Cmd: DELETE
+[2017.06.27-23.21.37:405][756]Cmd: ACTOR DELETE
+[2017.06.27-23.21.37:407][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.37:415][756]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.27-23.21.42:474][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool-Water4)
+[2017.06.27-23.21.42:829][362]Cmd: DELETE
+[2017.06.27-23.21.42:830][362]Cmd: ACTOR DELETE
+[2017.06.27-23.21.42:831][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-23.21.42:839][362]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.27-23.21.43:714][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool4)
+[2017.06.27-23.21.50:853][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool7)
+[2017.06.27-23.21.55:546][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool8)
+[2017.06.27-23.21.55:828][725]LogSlate: Took 0.000675 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.27-23.22.01:876][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool)
+[2017.06.27-23.22.08:815][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool3)
+[2017.06.27-23.22.12:553][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C2-Pool4)
+[2017.06.27-23.22.21:258][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_C3-Wall)
+[2017.06.27-23.22.22:750][605]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (S_GRID_C3-Path)
+[2017.06.27-23.23.30:615][  0]LogSavePackage: Save=835.80ms
+[2017.06.27-23.23.30:615][  0]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v240156693495CC1D5B6A8EC8B7360AF5B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.27-23.23.30:617][  0]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.27-23.23.30:735][  0]LogSavePackage: Save=88.34ms
+[2017.06.27-23.23.30:735][  0]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData09CE94114ED437C8C78D868A0A5BC6B5.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.27-23.23.30:736][  0]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.27-23.23.33:572][322]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-23.23.33:586][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.23.33:586][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-23.23.33:586][322]PIE: New page: PIE session: CityAura-MiniSimulation_v2 (Jun 27, 2017, 3:23:33 PM)
+[2017.06.27-23.23.33:586][322]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2
+[2017.06.27-23.23.33:613][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027436s)
+[2017.06.27-23.23.33:614][322]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v2
+[2017.06.27-23.23.33:614][322]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.06.27-23.23.33:614][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 (0.028592s)
+[2017.06.27-23.23.33:636][322]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-23.23.33:643][322]LogInit: FAudioDevice initialized.
+[2017.06.27-23.23.33:733][322]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-23.23.33:733][322]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-23.23.33:754][322]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 up for play (max tick rate 0) at 2017.06.27-19.23.33
+[2017.06.27-23.23.33:757][322]LogWorld: Bringing up level for play took: 0.022332
+[2017.06.27-23.23.33:766][322]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2 -0.386
+[2017.06.27-23.23.33:767][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.26.03:614][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.26.03:781][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.26.07:454][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A52)
+[2017.06.27-23.26.07:967][229]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (S_GRID_Layout-R8C9-A52)
+[2017.06.27-23.29.14:631][662]LogEditorTransaction: Undo Create Box Collision
+[2017.06.27-23.30.18:510][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.27-23.30.18:529][787]LogSavePackage: Save=12.46ms
+[2017.06.27-23.30.18:529][787]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A450933CE4244D3992F4BCE90BB2D1ED253.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.27-23.30.18:530][787]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.27-23.30.22:722][117]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-23.30.22:735][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.30.22:735][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-23.30.22:736][117]PIE: New page: PIE session: CityAura-MiniSimulation_v2 (Jun 27, 2017, 3:30:22 PM)
+[2017.06.27-23.30.22:736][117]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2
+[2017.06.27-23.30.22:762][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026763s)
+[2017.06.27-23.30.22:763][117]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v2
+[2017.06.27-23.30.22:763][117]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.06.27-23.30.22:763][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 (0.027900s)
+[2017.06.27-23.30.22:793][117]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-23.30.22:799][117]LogInit: FAudioDevice initialized.
+[2017.06.27-23.30.22:904][117]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-23.30.22:904][117]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-23.30.22:923][117]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 up for play (max tick rate 0) at 2017.06.27-19.30.22
+[2017.06.27-23.30.22:925][117]LogWorld: Bringing up level for play took: 0.019676
+[2017.06.27-23.30.22:940][117]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2 0.787
+[2017.06.27-23.30.22:940][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.34.40:033][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.34.40:220][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.35.02:688][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Layout-R8C9-A45" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset" SILENT=true
+[2017.06.27-23.35.02:696][340]LogSavePackage: Save=3.03ms
+[2017.06.27-23.35.02:696][340]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Layout-R8C9-A4520D038064F42F104EBC6888A54F9DFA1.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset'
+[2017.06.27-23.35.02:697][340]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Layout-R8C9-A45.uasset
+[2017.06.27-23.35.05:448][559]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-23.35.05:460][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.35.05:460][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-23.35.05:460][559]PIE: New page: PIE session: CityAura-MiniSimulation_v2 (Jun 27, 2017, 3:35:05 PM)
+[2017.06.27-23.35.05:460][559]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2
+[2017.06.27-23.35.05:490][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029570s)
+[2017.06.27-23.35.05:490][559]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v2
+[2017.06.27-23.35.05:491][559]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.06.27-23.35.05:491][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 (0.030602s)
+[2017.06.27-23.35.05:513][559]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-23.35.05:520][559]LogInit: FAudioDevice initialized.
+[2017.06.27-23.35.05:620][559]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-23.35.05:620][559]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-23.35.05:639][559]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 up for play (max tick rate 0) at 2017.06.27-19.35.05
+[2017.06.27-23.35.05:642][559]LogWorld: Bringing up level for play took: 0.020225
+[2017.06.27-23.35.05:655][559]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2 -0.498
+[2017.06.27-23.35.05:655][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.37.33:793][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.37.33:997][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.27-23.54.56:852][657]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.28-00.02.54:468][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Ground-C3C4C5C6-WaterHole02)
+[2017.06.28-00.03.00:245][205]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular141)
+[2017.06.28-00.03.01:092][253]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides22)
+[2017.06.28-00.03.02:026][304]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular140)
+[2017.06.28-00.03.04:255][441]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides21)
+[2017.06.28-00.03.05:535][518]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_STRU_COMP_Platform-Circular139)
+[2017.06.28-00.03.06:338][563]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides20)
+[2017.06.28-00.03.29:205][ 89]Cmd: MODE ROTGRID=0
+[2017.06.28-00.04.04:935][545]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-BioReactor-01...
+[2017.06.28-00.04.06:002][545]LogStaticMesh: Built static mesh [1.07s] /Game/City-Aura/S_ARCH_BldgE-F1-BioReactor-01.S_ARCH_BldgE-F1-BioReactor-01
+[2017.06.28-00.07.00:941][704]LogEditorTransaction: Undo Move Actors
+[2017.06.28-00.07.00:956][704]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides24.StaticMeshComponent0) Component already registered.
+[2017.06.28-00.07.03:003][800]LogEditorTransaction: Undo Rotate Actors
+[2017.06.28-00.07.03:016][800]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides24.StaticMeshComponent0) Component already registered.
+[2017.06.28-00.07.06:937][  3]LogEditorTransaction: Undo Move Actors
+[2017.06.28-00.07.06:953][  3]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides24.StaticMeshComponent0) Component already registered.
+[2017.06.28-00.07.07:409][ 13]LogEditorTransaction: Undo Rotate Actors
+[2017.06.28-00.07.07:412][ 13]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides24.StaticMeshComponent0) Component already registered.
+[2017.06.28-00.07.10:197][161]LogEditorTransaction: Redo Rotate Actors
+[2017.06.28-00.07.10:671][174]LogEditorTransaction: Redo Move Actors
+[2017.06.28-00.07.11:051][181]LogEditorTransaction: Redo Rotate Actors
+[2017.06.28-00.07.11:449][190]LogEditorTransaction: Redo Move Actors
+[2017.06.28-00.08.02:352][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-BioReactor-01" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-BioReactor-01.uasset" SILENT=true
+[2017.06.28-00.08.02:370][720]LogSavePackage: Save=11.29ms
+[2017.06.28-00.08.02:370][720]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-BioReactor-0156EE296647EBCFF9A22DA0A63B2A2073.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-BioReactor-01.uasset'
+[2017.06.28-00.08.02:372][720]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-BioReactor-01.uasset
+[2017.06.28-00.10.14:043][792]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-BioReactor-02...
+[2017.06.28-00.10.14:900][792]LogStaticMesh: Built static mesh [0.86s] /Game/City-Aura/S_ARCH_BldgE-F1-BioReactor-02.S_ARCH_BldgE-F1-BioReactor-02
+[2017.06.28-00.10.35:955][398]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-CylinderSquash...
+[2017.06.28-00.10.36:533][398]LogStaticMesh: Built static mesh [0.58s] /Game/City-Aura/S_ARCH_BldgE-F1-CylinderSquash.S_ARCH_BldgE-F1-CylinderSquash
+[2017.06.28-00.10.59:761][ 22]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-DomeOcto-UtilityGlass...
+[2017.06.28-00.11.01:898][ 22]LogStaticMesh: Built static mesh [2.14s] /Game/City-Aura/S_ARCH_BldgE-F1-DomeOcto-UtilityGlass.S_ARCH_BldgE-F1-DomeOcto-UtilityGlass
+[2017.06.28-00.11.06:814][348]LogSavePackage: Save=843.98ms
+[2017.06.28-00.11.06:814][348]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v29F0D918C41CD62CCCE11F998BEEE5B9C.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.11.06:816][348]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.11.06:931][348]LogSavePackage: Save=89.27ms
+[2017.06.28-00.11.06:931][348]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData2E11AE8C4E2588EC4830F5B2D04CAC0C.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.11.06:932][348]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.11.15:610][939]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-DoubLatCylin-Three...
+[2017.06.28-00.11.16:561][939]LogStaticMesh: Built static mesh [0.95s] /Game/City-Aura/S_ARCH_BldgE-F1-DoubLatCylin-Three.S_ARCH_BldgE-F1-DoubLatCylin-Three
+[2017.06.28-00.11.46:456][233]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-Rec-PagodaFuji...
+[2017.06.28-00.11.47:062][233]LogStaticMesh: Built static mesh [0.61s] /Game/City-Aura/S_ARCH_BldgE-F1-Rec-PagodaFuji.S_ARCH_BldgE-F1-Rec-PagodaFuji
+[2017.06.28-00.11.55:319][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-Rec-PagodaFuji" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-Rec-PagodaFuji.uasset" SILENT=true
+[2017.06.28-00.11.55:337][914]LogSavePackage: Save=10.41ms
+[2017.06.28-00.11.55:337][914]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-Rec-PagodaFuji83BEB316430A76BDF3E3269FE6B20E75.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-Rec-PagodaFuji.uasset'
+[2017.06.28-00.11.55:339][914]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-Rec-PagodaFuji.uasset
+[2017.06.28-00.11.59:818][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-DoubLatCylin-Three" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-DoubLatCylin-Three.uasset" SILENT=true
+[2017.06.28-00.11.59:834][276]LogSavePackage: Save=10.49ms
+[2017.06.28-00.11.59:834][276]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-DoubLatCylin-ThreeBE9E50224673B93DC7EE52BE627C8277.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-DoubLatCylin-Three.uasset'
+[2017.06.28-00.11.59:836][276]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-DoubLatCylin-Three.uasset
+[2017.06.28-00.12.01:206][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-DomeOcto-UtilityGlass" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-DomeOcto-UtilityGlass.uasset" SILENT=true
+[2017.06.28-00.12.01:223][382]LogSavePackage: Save=10.91ms
+[2017.06.28-00.12.01:223][382]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-DomeOcto-UtilityGlassC0B987B149B168992DD7DB8AFF7C5BB9.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-DomeOcto-UtilityGlass.uasset'
+[2017.06.28-00.12.01:224][382]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-DomeOcto-UtilityGlass.uasset
+[2017.06.28-00.12.01:949][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-CylinderSquash" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-CylinderSquash.uasset" SILENT=true
+[2017.06.28-00.12.01:967][430]LogSavePackage: Save=10.80ms
+[2017.06.28-00.12.01:967][430]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-CylinderSquashADCE95054B6B63F654FC4DAA08A10EDD.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-CylinderSquash.uasset'
+[2017.06.28-00.12.01:968][430]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-CylinderSquash.uasset
+[2017.06.28-00.12.02:552][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-BioReactor-02" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-BioReactor-02.uasset" SILENT=true
+[2017.06.28-00.12.02:570][466]LogSavePackage: Save=12.33ms
+[2017.06.28-00.12.02:570][466]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-BioReactor-0299E62BF2433B546346EAFDAD46BE9AC4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-BioReactor-02.uasset'
+[2017.06.28-00.12.02:572][466]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-BioReactor-02.uasset
+[2017.06.28-00.12.08:484][838]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-Rec-SemiCylin...
+[2017.06.28-00.12.09:226][838]LogStaticMesh: Built static mesh [0.74s] /Game/City-Aura/S_ARCH_BldgE-F1-Rec-SemiCylin.S_ARCH_BldgE-F1-Rec-SemiCylin
+[2017.06.28-00.13.16:445][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F1-Rec-SemiCylin" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-Rec-SemiCylin.uasset" SILENT=true
+[2017.06.28-00.13.16:462][181]LogSavePackage: Save=10.51ms
+[2017.06.28-00.13.16:462][181]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-Rec-SemiCylin987319E945AB4450AE05319B01B858AF.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-Rec-SemiCylin.uasset'
+[2017.06.28-00.13.16:464][181]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F1-Rec-SemiCylin.uasset
+[2017.06.28-00.13.26:657][839]LogStaticMesh: Building static mesh S_ARCH_BldgE-F1-Torus-01...
+[2017.06.28-00.13.28:082][839]LogStaticMesh: Built static mesh [1.43s] /Game/City-Aura/S_ARCH_BldgE-F1-Torus-01.S_ARCH_BldgE-F1-Torus-01
+[2017.06.28-00.14.10:952][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F2-CylinderSquash" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.uasset" SILENT=true
+[2017.06.28-00.14.10:971][247]LogSavePackage: Save=10.98ms
+[2017.06.28-00.14.10:971][247]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-CylinderSquashF7A9C654431F390C7ABFC499509A57AD.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.uasset'
+[2017.06.28-00.14.10:973][247]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.uasset
+[2017.06.28-00.14.17:333][653]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2-CylinderSquash...
+[2017.06.28-00.14.18:771][653]LogStaticMesh: Built static mesh [1.44s] /Game/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.S_ARCH_BldgE-F2-CylinderSquash
+[2017.06.28-00.14.52:648][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F2-CylinderSquash" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.uasset" SILENT=true
+[2017.06.28-00.14.52:665][148]LogSavePackage: Save=11.23ms
+[2017.06.28-00.14.52:665][148]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-CylinderSquash70A3464A48C7494F5D8B1B92318D9060.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.uasset'
+[2017.06.28-00.14.52:666][148]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-CylinderSquash.uasset
+[2017.06.28-00.15.26:190][825]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2-DodecP02Q05...
+[2017.06.28-00.15.28:811][825]LogStaticMesh: Built static mesh [2.62s] /Game/City-Aura/S_ARCH_BldgE-F2-DodecP02Q05.S_ARCH_BldgE-F2-DodecP02Q05
+[2017.06.28-00.15.34:342][207]LogSavePackage: Save=831.44ms
+[2017.06.28-00.15.34:342][207]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v230E68DA54E4A5BF2C759A697D26D419F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.15.34:344][207]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.15.34:457][207]LogSavePackage: Save=86.79ms
+[2017.06.28-00.15.34:457][207]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData8A7088184BF5B71103EEF58E8773AD58.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.15.34:458][207]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.15.41:762][699]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2-DoubCylinRing-Cylin...
+[2017.06.28-00.15.42:626][699]LogStaticMesh: Built static mesh [0.86s] /Game/City-Aura/S_ARCH_BldgE-F2-DoubCylinRing-Cylin.S_ARCH_BldgE-F2-DoubCylinRing-Cylin
+[2017.06.28-00.15.54:235][533]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2-Manta-01...
+[2017.06.28-00.15.55:754][533]LogStaticMesh: Built static mesh [1.52s] /Game/City-Aura/S_ARCH_BldgE-F2-Manta-01.S_ARCH_BldgE-F2-Manta-01
+[2017.06.28-00.15.58:373][667]LogSavePackage: Save=833.93ms
+[2017.06.28-00.15.58:373][667]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2570D618644738A035A85FA8E545612C2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.15.58:375][667]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.15.58:486][667]LogSavePackage: Save=89.04ms
+[2017.06.28-00.15.58:486][667]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData7FD960F6420DFE23A69C9C959572E267.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.15.58:487][667]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.16.05:228][123]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2-RectangleShortOverhand...
+[2017.06.28-00.16.05:618][123]LogStaticMesh: Built static mesh [0.39s] /Game/City-Aura/S_ARCH_BldgE-F2-RectangleShortOverhand.S_ARCH_BldgE-F2-RectangleShortOverhand
+[2017.06.28-00.16.08:134][257]LogSavePackage: Save=819.68ms
+[2017.06.28-00.16.08:134][257]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v21454257C4C7115E82DE96696EB47394E.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.16.08:135][257]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.16.08:250][257]LogSavePackage: Save=87.75ms
+[2017.06.28-00.16.08:250][257]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltDataF7893F5A4678A4F3DC5959937184545A.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.16.08:251][257]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.16.27:431][726]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2-SemiCylinder-3LWindow...
+[2017.06.28-00.16.28:488][726]LogStaticMesh: Built static mesh [1.06s] /Game/City-Aura/S_ARCH_BldgE-F2-SemiCylinder-3LWindow.S_ARCH_BldgE-F2-SemiCylinder-3LWindow
+[2017.06.28-00.16.46:220][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F2-SemiCylinder-3LWindow" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-SemiCylinder-3LWindow.uasset" SILENT=true
+[2017.06.28-00.16.46:237][121]LogSavePackage: Save=10.37ms
+[2017.06.28-00.16.46:237][121]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-SemiCylinder-3LWindow6C55E095416B692D4D7F9EABA93645ED.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-SemiCylinder-3LWindow.uasset'
+[2017.06.28-00.16.46:239][121]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F2-SemiCylinder-3LWindow.uasset
+[2017.06.28-00.16.56:643][879]LogStaticMesh: Building static mesh S_ARCH_BldgE-F2_RectangleOverHang...
+[2017.06.28-00.16.56:863][879]LogStaticMesh: Built static mesh [0.22s] /Game/City-Aura/S_ARCH_BldgE-F2_RectangleOverHang.S_ARCH_BldgE-F2_RectangleOverHang
+[2017.06.28-00.17.00:500][101]LogSavePackage: Save=818.85ms
+[2017.06.28-00.17.00:500][101]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v29A9A8BAF45AAF0DE7B95DE833AC45E2E.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.17.00:502][101]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.17.00:608][101]LogSavePackage: Save=85.13ms
+[2017.06.28-00.17.00:608][101]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltDataD26852BC43B38C4ADAE0CF942F39F4B3.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.17.00:609][101]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.17.08:973][657]LogStaticMesh: Building static mesh S_ARCH_BldgE-F3-CubeSky...
+[2017.06.28-00.17.23:611][657]LogStaticMesh: Built static mesh [14.64s] /Game/City-Aura/S_ARCH_BldgE-F3-CubeSky.S_ARCH_BldgE-F3-CubeSky
+[2017.06.28-00.17.23:696][657]LogStaticMesh:Warning: S_ARCH_BldgE-F3-CubeSky has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.06.28-00.17.32:476][298]LogSavePackage: Save=848.66ms
+[2017.06.28-00.17.32:476][298]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2075B1351451755CB272B2C995A358F69.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.17.32:478][298]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.17.32:600][298]LogSavePackage: Save=94.05ms
+[2017.06.28-00.17.32:600][298]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData7538F3674045AA59892CDA97BB7BA303.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.17.32:601][298]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.17.42:362][931]LogStaticMesh: Building static mesh S_ARCH_BldgE-F3-CubeSky-Transpad...
+[2017.06.28-00.17.55:776][931]LogStaticMesh: Built static mesh [13.41s] /Game/City-Aura/S_ARCH_BldgE-F3-CubeSky-Transpad.S_ARCH_BldgE-F3-CubeSky-Transpad
+[2017.06.28-00.23.55:167][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F3-CubeSky-Transpad" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-CubeSky-Transpad.uasset" SILENT=true
+[2017.06.28-00.23.55:193][341]LogSavePackage: Save=14.31ms
+[2017.06.28-00.23.55:193][341]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F3-CubeSky-Transpad9BCE58D04AB507DD1007F8916EDFA7F4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-CubeSky-Transpad.uasset'
+[2017.06.28-00.23.55:195][341]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-CubeSky-Transpad.uasset
+[2017.06.28-00.24.15:649][895]LogStaticMesh: Building static mesh S_ARCH_BldgE-F3-Hexa02...
+[2017.06.28-00.24.16:525][895]LogStaticMesh: Built static mesh [0.88s] /Game/City-Aura/S_ARCH_BldgE-F3-Hexa02.S_ARCH_BldgE-F3-Hexa02
+[2017.06.28-00.24.41:946][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F3-Hexa02" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-Hexa02.uasset" SILENT=true
+[2017.06.28-00.24.41:963][  0]LogSavePackage: Save=10.64ms
+[2017.06.28-00.24.41:963][  0]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F3-Hexa0299523CA2417AF781DE240D912688136D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-Hexa02.uasset'
+[2017.06.28-00.24.41:964][  0]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-Hexa02.uasset
+[2017.06.28-00.24.58:737][283]LogStaticMesh: Building static mesh S_ARCH_BldgE-F3-RectaCurve-01...
+[2017.06.28-00.25.00:926][283]LogStaticMesh: Built static mesh [2.19s] /Game/City-Aura/S_ARCH_BldgE-F3-RectaCurve-01.S_ARCH_BldgE-F3-RectaCurve-01
+[2017.06.28-00.26.07:910][771]LogSavePackage: Save=810.76ms
+[2017.06.28-00.26.07:910][771]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2992EAF664AFECD1DB445229638CEA83B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.26.07:912][771]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.26.08:023][771]LogSavePackage: Save=83.90ms
+[2017.06.28-00.26.08:023][771]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData67A20829445E1F36082FA999086CEBEA.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.26.08:024][771]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.26.13:621][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F3-RectaCurve-01" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-RectaCurve-01.uasset" SILENT=true
+[2017.06.28-00.26.13:639][246]LogSavePackage: Save=10.83ms
+[2017.06.28-00.26.13:639][246]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F3-RectaCurve-015E70AD7A4AA003063D1883A1BC80D353.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-RectaCurve-01.uasset'
+[2017.06.28-00.26.13:641][246]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-RectaCurve-01.uasset
+[2017.06.28-00.26.25:195][ 81]LogStaticMesh: Building static mesh S_ARCH_BldgE-F3-SemiSphe-MultiEntr...
+[2017.06.28-00.26.27:714][ 81]LogStaticMesh: Built static mesh [2.52s] /Game/City-Aura/S_ARCH_BldgE-F3-SemiSphe-MultiEntr.S_ARCH_BldgE-F3-SemiSphe-MultiEntr
+[2017.06.28-00.28.46:317][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F3-SemiSphe-MultiEntr" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-SemiSphe-MultiEntr.uasset" SILENT=true
+[2017.06.28-00.28.46:337][282]LogSavePackage: Save=12.55ms
+[2017.06.28-00.28.46:337][282]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F3-SemiSphe-MultiEntrF04E338A4A4DFB2CBDB8BFB340274854.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-SemiSphe-MultiEntr.uasset'
+[2017.06.28-00.28.46:339][282]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-SemiSphe-MultiEntr.uasset
+[2017.06.28-00.29.22:122][ 30]LogStaticMesh: Building static mesh S_ARCH_BldgE-F3-Trillian-TopFlat_S_ARCH_BldgE-F3-Trillian-TopFlat...
+[2017.06.28-00.29.27:668][ 30]LogStaticMesh: Built static mesh [5.55s] /Game/City-Aura/S_ARCH_BldgE-F3-Trillian-TopFlat_S_ARCH_BldgE-F3-Trillian-TopFlat.S_ARCH_BldgE-F3-Trillian-TopFlat_S_ARCH_BldgE-F3-Trillian-TopFlat
+[2017.06.28-00.30.50:255][887]LogSavePackage: Save=13.74ms
+[2017.06.28-00.30.50:255][887]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F3-Trillian-TopFlat_S_ARCH_BldgE-F3-Trillian-TopFlat5724A4A1491043A897F4A2ADA9ACDAE2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-Trillian-TopFlat_S_ARCH_BldgE-F3-Trillian-TopFlat.uasset'
+[2017.06.28-00.30.50:257][887]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F3-Trillian-TopFlat_S_ARCH_BldgE-F3-Trillian-TopFlat.uasset
+[2017.06.28-00.31.18:068][115]LogStaticMesh: Building static mesh S_ARCH_BldgE-F4-Gress-InterCityRail...
+[2017.06.28-00.31.21:126][115]LogStaticMesh: Built static mesh [3.06s] /Game/City-Aura/S_ARCH_BldgE-F4-Gress-InterCityRail.S_ARCH_BldgE-F4-Gress-InterCityRail
+[2017.06.28-00.31.45:327][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F4-Gress-InterCityRail" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Gress-InterCityRail.uasset" SILENT=true
+[2017.06.28-00.31.45:344][174]LogSavePackage: Save=11.15ms
+[2017.06.28-00.31.45:344][174]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-Gress-InterCityRail6CA79A1947F9309E013F6FBBEDAF06C5.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Gress-InterCityRail.uasset'
+[2017.06.28-00.31.45:345][174]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Gress-InterCityRail.uasset
+[2017.06.28-00.32.16:015][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.uasset" SILENT=true
+[2017.06.28-00.32.16:034][440]LogSavePackage: Save=11.61ms
+[2017.06.28-00.32.16:034][440]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-Tower-TopSpher-01A40E2A4D4B5D018E95957FAFE815BE5D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.uasset'
+[2017.06.28-00.32.16:036][440]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.uasset
+[2017.06.28-00.32.23:763][  7]LogStaticMesh: Building static mesh S_ARCH_BldgE-F4-Tower-TopSpher-01...
+[2017.06.28-00.32.28:685][  7]LogStaticMesh: Built static mesh [4.92s] /Game/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.S_ARCH_BldgE-F4-Tower-TopSpher-01
+[2017.06.28-00.32.45:315][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.uasset" SILENT=true
+[2017.06.28-00.32.45:332][449]LogSavePackage: Save=11.83ms
+[2017.06.28-00.32.45:332][449]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-Tower-TopSpher-0157BFD8FB40DE46E7189AA68F0B22CA87.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.uasset'
+[2017.06.28-00.32.45:333][449]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Tower-TopSpher-01.uasset
+[2017.06.28-00.33.51:991][582]LogStaticMesh: Building static mesh S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat...
+[2017.06.28-00.34.00:982][582]LogStaticMesh: Built static mesh [8.99s] /Game/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat.S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat
+[2017.06.28-00.34.29:397][ 44]LogSavePackage: Save=12.33ms
+[2017.06.28-00.34.29:397][ 44]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat7695089E411F604A6B46358E8B75A2C3.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat.uasset'
+[2017.06.28-00.34.29:399][ 44]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat.uasset
+[2017.06.28-00.35.53:770][954]LogStaticMesh: Building static mesh S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv...
+[2017.06.28-00.36.12:115][954]LogStaticMesh: Built static mesh [18.34s] /Game/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv.S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv
+[2017.06.28-00.36.23:701][986]LogSavePackage: Save=878.82ms
+[2017.06.28-00.36.23:701][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_Auto15F3CF5194192FAFF7EA663BC8868C797.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_Auto1.umap'
+[2017.06.28-00.36.23:702][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_Auto1.umap
+[2017.06.28-00.36.23:703][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2' took 0.902
+[2017.06.28-00.36.23:703][986]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.902
+[2017.06.28-00.36.23:704][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F1-Torus-01] ([1] browsable assets)...
+[2017.06.28-00.36.23:722][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F1-Torus-01.S_ARCH_BldgE-F1-Torus-01]
+[2017.06.28-00.36.23:723][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F1-Torus-01]
+[2017.06.28-00.36.23:739][986]LogSavePackage: Save=10.22ms
+[2017.06.28-00.36.23:739][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F1-Torus-01_Auto1D27629F041A4B6CBDAFB32B348394184.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F1-Torus-01_Auto1.uasset'
+[2017.06.28-00.36.23:740][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F1-Torus-01_Auto1.uasset
+[2017.06.28-00.36.23:740][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F2-DodecP02Q05] ([1] browsable assets)...
+[2017.06.28-00.36.23:751][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F2-DodecP02Q05.S_ARCH_BldgE-F2-DodecP02Q05]
+[2017.06.28-00.36.23:751][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F2-DodecP02Q05]
+[2017.06.28-00.36.23:769][986]LogSavePackage: Save=12.00ms
+[2017.06.28-00.36.23:769][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-DodecP02Q05_Auto1D2E3F85C4D26461F3A98BE862CDF2303.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-DodecP02Q05_Auto1.uasset'
+[2017.06.28-00.36.23:770][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-DodecP02Q05_Auto1.uasset
+[2017.06.28-00.36.23:770][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F2-DoubCylinRing-Cylin] ([1] browsable assets)...
+[2017.06.28-00.36.23:782][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F2-DoubCylinRing-Cylin.S_ARCH_BldgE-F2-DoubCylinRing-Cylin]
+[2017.06.28-00.36.23:782][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F2-DoubCylinRing-Cylin]
+[2017.06.28-00.36.23:800][986]LogSavePackage: Save=12.88ms
+[2017.06.28-00.36.23:800][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-DoubCylinRing-Cylin_Auto168338D6D48B9BA600D238CBF7E7DA9D2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-DoubCylinRing-Cylin_Auto1.uasset'
+[2017.06.28-00.36.23:801][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-DoubCylinRing-Cylin_Auto1.uasset
+[2017.06.28-00.36.23:801][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F2-Manta-01] ([1] browsable assets)...
+[2017.06.28-00.36.23:814][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F2-Manta-01.S_ARCH_BldgE-F2-Manta-01]
+[2017.06.28-00.36.23:814][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F2-Manta-01]
+[2017.06.28-00.36.23:831][986]LogSavePackage: Save=10.79ms
+[2017.06.28-00.36.23:831][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-Manta-01_Auto1FB9A1A09467BCACFF3ED46886294C6B6.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-Manta-01_Auto1.uasset'
+[2017.06.28-00.36.23:832][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-Manta-01_Auto1.uasset
+[2017.06.28-00.36.23:832][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F2_RectangleOverHang] ([1] browsable assets)...
+[2017.06.28-00.36.23:843][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F2_RectangleOverHang.S_ARCH_BldgE-F2_RectangleOverHang]
+[2017.06.28-00.36.23:843][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F2_RectangleOverHang]
+[2017.06.28-00.36.23:859][986]LogSavePackage: Save=10.18ms
+[2017.06.28-00.36.23:859][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2_RectangleOverHang_Auto1AAF5405B40B1F8DD46E571AE0DFD0B23.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2_RectangleOverHang_Auto1.uasset'
+[2017.06.28-00.36.23:860][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2_RectangleOverHang_Auto1.uasset
+[2017.06.28-00.36.23:860][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F3-CubeSky] ([1] browsable assets)...
+[2017.06.28-00.36.23:872][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F3-CubeSky.S_ARCH_BldgE-F3-CubeSky]
+[2017.06.28-00.36.23:872][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F3-CubeSky]
+[2017.06.28-00.36.23:901][986]LogSavePackage: Save=16.51ms
+[2017.06.28-00.36.23:901][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F3-CubeSky_Auto17C7ECE3F4F2C184E95DBE59F3EAF71B7.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F3-CubeSky_Auto1.uasset'
+[2017.06.28-00.36.23:901][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F3-CubeSky_Auto1.uasset
+[2017.06.28-00.36.23:902][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F2-RectangleShortOverhand] ([1] browsable assets)...
+[2017.06.28-00.36.23:913][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F2-RectangleShortOverhand.S_ARCH_BldgE-F2-RectangleShortOverhand]
+[2017.06.28-00.36.23:913][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F2-RectangleShortOverhand]
+[2017.06.28-00.36.23:930][986]LogSavePackage: Save=9.87ms
+[2017.06.28-00.36.23:930][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F2-RectangleShortOverhand_Auto1DA19361147857BD5C0F33CAAE2FFCCA0.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-RectangleShortOverhand_Auto1.uasset'
+[2017.06.28-00.36.23:930][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F2-RectangleShortOverhand_Auto1.uasset
+[2017.06.28-00.36.23:931][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1] ([1] browsable assets)...
+[2017.06.28-00.36.23:942][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1.S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1]
+[2017.06.28-00.36.23:942][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1]
+[2017.06.28-00.36.23:957][986]LogSavePackage: Save=9.15ms
+[2017.06.28-00.36.23:957][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1_Auto13437CCB647402E3B523E2598649C7BB3.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1_Auto1.uasset'
+[2017.06.28-00.36.23:957][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F4-Trillian-TopFlat_S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1_Auto1.uasset
+[2017.06.28-00.36.23:958][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv] ([1] browsable assets)...
+[2017.06.28-00.36.23:968][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv.S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv]
+[2017.06.28-00.36.23:968][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv]
+[2017.06.28-00.36.23:996][986]LogSavePackage: Save=13.80ms
+[2017.06.28-00.36.23:996][986]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv_Auto1AD3E6D024708BA25AB8D49ABBF61CB65.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv_Auto1.uasset'
+[2017.06.28-00.36.24:002][986]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv_Auto1.uasset
+[2017.06.28-00.36.24:002][986]LogFileHelpers: Auto-saving content packages took 0.298
+[2017.06.28-00.36.55:042][211]LogSavePackage: Save=5.41ms
+[2017.06.28-00.36.55:042][211]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv6E31D0C14564166E9764ADA50624E806.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv.uasset'
+[2017.06.28-00.36.55:044][211]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgE-F4-TrillianCurv_S_ARCH_BldgE-F4-TrillianCurv.uasset
+[2017.06.28-00.37.58:704][ 34]LogStaticMesh: Building static mesh S_ARCH_BldgE-F4-WaveCircular-01...
+[2017.06.28-00.38.21:449][ 34]LogStaticMesh: Built static mesh [22.75s] /Game/City-Aura/S_ARCH_BldgE-F4-WaveCircular-01.S_ARCH_BldgE-F4-WaveCircular-01
+[2017.06.28-00.39.48:511][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_ARCH_BldgE-F4-WaveCircular-01)
+[2017.06.28-00.40.01:286][654]LogSavePackage: Save=849.20ms
+[2017.06.28-00.40.01:286][654]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2E81621EE4A41184C82D6C5B06913F777.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.40.01:287][654]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.40.01:393][654]LogSavePackage: Save=81.38ms
+[2017.06.28-00.40.01:394][654]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData138C9FB1455780F58E66579BF4E403AF.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.40.01:395][654]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.40.02:329][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_ARCH_BldgE-F4-WaveCircular-01)
+[2017.06.28-00.40.17:996][  3]Cmd: DELETE
+[2017.06.28-00.40.17:996][  3]Cmd: ACTOR DELETE
+[2017.06.28-00.40.17:997][  3]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.28-00.40.18:006][  3]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.28-00.40.18:850][ 63]LogActorFactory: Actor Factory created S_ARCH_BldgE-F4-WaveCircular-01
+[2017.06.28-00.40.19:881][149]LogActorFactory: Actor Factory created S_ARCH_BldgE-F4-WaveCircular-01
+[2017.06.28-00.40.28:699][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_GRID_Layout-R8C9-A45)
+[2017.06.28-00.40.48:339][334]LogStaticMesh: Building static mesh S_ARCH_BldgEO-F3-Hexa01_S_ARCH-BldgEO-F3-Hexa01...
+[2017.06.28-00.40.49:089][334]LogStaticMesh: Built static mesh [0.75s] /Game/City-Aura/S_ARCH_BldgEO-F3-Hexa01_S_ARCH-BldgEO-F3-Hexa01.S_ARCH_BldgEO-F3-Hexa01_S_ARCH-BldgEO-F3-Hexa01
+[2017.06.28-00.41.20:361][678]LogSavePackage: Save=10.75ms
+[2017.06.28-00.41.20:361][678]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_ARCH_BldgEO-F3-Hexa01_S_ARCH-BldgEO-F3-Hexa01610A5106465A50EA86E349B6095764ED.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgEO-F3-Hexa01_S_ARCH-BldgEO-F3-Hexa01.uasset'
+[2017.06.28-00.41.20:363][678]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_ARCH_BldgEO-F3-Hexa01_S_ARCH-BldgEO-F3-Hexa01.uasset
+[2017.06.28-00.41.32:868][679]LogSavePackage: Save=836.21ms
+[2017.06.28-00.41.32:868][679]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2CD0E784F40972A2F573EC3A646D9FAC6.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.41.32:870][679]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.41.32:973][679]LogSavePackage: Save=81.28ms
+[2017.06.28-00.41.32:973][679]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData514FF7CF4D0AF597CEC8B29CE49FBB8F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.41.32:974][679]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.42.38:325][442]LogStaticMesh: Building static mesh S_ARCH_BldgO-F1-Pavillion-WireSupported...
+[2017.06.28-00.42.39:336][442]LogStaticMesh: Built static mesh [1.01s] /Game/City-Aura/S_ARCH_BldgO-F1-Pavillion-WireSupported.S_ARCH_BldgO-F1-Pavillion-WireSupported
+[2017.06.28-00.42.43:634][726]LogSavePackage: Save=828.60ms
+[2017.06.28-00.42.43:634][726]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2BB58761E4755E8E10897FDA86406E502.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.42.43:636][726]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.42.43:741][726]LogSavePackage: Save=83.22ms
+[2017.06.28-00.42.43:741][726]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData1DB77EE44615FC49C9985793F15819CF.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.42.43:742][726]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.42.44:654][795]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgO-F1-Pavillion-WireSupported2)
+[2017.06.28-00.42.45:498][859]Cmd: DELETE
+[2017.06.28-00.42.45:498][859]Cmd: ACTOR DELETE
+[2017.06.28-00.42.45:500][859]LogEditorActor: Deleted Actor: BP_PickupCube_C
+[2017.06.28-00.42.45:507][859]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.28-00.42.46:907][971]LogActorFactory: Actor Factory created S_ARCH_BldgO-F1-Pavillion-WireSupported
+[2017.06.28-00.42.48:305][ 85]LogActorFactory: Actor Factory created S_ARCH_BldgO-F1-Pavillion-WireSupported
+[2017.06.28-00.43.02:402][236]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgO-F1-Pavillion-WireSupported)
+[2017.06.28-00.43.13:296][ 50]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F2-SemiCylinder-3LWindow)
+[2017.06.28-00.43.39:568][936]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.28-00.44.34:983][625]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.28-00.44.35:054][627]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRMobileScalable
+[2017.06.28-00.44.35:054][627]LogTemp: CWD: G:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.28-00.44.35:054][627]LogTemp: Initial Dir: G:\Epic Games\UE_4.16
+[2017.06.28-00.44.35:054][627]LogTemp: Env CWD: G:\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.28-00.44.35:054][627]LogTemp: BranchPath = THERMALWIND/G/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = THERMALWIND/G/Epic Games/UE_4.16/Engine/Binaries
+[2017.06.28-00.44.35:054][627]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\3DSim\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.28-00.46.47:899][841]LogSavePackage: Save=828.93ms
+[2017.06.28-00.46.47:899][841]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v27A220C3B40308A409D263E8B2636158F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap'
+[2017.06.28-00.46.47:901][841]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.umap
+[2017.06.28-00.46.48:010][841]LogSavePackage: Save=83.57ms
+[2017.06.28-00.46.48:010][841]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_v2_BuiltData35A46E704BC01912F99363BDAEBBA7FB.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset'
+[2017.06.28-00.46.48:011][841]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2_BuiltData.uasset
+[2017.06.28-00.46.55:191][543]LogTemp: Repeting last play command: VR Preview
+[2017.06.28-00.46.55:209][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2:PersistentLevel.CityAura-MiniSimulation_v2'
+[2017.06.28-00.46.55:209][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-00.46.55:209][543]PIE: New page: PIE session: CityAura-MiniSimulation_v2 (Jun 27, 2017, 4:46:55 PM)
+[2017.06.28-00.46.55:209][543]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2
+[2017.06.28-00.46.55:237][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028153s)
+[2017.06.28-00.46.55:238][543]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_v2
+[2017.06.28-00.46.55:238][543]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.06.28-00.46.55:238][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 (0.029149s)
+[2017.06.28-00.46.55:261][543]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.28-00.46.55:277][543]LogInit: FAudioDevice initialized.
+[2017.06.28-00.46.58:366][543]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.28-00.46.58:414][543]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.28-00.46.58:414][543]LogLoad: Game class is 'GameModeBase'
+[2017.06.28-00.46.58:434][543]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation_v2.CityAura-MiniSimulation_v2 up for play (max tick rate 0) at 2017.06.27-20.46.58
+[2017.06.28-00.46.58:437][543]LogWorld: Bringing up level for play took: 0.021357
+[2017.06.28-00.46.58:439][543]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.28-00.46.58:439][543]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.06.28-00.46.58:699][543]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.260 s
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: 
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: Stack: 
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005127E1C6
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005102B7D2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000051041D96
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000050FD61C1
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020B5608B
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002149B8F3
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000214D4974
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA6CD4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBBCA1
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA76DE
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA76DE
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBD266
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C43E17
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021E57C57
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C03FFF
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C1103B
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C3F8F9
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C2057F
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002132D499
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C7B056
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA6CD4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBBCA1
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CE4784
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA76DE
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBD266
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C43E17
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021E57C57
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C03FFF
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000020C1103B
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021D7E7F9
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021337371
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021D6B33E
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021357C60
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000262CBC53
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000262F660E
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000263120D4
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000025DE2C58
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000026608AD6
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor.exe!0x000000009E97E2B2
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F0B0
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F12A
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor.exe!0x000000009E980CF9
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: UE4Editor.exe!0x000000009E9825F7
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: KERNEL32.DLL!0x000000008A412774
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: ntdll.dll!0x000000008A580D61
+[2017.06.28-00.46.58:699][543]LogOutputDevice:Error: 
+[2017.06.28-00.46.58:709][543]LogStats:                SubmitErrorReport -  0.000 s

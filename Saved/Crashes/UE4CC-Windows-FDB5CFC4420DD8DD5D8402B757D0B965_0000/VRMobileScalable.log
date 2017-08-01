@@ -1,0 +1,744 @@
+﻿Log file open, 06/27/17 11:33:51
+LogInit:Display: Running engine for game: VRMobileScalable
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-348283630) SRandInit(-348283630).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109148
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: G:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.27-15.33.51:887][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-15.33.51:887][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-15.33.51:897][  0]LogInit: Computer: THERMALWIND
+[2017.06.27-15.33.51:897][  0]LogInit: User: 3DSim
+[2017.06.27-15.33.51:897][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.27-15.33.51:897][  0]LogInit: High frequency timer resolution =3.416979 MHz
+[2017.06.27-15.33.51:897][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2017.06.27-15.33.51:897][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-15.33.51:897][  0]LogMemory: Process Physical Memory: 275.59 MB used, 275.59 MB peak
+[2017.06.27-15.33.51:897][  0]LogMemory: Process Virtual Memory: 267.32 MB used, 267.32 MB peak
+[2017.06.27-15.33.51:897][  0]LogMemory: Physical Memory: 19419.76 MB used,  29625.80 MB free, 49045.56 MB total
+[2017.06.27-15.33.51:897][  0]LogMemory: Virtual Memory: 647.88 MB used,  29625.80 MB free, 134217728.00 MB total
+[2017.06.27-15.33.51:956][  0]LogInit: Using OS detected language (en-US).
+[2017.06.27-15.33.51:956][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.27-15.33.51:960][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.27-15.33.52:957][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-15.33.53:634][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2017.06.27-15.33.53:634][  0]LogD3D11RHI:       12244/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.27-15.33.53:635][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-15.33.53:635][  0]LogD3D11RHI:       0/0/24522 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-15.33.53:635][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-15.33.53:645][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-15.33.53:645][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-15.33.53:645][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-15.33.53:645][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2017.06.27-15.33.53:645][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2017.06.27-15.33.53:646][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-15.33.53:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2017.06.27-15.33.53:646][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.27-15.33.53:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2017.06.27-15.33.53:646][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.27-15.33.53:646][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.27-15.33.53:646][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-15.33.54:278][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-15.33.54:308][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.27-15.33.54:358][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2017.06.27-15.33.54:358][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (H:/UnrealProjects/VRMobileScalable/Intermediate/Shaders/WorkingDirectory/8888/).
+[2017.06.27-15.33.54:358][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DSim/AppData/Local/Temp/UnrealShaderWorkingDir/454ABC0E404E0A2B0AFA538E2EA5870D/'.
+[2017.06.27-15.33.54:358][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-15.33.55:429][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-15.33.55:477][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-15.33.55:521][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-15.33.55:566][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-15.33.55:610][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-15.33.55:653][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-15.33.55:698][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-15.33.55:742][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-15.33.55:780][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-15.33.55:823][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-15.33.55:866][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-15.33.55:909][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-15.33.55:952][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-15.33.55:995][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-15.33.56:041][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-15.33.56:126][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-15.33.56:126][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-15.33.56:160][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-15.33.56:241][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-15.33.56:266][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-15.33.56:308][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-15.33.56:351][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-15.33.56:393][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-15.33.56:437][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-15.33.56:437][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-15.33.56:833][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-15.33.56:940][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-15.33.56:940][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-15.33.56:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-15.33.56:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-15.33.56:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/UnrealProjects/VRMobileScalable/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-15.33.56:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-15.33.56:955][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-15.33.56:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DSim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-15.33.56:977][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-15.33.56:977][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-15.33.56:978][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-15.33.56:978][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-15.33.57:311][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-15.33.57:383][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-15.33.57:528][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-15.33.57:566][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-15.33.57:606][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-15.33.57:606][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-15.33.57:606][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-15.33.58:106][  0]LogNetVersion: VRMobileScalable , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3431896694)
+[2017.06.27-15.33.58:161][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.06.27-15.33.58:203][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024230 seconds
+[2017.06.27-15.33.58:207][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-15.33.58:207][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.27-15.33.58:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-15.33.58:254][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-15.34.00:923][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.27-15.34.00:947][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-15.34.00:981][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-15.34.01:437][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-15.34.01:779][  0]SourceControl: Info Source control is disabled
+[2017.06.27-15.34.01:780][  0]SourceControl: Info Source control is disabled
+[2017.06.27-15.34.01:820][  0]SourceControl: Info Source control is disabled
+[2017.06.27-15.34.01:861][  0]SourceControl: Info Source control is disabled
+[2017.06.27-15.34.02:424][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-15.34.02:997][  0]LogEngine: Initializing Engine...
+[2017.06.27-15.34.03:034][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.27-15.34.03:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-15.34.03:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-15.34.03:346][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-15.34.03:366][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-15.34.03:376][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-15.34.03:424][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/3DSim/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-15.34.03:443][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-15.34.03:519][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-15.34.03:703][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-15.34.03:955][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-15.34.04:715][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-15.34.05:287][  0]LogConsoleResponse:Display: 
+[2017.06.27-15.34.05:424][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-15.34.05:424][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.27-15.34.06:224][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/' took 0.02s
+[2017.06.27-15.34.06:262][  0]SourceControl: Info Source control is disabled
+[2017.06.27-15.34.06:262][  0]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-15.34.06:263][  0]LightingResults: New page: Lighting Build
+[2017.06.27-15.34.06:296][  0]MapCheck: New page: Map Check
+[2017.06.27-15.34.06:296][  0]LightingResults: New page: Lighting Build
+[2017.06.27-15.34.06:370][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.27-15.34.06:375][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-15.34.06:381][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-15.34.06:468][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.821ms to complete.
+[2017.06.27-15.34.06:469][  0]LogFileHelpers: Loading map 'StartupMap' took 0.206
+[2017.06.27-15.34.06:613][  0]LogCollectionManager: Loaded 1 collections in 0.001727 seconds
+[2017.06.27-15.34.06:691][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Saved/Collections/' took 0.01s
+[2017.06.27-15.34.06:691][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Developers/3DSim/Collections/' took 0.01s
+[2017.06.27-15.34.06:691][  0]LogFileCache: Scanning file cache for directory 'H:/UnrealProjects/VRMobileScalable/Content/Collections/' took 0.01s
+[2017.06.27-15.34.06:691][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.06.27-15.34.06:691][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.06.27-15.34.06:699][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2343 classes and 497 folders.
+[2017.06.27-15.34.06:751][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.27-15.34.06:809][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.27-15.34.06:845][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.27-15.34.06:914][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-15.34.06:918][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-15.34.06:920][  0]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-15.34.06:925][  0]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-15.34.07:019][  0]LogRenderer: Reallocating scene render targets to support 1052x572 NumSamples 1 (Frame:1).
+[2017.06.27-15.34.07:117][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-15.34.07:176][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.27-15.34.07:176][  0]LogLoad: (Engine Initialization) Total time: 16.87 seconds
+[2017.06.27-15.34.07:176][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.06.27-15.34.07:176][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.27-15.34.07:176][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.27-15.34.07:186][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-15.34.07:189][  0]LogSteamController: SteamController is not available
+[2017.06.27-15.34.07:189][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-15.34.07:190][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-15.34.07:190][  0]LogSteamVRController: Controller role for device 1 is 0 (invalid=0, left=1, right=2).
+[2017.06.27-15.34.07:190][  0]LogSteamVRController:Warning: Controller device 1 has no role set.  There is no 'left' controller according to steamvr, so we are pickign that.
+[2017.06.27-15.34.07:190][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 0 (left=0, right=1).
+[2017.06.27-15.34.07:190][  0]LogSteamVRController: Controller role for device 2 is 2 (invalid=0, left=1, right=2).
+[2017.06.27-15.34.07:190][  0]LogSteamVRController: Putting controller 2 on the right hand because there is already a controller for the left.
+[2017.06.27-15.34.07:190][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 1 (left=0, right=1).
+[2017.06.27-15.34.07:208][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-15.34.07:248][  0]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-15.34.07:304][  1]LogAssetRegistry: Asset discovery search completed in 9.1645 seconds
+[2017.06.27-15.34.07:307][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2017.06.27-15.34.07:307][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000018 seconds (updated 0 objects)
+[2017.06.27-15.34.27:480][365]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-15.34.27:488][365]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-15.34.27:496][365]LightingResults: New page: Lighting Build
+[2017.06.27-15.34.27:497][365]LoadErrors: New page: Loading map: CityAura-MiniSimulation.umap
+[2017.06.27-15.34.27:499][365]MapCheck: New page: Map Check
+[2017.06.27-15.34.27:499][365]LightingResults: New page: Lighting Build
+[2017.06.27-15.34.28:493][365]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-15.34.29:463][365]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-15.34.29:591][365]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-15.34.29:631][365]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-15.34.29:770][365]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.873ms to complete.
+[2017.06.27-15.34.29:770][365]LogFileHelpers: Loading map 'CityAura-MiniSimulation' took 2.292
+[2017.06.27-15.34.31:991][604]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-15.34.32:042][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.34.32:042][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-15.34.32:042][604]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 7:34:32 AM)
+[2017.06.27-15.34.32:042][604]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-15.34.32:060][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018102s)
+[2017.06.27-15.34.32:061][604]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-15.34.32:061][604]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2017.06.27-15.34.32:061][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019002s)
+[2017.06.27-15.34.32:082][604]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-15.34.32:088][604]LogInit: FAudioDevice initialized.
+[2017.06.27-15.34.32:194][604]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-15.34.32:194][604]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-15.34.32:207][604]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-11.34.32
+[2017.06.27-15.34.32:208][604]LogWorld: Bringing up level for play took: 0.012056
+[2017.06.27-15.34.32:247][604]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.27-15.34.32:255][604]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.101
+[2017.06.27-15.34.32:256][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.34.32:304][605]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.06.27-15.45.18:110][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.45.18:254][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.45.22:117][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_13)
+[2017.06.27-15.45.27:391][925]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-15.45.27:398][925]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.27-15.45.27:400][925]LogEditor: Converted: spruce_13 to spruce_13
+[2017.06.27-15.45.27:401][925]EditorErrors: New page: Actor Reattachment
+[2017.06.27-15.45.31:200][363]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-15.45.31:212][363]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.45.31:212][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-15.45.31:212][363]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 7:45:31 AM)
+[2017.06.27-15.45.31:212][363]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-15.45.31:230][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018299s)
+[2017.06.27-15.45.31:231][363]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-15.45.31:231][363]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.06.27-15.45.31:231][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019183s)
+[2017.06.27-15.45.31:253][363]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-15.45.31:260][363]LogInit: FAudioDevice initialized.
+[2017.06.27-15.45.31:351][363]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-15.45.31:351][363]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-15.45.31:363][363]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-11.45.31
+[2017.06.27-15.45.31:364][363]LogWorld: Bringing up level for play took: 0.011677
+[2017.06.27-15.45.31:372][363]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation -0.781
+[2017.06.27-15.45.31:373][363]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.47.16:796][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.47.16:957][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.47.21:568][807]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (spruce_13)
+[2017.06.27-15.47.59:942][212]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.00:034][212]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.00:058][212]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.00:107][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.27-15.48.00:113][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.27-15.48.00:120][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.06.27-15.48.00:126][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_0, compiling. 
+[2017.06.27-15.48.00:141][212]LogSlate: Took 0.000658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.27-15.48.01:898][300]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.48.01:898][300]MaterialEditorStats: Info Vertex shader: 161 instructions
+[2017.06.27-15.48.01:898][300]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.48.01:898][300]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.48.02:511][356]LogSlate: Took 0.000651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.27-15.48.15:961][521]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.17:320][599]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.48.17:320][599]MaterialEditorStats: Info Vertex shader: 161 instructions
+[2017.06.27-15.48.17:320][599]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.48.17:320][599]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.48.19:636][808]LogEditorTransaction: Undo Edit Period
+[2017.06.27-15.48.19:640][808]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.19:676][808]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.19:742][808]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-15.48.21:301][883]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.48.21:301][883]MaterialEditorStats: Info Vertex shader: 161 instructions
+[2017.06.27-15.48.21:301][883]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.48.21:301][883]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.48.23:417][ 73]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.23:761][ 93]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.M_FoliageBillBoard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.27-15.48.23:761][ 93]LogShaderCompilers:Warning: 	Material.usf(1309,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.23:761][ 93]LogShaderCompilers:Warning: 	Material.usf(1324,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.23:761][ 93]LogShaderCompilers:Warning: 	Material.usf(1553,30-32):  err0r X3004: undeclared identifier 'inf'
+[2017.06.27-15.48.23:773][ 94]MaterialEditorStats:Error: Error [SM5] Material.usf(1309,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.23:773][ 94]MaterialEditorStats:Error: Error [SM5] Material.usf(1324,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.23:773][ 94]MaterialEditorStats:Error: Error [SM5] Material.usf(1553,30-32):  error X3004: undeclared identifier 'inf'
+[2017.06.27-15.48.31:395][801]LogMaterialEditor: Saving and Compiling material M_FoliageBillBoard
+[2017.06.27-15.48.42:611][801]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.42:689][801]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.42:781][801]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.42:882][801]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.42:978][801]LogShaderCompilers:Warning: Failed to compile Material  for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.27-15.48.42:978][801]LogShaderCompilers:Warning: 	Material.usf(1309,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.42:978][801]LogShaderCompilers:Warning: 	Material.usf(1324,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.42:978][801]LogShaderCompilers:Warning: 	Material.usf(1553,30-32):  err0r X3004: undeclared identifier 'inf'
+[2017.06.27-15.48.42:984][801]TextureStreamingBuild:Display: Compiling optional shaders took 0.112 seconds.
+[2017.06.27-15.48.43:624][801]LogShaderCompilers:Warning: Failed to compile Material /Game/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.M_FoliageBillBoard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.27-15.48.43:624][801]LogShaderCompilers:Warning: 	Material.usf(1309,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.43:624][801]LogShaderCompilers:Warning: 	Material.usf(1324,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.43:624][801]LogShaderCompilers:Warning: 	Material.usf(1553,30-32):  err0r X3004: undeclared identifier 'inf'
+[2017.06.27-15.48.43:632][801]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.M_FoliageBillBoard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.27-15.48.43:632][801]LogShaderCompilers:Warning: 	Material.usf(1309,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.43:632][801]LogShaderCompilers:Warning: 	Material.usf(1324,1-16):  warning X3206: implicit truncation of vector type
+[2017.06.27-15.48.43:632][801]LogShaderCompilers:Warning: 	Material.usf(1553,30-32):  err0r X3004: undeclared identifier 'inf'
+[2017.06.27-15.48.43:677][801]LogSavePackage: Save=19.46ms
+[2017.06.27-15.48.43:677][801]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_FoliageBillBoardC0C9275A4295D236AD59E6A818DD42BF.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.uasset'
+[2017.06.27-15.48.43:678][801]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.uasset
+[2017.06.27-15.48.48:222][218]Cmd: TRANSACTION UNDO
+[2017.06.27-15.48.48:222][218]LogEditorTransaction: Undo Edit Period
+[2017.06.27-15.48.48:226][218]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.48:258][218]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.49:810][291]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.48.49:810][291]MaterialEditorStats: Info Vertex shader: 161 instructions
+[2017.06.27-15.48.49:810][291]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.48.49:810][291]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.48.51:500][436]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.48.52:668][502]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.48.52:668][502]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.48.52:668][502]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.48.52:668][502]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.07:579][831]LogEditorTransaction: Undo Break Pin Links
+[2017.06.27-15.49.07:583][831]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.07:612][831]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.09:046][896]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.49.09:046][896]MaterialEditorStats: Info Vertex shader: 161 instructions
+[2017.06.27-15.49.09:046][896]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.49.09:046][896]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.13:665][280]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.14:697][333]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.49.14:697][333]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.49.14:697][333]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.49.14:697][333]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.15:009][359]LogMaterialEditor: Saving and Compiling material M_FoliageBillBoard
+[2017.06.27-15.49.15:617][359]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.15:694][359]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.15:785][359]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.15:887][359]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FoliageBillBoard, compiling. 
+[2017.06.27-15.49.16:678][359]TextureStreamingBuild:Display: Compiling optional shaders took 0.800 seconds.
+[2017.06.27-15.49.19:663][359]LogSavePackage: Save=21.40ms
+[2017.06.27-15.49.19:663][359]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_FoliageBillBoard50D6B68E43952D59127DEE8918AAF817.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.uasset'
+[2017.06.27-15.49.19:665][359]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.uasset
+[2017.06.27-15.49.19:671][359]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.49.19:671][359]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2017.06.27-15.49.19:671][359]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.27-15.49.19:671][359]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.25:837][865]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.25:910][865]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.25:936][865]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.25:986][865]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.27-15.49.25:992][865]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.27-15.49.25:998][865]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.27-15.49.26:004][865]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.06.27-15.49.27:559][940]MaterialEditorStats: Info Base pass shader: 158 instructions
+[2017.06.27-15.49.27:559][940]MaterialEditorStats: Info Vertex shader: 153 instructions
+[2017.06.27-15.49.27:559][940]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.49.27:559][940]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.30:056][169]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.31:119][229]MaterialEditorStats: Info Base pass shader: 158 instructions
+[2017.06.27-15.49.31:119][229]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.49.31:119][229]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.49.31:119][229]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.31:903][300]LogMaterialEditor: Saving and Compiling material TreesLeafesMaster
+[2017.06.27-15.49.32:506][300]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.32:578][300]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.32:677][300]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.32:777][300]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TreesLeafesMaster, compiling. 
+[2017.06.27-15.49.33:608][300]TextureStreamingBuild:Display: Compiling optional shaders took 0.839 seconds.
+[2017.06.27-15.49.36:735][300]LogSavePackage: Save=28.30ms
+[2017.06.27-15.49.36:735][300]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/TreesLeafesMasterEB687B1740E1032B71CE91B90B276E64.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/TreesLeafesMaster.uasset'
+[2017.06.27-15.49.36:736][300]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/TreesLeafesMaster.uasset
+[2017.06.27-15.49.36:741][300]MaterialEditorStats: Info Base pass shader: 158 instructions
+[2017.06.27-15.49.36:742][300]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2017.06.27-15.49.36:742][300]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.27-15.49.36:742][300]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.37:767][386]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.37:838][386]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.37:860][386]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.37:909][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.27-15.49.37:914][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.27-15.49.37:920][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2017.06.27-15.49.37:926][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.06.27-15.49.39:017][434]MaterialEditorStats: Info Base pass shader: 144 instructions
+[2017.06.27-15.49.39:017][434]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.06.27-15.49.39:017][434]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.49.39:017][434]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.40:491][565]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.41:060][600]MaterialEditorStats: Info Base pass shader: 144 instructions
+[2017.06.27-15.49.41:060][600]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.49.41:060][600]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.49.41:060][600]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.43:178][794]LogMaterialEditor: Saving and Compiling material MM_AcaciaBark
+[2017.06.27-15.49.43:772][794]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.43:813][794]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.43:859][794]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.43:918][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MM_AcaciaBark, compiling. 
+[2017.06.27-15.49.44:297][794]TextureStreamingBuild:Display: Compiling optional shaders took 0.388 seconds.
+[2017.06.27-15.49.46:266][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NatureAssets/Trees/MasterMaterials/MM_AcaciaBark" FILE="H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/MM_AcaciaBark.uasset" SILENT=true
+[2017.06.27-15.49.46:300][794]LogSavePackage: Save=25.12ms
+[2017.06.27-15.49.46:300][794]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/MM_AcaciaBark5FEEF225449D3FC095885693746BB32C.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/MM_AcaciaBark.uasset'
+[2017.06.27-15.49.46:301][794]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/MM_AcaciaBark.uasset
+[2017.06.27-15.49.46:308][794]MaterialEditorStats: Info Base pass shader: 144 instructions
+[2017.06.27-15.49.46:308][794]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.49.46:308][794]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.27-15.49.46:308][794]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.49.51:886][308]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (spruce_13)
+[2017.06.27-15.49.57:565][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_04)
+[2017.06.27-15.50.34:635][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_SpruceBillboard_04, compiling. 
+[2017.06.27-15.50.35:081][982]TextureStreamingBuild:Display: Compiling optional shaders took 0.469 seconds.
+[2017.06.27-15.50.40:825][543]LogSavePackage: Save=511.45ms
+[2017.06.27-15.50.40:825][543]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation8296AF4A412CF750EAC8CE9A18D7B97F.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.27-15.50.40:827][543]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.27-15.50.40:975][543]LogSavePackage: Save=120.63ms
+[2017.06.27-15.50.40:975][543]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData4D829D824E357DA23E5B518E78FFBE92.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.27-15.50.40:976][543]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.27-15.50.42:325][689]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-15.50.42:337][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.50.42:337][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-15.50.42:337][689]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 7:50:42 AM)
+[2017.06.27-15.50.42:337][689]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-15.50.42:356][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019096s)
+[2017.06.27-15.50.42:357][689]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-15.50.42:357][689]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.06.27-15.50.42:357][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019974s)
+[2017.06.27-15.50.42:388][689]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-15.50.42:394][689]LogInit: FAudioDevice initialized.
+[2017.06.27-15.50.42:491][689]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-15.50.42:491][689]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-15.50.42:503][689]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-11.50.42
+[2017.06.27-15.50.42:504][689]LogWorld: Bringing up level for play took: 0.011779
+[2017.06.27-15.50.42:511][689]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.358
+[2017.06.27-15.50.42:511][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.54.25:078][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.54.25:226][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.54.45:879][ 19]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.54.45:967][ 19]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.54.45:991][ 19]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.54.46:038][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.27-15.54.46:045][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.27-15.54.46:051][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.06.27-15.54.46:057][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_0, compiling. 
+[2017.06.27-15.54.47:545][ 95]MaterialEditorStats: Info Base pass shader: 147 instructions
+[2017.06.27-15.54.47:545][ 95]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.54.47:545][ 95]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.54.47:545][ 95]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.54.52:027][503]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.54.52:052][503]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.54.53:172][562]MaterialEditorStats: Info Base pass shader: 151 instructions
+[2017.06.27-15.54.53:172][562]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.54.53:172][562]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.54.53:172][562]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.54.57:318][924]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.54.57:380][924]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.54.57:393][924]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.54.57:427][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.27-15.54.57:433][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.27-15.54.57:438][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2017.06.27-15.54.57:444][924]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.06.27-15.54.58:045][944]MaterialEditorStats: Info Base pass shader: 144 instructions
+[2017.06.27-15.54.58:045][944]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.54.58:045][944]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.54.58:045][944]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.55.02:208][311]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.55.02:227][311]LogMaterial: Missing cached shader map for material MM_AcaciaBark, compiling. 
+[2017.06.27-15.55.02:891][344]MaterialEditorStats: Info Base pass shader: 148 instructions
+[2017.06.27-15.55.02:891][344]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.55.02:891][344]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.55.02:891][344]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.55.04:194][444]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.55.04:274][444]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.55.04:298][444]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.55.04:350][444]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.06.27-15.55.04:355][444]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.27-15.55.04:362][444]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.06.27-15.55.04:368][444]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.06.27-15.55.05:843][513]MaterialEditorStats: Info Base pass shader: 158 instructions
+[2017.06.27-15.55.05:843][513]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.55.05:843][513]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.55.05:843][513]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.55.23:125][978]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-15.55.23:137][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.55.23:137][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-15.55.23:137][978]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 7:55:23 AM)
+[2017.06.27-15.55.23:137][978]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-15.55.23:156][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019555s)
+[2017.06.27-15.55.23:157][978]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-15.55.23:157][978]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.06.27-15.55.23:157][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.020526s)
+[2017.06.27-15.55.23:179][978]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-15.55.23:186][978]LogInit: FAudioDevice initialized.
+[2017.06.27-15.55.23:291][978]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-15.55.23:291][978]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-15.55.23:303][978]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-11.55.23
+[2017.06.27-15.55.23:305][978]LogWorld: Bringing up level for play took: 0.012760
+[2017.06.27-15.55.23:317][978]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 1.163
+[2017.06.27-15.55.23:317][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.57.06:673][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.57.06:845][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.57.15:140][491]LogSavePackage: Save=517.90ms
+[2017.06.27-15.57.15:140][491]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation88E9F0B649AC9081E5F591B743831195.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.27-15.57.15:141][491]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.27-15.57.15:248][491]LogSavePackage: Save=78.58ms
+[2017.06.27-15.57.15:248][491]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltDataB0C556684025518EEFD3A1A2F179BDEF.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.27-15.57.15:249][491]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.27-15.57.17:607][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_11)
+[2017.06.27-15.57.18:679][808]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (spruce_11)
+[2017.06.27-15.58.07:388][981]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.58.07:468][981]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.58.07:535][981]LogMaterial: Missing cached shader map for material M_FoliageBillBoard, compiling. 
+[2017.06.27-15.58.07:599][981]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FoliageBillBoard, compiling. 
+[2017.06.27-15.58.08:758][981]TextureStreamingBuild:Display: Compiling optional shaders took 1.165 seconds.
+[2017.06.27-15.58.16:199][981]MaterialEditorStats: Info Base pass shader: 151 instructions
+[2017.06.27-15.58.16:199][981]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2017.06.27-15.58.16:199][981]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.27-15.58.16:199][981]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.58.34:175][677]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.58.34:211][677]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.58.35:828][765]MaterialEditorStats: Info Base pass shader: 154 instructions
+[2017.06.27-15.58.35:828][765]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.58.35:828][765]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.58.35:828][765]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.58.47:944][847]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.58.47:981][847]LogMaterial: Missing cached shader map for material TreesLeafesMaster, compiling. 
+[2017.06.27-15.58.49:242][909]MaterialEditorStats: Info Base pass shader: 158 instructions
+[2017.06.27-15.58.49:242][909]MaterialEditorStats: Info Vertex shader: 87 instructions
+[2017.06.27-15.58.49:242][909]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.27-15.58.49:242][909]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.27-15.59.03:610][955]LogMaterialEditor: Saving and Compiling material M_FoliageBillBoard
+[2017.06.27-15.59.03:681][955]LogSavePackage: Save=21.47ms
+[2017.06.27-15.59.03:681][955]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/M_FoliageBillBoard6B70668A4E31E1C780F9D1A2072C28B5.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.uasset'
+[2017.06.27-15.59.03:682][955]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/MasterMaterials/M_FoliageBillBoard.uasset
+[2017.06.27-15.59.06:364][212]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-15.59.06:376][212]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-15.59.06:376][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-15.59.06:376][212]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 7:59:06 AM)
+[2017.06.27-15.59.06:376][212]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-15.59.06:394][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018293s)
+[2017.06.27-15.59.06:395][212]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-15.59.06:395][212]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2017.06.27-15.59.06:395][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.019194s)
+[2017.06.27-15.59.06:421][212]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-15.59.06:427][212]LogInit: FAudioDevice initialized.
+[2017.06.27-15.59.06:521][212]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-15.59.06:521][212]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-15.59.06:532][212]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-11.59.06
+[2017.06.27-15.59.06:534][212]LogWorld: Bringing up level for play took: 0.011872
+[2017.06.27-15.59.06:541][212]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation 0.388
+[2017.06.27-15.59.06:541][212]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.03.08:353][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.03.08:509][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.03.13:366][347]LogSavePackage: Save=516.11ms
+[2017.06.27-16.03.13:366][347]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulationB4E2C4B94524551646C5EB86DA509BF6.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.27-16.03.13:367][347]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.27-16.03.13:477][347]LogSavePackage: Save=80.40ms
+[2017.06.27-16.03.13:477][347]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData65550AA646565287162B50B2ED02A62B.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.27-16.03.13:478][347]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.27-16.03.33:593][243]LogAIModule: Creating AISystem for world CityAura-MiniSimulation_Bac01
+[2017.06.27-16.03.34:177][243]LogSavePackage: Save=531.20ms
+[2017.06.27-16.03.34:177][243]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Bac013F177DB341A070F09EB65985DF88BB04.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01.umap'
+[2017.06.27-16.03.34:178][243]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01.umap
+[2017.06.27-16.03.34:272][243]LogSavePackage: Save=80.13ms
+[2017.06.27-16.03.34:272][243]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Bac01_BuiltDataB7BF78A5443C0FCB6DA0FD9CCA85C04D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01_BuiltData.uasset'
+[2017.06.27-16.03.34:272][243]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01_BuiltData.uasset
+[2017.06.27-16.03.34:276][243]LogFileHelpers: Saving map 'CityAura-MiniSimulation_Bac01' took 1.250
+[2017.06.27-16.03.34:276][243]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-16.03.34:289][243]LightingResults: New page: Lighting Build
+[2017.06.27-16.03.34:290][243]LoadErrors: New page: Loading map: CityAura-MiniSimulation_Bac01.umap
+[2017.06.27-16.03.34:296][243]MapCheck: New page: Map Check
+[2017.06.27-16.03.34:296][243]LightingResults: New page: Lighting Build
+[2017.06.27-16.03.34:471][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-16.03.34:501][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-16.03.34:623][243]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.859ms to complete.
+[2017.06.27-16.03.34:623][243]LogFileHelpers: Loading map 'CityAura-MiniSimulation_Bac01' took 0.347
+[2017.06.27-16.13.21:788][409]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01' took 0.008
+[2017.06.27-16.13.21:790][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04] ([1] browsable assets)...
+[2017.06.27-16.13.21:804][409]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04.MI_SpruceBillboard_04]
+[2017.06.27-16.13.21:804][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04]
+[2017.06.27-16.13.21:825][409]LogSavePackage: Save=12.47ms
+[2017.06.27-16.13.21:825][409]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/MI_SpruceBillboard_04_Auto10C9B48E74A1302614DC343BA2B0E8548.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04_Auto1.uasset'
+[2017.06.27-16.13.21:826][409]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04_Auto1.uasset
+[2017.06.27-16.13.21:826][409]LogFileHelpers: Auto-saving content packages took 0.037
+[2017.06.27-16.37.50:059][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_CULTIV_Plant-Tree-Palm-02-Straight)
+[2017.06.27-16.47.58:988][600]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Pipe-OneMeter-A360.FBX)
+[2017.06.27-16.47.59:012][600]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-16.47.59:012][600]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.27-16.47.59:012][600]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.27-16.47.59:012][600]LogFbx: ItemName: Material, ItemCount : 1
+[2017.06.27-16.47.59:012][600]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.06.27-16.47.59:016][600]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Pipe-OneMeter-A360.FBX
+[2017.06.27-16.47.59:115][600]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-16.48.01:293][600]LogFbx: Loading FBX Scene from H:\CityProject-Auravana\GridLayout\0-FBX\S_GRID_Pipe-OneMeter-A360.FBX
+[2017.06.27-16.48.01:392][600]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-16.48.01:400][600]LogFbx:Warning: Triangulating static mesh S_GRID_Pipe-OneMeter-A360
+[2017.06.27-16.48.25:261][600]LogStaticMesh: Building static mesh S_GRID_Pipe-OneMeter-A360...
+[2017.06.27-16.48.27:068][600]LogStaticMesh: Built static mesh [1.81s] /Game/City-Aura/S_GRID_Pipe-OneMeter-A360.S_GRID_Pipe-OneMeter-A360
+[2017.06.27-16.48.27:691][600]LogStaticMesh:Warning: S_GRID_Pipe-OneMeter-A360 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.06.27-16.48.28:304][600]FBXImport:Warning: Warning S_GRID_Pipe-OneMeter-A360 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.06.27-16.48.32:129][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01' took 0.011
+[2017.06.27-16.48.32:130][848]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/City-Aura/S_GRID_Pipe-OneMeter-A360] ([1] browsable assets)...
+[2017.06.27-16.48.32:140][848]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/City-Aura/S_GRID_Pipe-OneMeter-A360.S_GRID_Pipe-OneMeter-A360]
+[2017.06.27-16.48.32:140][848]OBJ SavePackage: Finished generating thumbnails for package [/Game/City-Aura/S_GRID_Pipe-OneMeter-A360]
+[2017.06.27-16.48.32:158][848]LogSavePackage: Save=16.31ms
+[2017.06.27-16.48.32:158][848]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Pipe-OneMeter-A360_Auto2852B7AEE482A1F3826CD8BA76251572A.tmp' to 'H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Pipe-OneMeter-A360_Auto2.uasset'
+[2017.06.27-16.48.32:178][848]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Saved/Autosaves/Game/City-Aura/S_GRID_Pipe-OneMeter-A360_Auto2.uasset
+[2017.06.27-16.48.32:178][848]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.06.27-16.48.40:794][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/City-Aura/S_GRID_Pipe-OneMeter-A360" FILE="H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Pipe-OneMeter-A360.uasset" SILENT=true
+[2017.06.27-16.48.40:811][488]LogSavePackage: Save=15.75ms
+[2017.06.27-16.48.40:811][488]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/S_GRID_Pipe-OneMeter-A360E2592BE04C6B3BDF1BFE6A86BFC0F80D.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Pipe-OneMeter-A360.uasset'
+[2017.06.27-16.48.40:812][488]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/City-Aura/S_GRID_Pipe-OneMeter-A360.uasset
+[2017.06.27-16.48.55:894][ 21]LogContentBrowser:Verbose: The majority of assets in the view are of type: World
+[2017.06.27-16.49.11:513][344]LogSavePackage: Save=1.77ms
+[2017.06.27-16.49.11:513][344]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/MI_SpruceBillboard_04A3690D8349C7558B9CDC0194EF0048E4.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04.uasset'
+[2017.06.27-16.49.11:514][344]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/NatureAssets/Trees/Spruce/Materials/MI_SpruceBillboard_04.uasset
+[2017.06.27-16.49.12:221][344]LogSavePackage: Save=505.59ms
+[2017.06.27-16.49.12:222][344]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_Bac010FEBBCD04FF5504B9EB376A7137D30F9.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01.umap'
+[2017.06.27-16.49.12:223][344]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_Bac01.umap
+[2017.06.27-16.49.12:239][344]LogFileHelpers: Saving map 'CityAura-MiniSimulation_Bac01' took 0.708
+[2017.06.27-16.49.12:242][344]Cmd: MAP LOAD FILE="H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-16.49.12:254][344]LightingResults: New page: Lighting Build
+[2017.06.27-16.49.12:254][344]LoadErrors: New page: Loading map: CityAura-MiniSimulation.umap
+[2017.06.27-16.49.12:258][344]MapCheck: New page: Map Check
+[2017.06.27-16.49.12:258][344]LightingResults: New page: Lighting Build
+[2017.06.27-16.49.12:331][344]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-16.49.12:533][344]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-16.49.12:562][344]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-16.49.12:684][344]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.306ms to complete.
+[2017.06.27-16.49.12:685][344]LogFileHelpers: Loading map 'CityAura-MiniSimulation' took 0.443
+[2017.06.27-16.49.22:584][465]LogActorFactory: Actor Factory created S_GRID_Pipe-OneMeter-A360
+[2017.06.27-16.49.24:889][722]LogActorFactory: Actor Factory created S_GRID_Pipe-OneMeter-A360
+[2017.06.27-16.49.51:909][696]LogSavePackage: Save=512.92ms
+[2017.06.27-16.49.51:909][696]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation246D934D4F60AA21472EA7BE9DAA82B2.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap'
+[2017.06.27-16.49.51:910][696]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation.umap
+[2017.06.27-16.49.52:052][696]LogSavePackage: Save=117.27ms
+[2017.06.27-16.49.52:052][696]LogSavePackage: Moving 'H:/UnrealProjects/VRMobileScalable/Saved/CityAura-MiniSimulation_BuiltData1BB4B7CF42CDE9A754B7BE974728DCEA.tmp' to 'H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset'
+[2017.06.27-16.49.52:053][696]LogSavePackage:Display: Finished SavePackage H:/UnrealProjects/VRMobileScalable/Content/VirtualRealityBP/Maps/CityAura-MiniSimulation_BuiltData.uasset
+[2017.06.27-16.50.13:032][177]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (S_ARCH_BldgE-F15-CenterCylin-Sides2_S_ARCH_BldgE-F15-CenterCylin-Sides2)
+[2017.06.27-16.50.23:832][707]LogTemp: Repeting last play command: VR Preview
+[2017.06.27-16.50.23:850][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation' with GeneratedClass '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation:PersistentLevel.CityAura-MiniSimulation'
+[2017.06.27-16.50.23:850][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-16.50.23:851][707]PIE: New page: PIE session: CityAura-MiniSimulation (Jun 27, 2017, 8:50:23 AM)
+[2017.06.27-16.50.23:851][707]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation
+[2017.06.27-16.50.23:868][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017648s)
+[2017.06.27-16.50.23:869][707]LogAIModule: Creating AISystem for world CityAura-MiniSimulation
+[2017.06.27-16.50.23:869][707]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.06.27-16.50.23:869][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/CityAura-MiniSimulation.CityAura-MiniSimulation to /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation (0.018517s)
+[2017.06.27-16.50.23:891][707]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.27-16.50.23:907][707]LogInit: FAudioDevice initialized.
+[2017.06.27-16.50.26:962][707]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFAFBB1F
+[2017.06.27-16.50.27:006][707]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-16.50.27:006][707]LogLoad: Game class is 'GameModeBase'
+[2017.06.27-16.50.27:018][707]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_CityAura-MiniSimulation.CityAura-MiniSimulation up for play (max tick rate 0) at 2017.06.27-12.50.27
+[2017.06.27-16.50.27:020][707]LogWorld: Bringing up level for play took: 0.012768
+[2017.06.27-16.50.27:022][707]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.27-16.50.27:022][707]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.06.27-16.50.27:258][707]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.236 s
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: 
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: Stack: 
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002535E1C6
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002510B7D2
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000025121D96
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000250B61C1
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021BF608B
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002253B8F3
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022574974
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA6CD4
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBBCA1
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA76DE
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA76DE
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBD266
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CE3E17
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022EF7C57
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CA3FFF
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CB103B
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CDF8F9
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CC057F
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000223CD499
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021D1B056
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA6CD4
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBBCA1
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CE4784
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CA76DE
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBDED2
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052AE86E4
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000052CBD266
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CE3E17
+[2017.06.27-16.50.27:258][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022EF7C57
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CA3FFF
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000021CB103B
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022E1E7F9
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000223D7371
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022E0B33E
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000223F7C60
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F15BBC53
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F15E660E
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F16020D4
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F10D2C58
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F18F8AD6
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor.exe!0x000000009E97E2B2
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F0B0
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor.exe!0x000000009E96F12A
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor.exe!0x000000009E980CF9
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: UE4Editor.exe!0x000000009E9825F7
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: KERNEL32.DLL!0x000000008A412774
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: ntdll.dll!0x000000008A580D61
+[2017.06.27-16.50.27:259][707]LogOutputDevice:Error: 
+[2017.06.27-16.50.27:266][707]LogStats:                SubmitErrorReport -  0.000 s
